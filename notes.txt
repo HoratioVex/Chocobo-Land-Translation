@@ -1,0 +1,16 @@
+0018aba0: font start (16x16, whitespace cut)
+
+001E3080: pointer table start
+001E44FB: pointer table end
+
+001DE54B: start ally description (carbuncle)
+^- 001E3E48 (pointer)
+
+001D692A: 1st encyc intro
+001D6DD4: 1st encyc entry
+
+002F5D80: title screen (lz compressed, -4first bytes) (GBAmdc -cL7 "titlescreen tiles.dat" .\rom.gba 2F5D80)
+
+// Control Codes
+// Colors: white, red, blue, yellow, green
+// SJIS alt: .：；？！＾／～”（）＋－×÷＝＞″％＃＆＊＠０
