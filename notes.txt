@@ -1,4 +1,4 @@
-0018aba0: font start (16x16, whitespace cut)
+0018aba0: font start (16x12 1bpp)
 
 001E3080: pointer table start
 001E44FB: pointer table end
@@ -9,8 +9,69 @@
 001D692A: 1st encyc intro
 001D6DD4: 1st encyc entry
 
+001D7AC7: 1st dialog start (carbuncle)
+001d7ad8: 2nd dialog
+
+018a4b8: tile offsets for letter locations  (no port)
+	top L, top R, bottom L, bottom R
+018a404: tile offsets for letter locations (portr left)
+018a584: tile offsets (ency)
+
+018a9c4: select pattern for cross tile shift 
+	0/1: patterns for no portrait
+	1/2: patterns with portrait
+
+018a3c4: cross tile shifting patterns
+	byte 1 -> if not 0 store 2 bytes 3+4
+	2 -> r6 -> loop counter (number of bytes in tile?)
+	3 -> r0 -> offset for matrix 3003cb0
+	4 -> r4 -> + param *32 -> pixeloffset
+
+
+
+
 002F5D80: title screen (lz compressed, -4first bytes) (GBAmdc -cL7 "titlescreen tiles.dat" .\rom.gba 2F5D80)
 
 // Control Codes
 // Colors: white, red, blue, yellow, green
 // SJIS alt: .：；？！＾／～”（）＋－×÷＝＞″％＃＆＊＠０
+
+D0 XX: Text Position
+	00: 2 lines, no offset
+	01: 1 line , no offset
+	04: 2 lines, no offset, portrait right
+	05: 2 lines, offset +portrait left
+	06: 0 lines, portrait left
+	07: 2 lines, no text, portrait left
+	0F: 3 lines, portrait left
+E2 XX: Portrait Character
+	24: Carbuncle
+	58: White Mage
+
+FA: voice off
+F7: voice on
+
+E1 XX: Sound
+
+E0 XX: wait
+---
+setup: 81D7AC7->40 41 42 FF
+2027EDF -> 40
+3003d0d -> FF -> 2026dfc
+2027140 -> F1 ;Q done
+
+bp: r1=2026DFE -> 2026DFD
+[2026DFE]=1F
+(3003CB8), 1 char=24h(36) bytes -> 1Eh(30)bytes [2Ah-24h]
+
+base:2026dd8
+
+bm 8037896: load tile offsets for rendering letter from 818a4b8 (no port) / 818a404 (port l) / 0818a584 (ency)
+818a3c4: table for pixel offsets by tile (index+3 is added)
+1 -> if not 0 store 2 bytes 3+4
+2 -> r6 -> loop counter (number of bytes in tile?)
+3 -> r0 -> offset for matrix 3003cb0
+4 -> r4 -> + param *32 -> pixeloffset
+
+818a9c4: lookup index for tile offset table (0/1: patterns for no portrait, 1/2 with port)
+
