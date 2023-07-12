@@ -12,14 +12,15 @@
 001D7AC7: 1st dialog start (carbuncle)
 001d7ad8: 2nd dialog
 
-018a4b8: tile offsets for letter locations  (no port)
-	top L, top R, bottom L, bottom R
-018a404: tile offsets for letter locations (portr left)
-018a584: tile offsets (ency)
+tile offsets for letter locations (top L, top R, bottom L, bottom R):
+018a404-18a49F: portr left (156b / 39c)
+018a4a0-18a4b7: ???? (24b / 6c)
+018a4b8-18a587: no port (208b / 52c)
+018a588-18a9c3: ency? (1084b / 135c) (8b per c)
 
-018a9c4: select pattern for cross tile shift 
-	0/1: patterns for no portrait
-	1/2: patterns with portrait
+018a9c4-18aa40: select pattern for cross tile shift 
+	0/1: first line
+	2/3: second line
 
 018a3c4: cross tile shifting patterns
 	byte 1 -> if not 0 store 2 bytes 3+4
@@ -27,8 +28,12 @@
 	3 -> r0 -> offset for matrix 3003cb0
 	4 -> r4 -> + param *32 -> pixeloffset
 
+037822: add line length, 17 per line ->
+03782c: adds r2,r1,0; copy r1->r2
 
+037860: line length 13(0x0D) -> 20 (0x14)
 
+07ce100: free space
 
 002F5D80: title screen (lz compressed, -4first bytes) (GBAmdc -cL7 "titlescreen tiles.dat" .\rom.gba 2F5D80)
 
@@ -67,11 +72,4 @@ bp: r1=2026DFE -> 2026DFD
 base:2026dd8
 
 bm 8037896: load tile offsets for rendering letter from 818a4b8 (no port) / 818a404 (port l) / 0818a584 (ency)
-818a3c4: table for pixel offsets by tile (index+3 is added)
-1 -> if not 0 store 2 bytes 3+4
-2 -> r6 -> loop counter (number of bytes in tile?)
-3 -> r0 -> offset for matrix 3003cb0
-4 -> r4 -> + param *32 -> pixeloffset
-
-818a9c4: lookup index for tile offset table (0/1: patterns for no portrait, 1/2 with port)
 

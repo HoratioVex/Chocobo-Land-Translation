@@ -1,0 +1,22 @@
+<html>
+<body>
+
+<script>
+function padToTwo(str) {
+  return str.padStart(2, '0');
+}
+var b1=0x00; var b2=0x01;var b3=0x1a; var b4=0x1b;
+var line=1;
+
+for (var i=1; i<79; i++) {
+ var b1s=b1.toString(16);var b2s=b2.toString(16);var b3s=b3.toString(16);var b4s=b4.toString(16);
+ document.write(padToTwo(b1s)+padToTwo(b2s)+padToTwo(b3s)+padToTwo(b4s));
+ b1++;b2++;b3++;b4++;
+ if (i%26==0) {line++;}
+ if (line==3) {line=1;b1+=26;b2+=26;b3+=24;b4+=24;}
+}
+
+</script>
+
+</body>
+</html> 
