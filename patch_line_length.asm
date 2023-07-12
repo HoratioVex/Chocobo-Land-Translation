@@ -2,7 +2,7 @@
 //Dialog no portrait: 17 -> 26
 
 .gba
-.open "Chocobo Land - Game de Dice (J) [mod].gba","output.gba",0x08000000 
+.open "input.gba","output.gba",0x08000000 
 
 
 .thumb
