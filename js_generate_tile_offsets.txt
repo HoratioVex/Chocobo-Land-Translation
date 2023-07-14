@@ -1,6 +1,4 @@
-<html>
-<body>
-
+//*** one byte
 <script>
 function padToTwo(str) {
   return str.padStart(2, '0');
@@ -15,8 +13,30 @@ for (var i=1; i<79; i++) {
  if (i%26==0) {line++;}
  if (line==3) {line=1;b1+=26;b2+=26;b3+=24;b4+=24;}
 }
-
 </script>
 
-</body>
-</html> 
+//****two bytes
+
+<script>
+function padToFour(str) {
+  return str.padStart(4, '0');
+}
+var b1=0x00; var b2=0x01;var b3=0x1a; var b4=0x1b;
+var line=1;
+
+for (var i=1; i<216; i++) {
+ var b1s=b1.toString(16);var b2s=b2.toString(16);var b3s=b3.toString(16);var b4s=b4.toString(16);
+ b1s=padToFour(b1s);b2s=padToFour(b2s);b3s=padToFour(b3s);b4s=padToFour(b4s);
+ b1s=b1s.substr(2,2)+b1s.substr(0,2);b2s=b2s.substr(2,2)+b2s.substr(0,2);
+ b3s=b3s.substr(2,2)+b3s.substr(0,2);b4s=b4s.substr(2,2)+b4s.substr(0,2);
+ 
+ document.write(b1s+b4s+b3s+b4s); //+" ("+i+" L:"+line+")<br>");
+ b1++;b2++;b3++;b4++;
+ if (i%27==0) {
+ 	line++;
+ 	if (line==2) {b1-=1;b2-=1;b3-=1;b4-=1;}
+ 	if (line==3) {line=1;}
+	}
+ if (i%54==0) {b1+=25;b2+=25;b3+=25;b4+=25;}	
+}
+</script>

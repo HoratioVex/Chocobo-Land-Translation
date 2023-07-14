@@ -3,7 +3,8 @@
 001E3080: pointer table start
 001E44FB: pointer table end
 
-001DE54B: start ally description (carbuncle)
+001DE54B: start ally intro (carbuncle)
+001E16C5: start ally description (carbuncle)
 ^- 001E3E48 (pointer)
 
 001D692A: 1st encyc intro
@@ -14,9 +15,9 @@
 
 tile offsets for letter locations (top L, top R, bottom L, bottom R):
 018a404-18a49F: portr left (156b / 39c)
-018a4a0-18a4b7: ???? (24b / 6c)
-018a4b8-18a587: no port (208b / 52c)
-018a588-18a9c3: ency? (1084b / 135c) (8b per c)
+018a4a0-18a4b7: player/char name (24b / 6c)
+018a4b8-18a583: no port (208b / 52c)
+018a584-18a9c3: ency (1088b / 136c) (8b per c)
 
 018a9c4-18aa40: select pattern for cross tile shift 
 	0/1: first line
@@ -59,6 +60,10 @@ F7: voice on
 E1 XX: Sound
 
 E0 XX: wait
+E8: chocbo name yellow
+e9: chocobo name blue
+ea: chocobo name red
+eb: chocobo name green
 ---
 setup: 81D7AC7->40 41 42 FF
 2027EDF -> 40
@@ -72,4 +77,3 @@ bp: r1=2026DFE -> 2026DFD
 base:2026dd8
 
 bm 8037896: load tile offsets for rendering letter from 818a4b8 (no port) / 818a404 (port l) / 0818a584 (ency)
-
