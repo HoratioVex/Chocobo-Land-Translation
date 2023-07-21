@@ -77,3 +77,8 @@ bp: r1=2026DFE -> 2026DFD
 base:2026dd8
 
 bm 8037896: load tile offsets for rendering letter from 818a4b8 (no port) / 818a404 (port l) / 0818a584 (ency)
+----
+graphics compressed lz777 with 4byte header:
+	byte 1,2: ???
+	byte 3,4: size of file -8
+and 4 byte footer: 4*FF
