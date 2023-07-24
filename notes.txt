@@ -51,8 +51,34 @@ D0 XX: Text Position
 	07: 2 lines, no text, portrait left
 	0F: 3 lines, portrait left
 E2 XX: Portrait Character
-	24: Carbuncle
-	58: White Mage
+	00,01 / B0,B1,B3: Atla the Moogle
+	04,05 / 84,85,86: Behemoth
+	0C,0D: Chocobo (silent)
+	10,11: Chip the Hamster
+	14: Gigantoad (Lizard?)
+	18,19,1A / 98,99,9A: Goblin
+	24,25,27 / A5: Carbuncle
+	28 / A8,A9,AB: Cockatrice
+	2C,2D,2F / AC,AD,AE,AF: Black Mage (Croma)
+	34,36 / B4,B5,B6,B7: Morbol
+	40,42 / C0,C1,C2: Lamia/Siren
+	48,4B / C8,CB: Steel Bat
+	50,51 / D0,D1,D2: Sahagin (ashaki)
+	58,59,5B / D8,D9,DB: White Mage (Shirma)
+	5C / DC,DD,DE,DF: Frog
+	60,61 / E0,E1,E2: Tonberry
+	88: Red Behemoth (h)
+	91: Hamster (h)
+	94: Toad (h)
+	9C,9E: Golem (h)
+	A0: Green Frog (h)
+	B8, White Morbol (H)
+	BC,BE: Omega? (h)
+	BD: white sad chocobo? (h)
+	C4: Red Lamia (h)
+	CC: Cactuar (h)
+	D4,D6: Bahamuth (h)
+	E4: worm (h)
 
 FA: voice off
 F7: voice on
