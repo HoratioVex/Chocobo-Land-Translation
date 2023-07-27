@@ -696,1045 +696,1156 @@ You're good!<END>
 //POINTER #81 @ $1E31C4 - STRING #81 @ $1D8052
 
 #W24($1E31C4)
-//<STY><$04><POR><$94><SND><$AD><WAI><$14>「よばれたんだな<END>
+<STY><$04><POR><$94><SND><$AD><WAI><$14>
+Did somebody<LF>
+call me?<END>
 
 
 //POINTER #82 @ $1E31C8 - STRING #82 @ $1D806A
 
 #W24($1E31C8)
-//<STY><$06><POR><$0C><WAI><$28><SND><$A9><POR><$0D><WAI><$28><$F6><END>
+<STY><$06><POR><$0C><WAI><$28><SND><$A9><POR><$0D><WAI><$28><$F6><END>
 
 
 //POINTER #83 @ $1E31CC - STRING #83 @ $1D8078
 
 #W24($1E31CC)
-//<STY><$0E><POR><$94>「知っていることを<LF>
-// 話そうとおもうんだな<END>
+<STY><$0E><POR><$94>
+I'm going to tell<LF>
+you what I know.<END>
 
 
 //POINTER #84 @ $1E31D0 - STRING #84 @ $1D809F
 
 #W24($1E31D0)
-//<STY><$11><POR><$2C><VOF>「…<WAI><$14>…<WAI><$14><LF>
-//<VON> ぜひ,おねがいします<END>
+<STY><$11><POR><$2C><VOF>…<WAI><$14>…<WAI><$14><LF>
+<VON>We would definitely<LF>
+appreciate that.<END>
 
 
 //POINTER #85 @ $1E31D4 - STRING #85 @ $1D80BC
 
 #W24($1E31D4)
-//<STY><$10><POR><$94>「この世界は<CYL>クリスタル<CWH>に<LF>
-// 守られている<LF>
-// と,いゎれているんだな<END>
+//<STY><$10><POR><$94>
+It seems there are<LF>
+some <CYL>Crystals<CWH> which<LF>
+protect this world.<END>
 
 
 //POINTER #86 @ $1E31D8 - STRING #86 @ $1D80FB
 
 #W24($1E31D8)
-//<STY><$11><POR><$58>「ふんふん<END>
+<STY><$11><POR><$58>Hmm<VOF>…<VON><END>
 
 
 //POINTER #87 @ $1E31DC - STRING #87 @ $1D8109
 
 #W24($1E31DC)
-//<STY><$10><POR><$94>「すこし前から空が<LF>
-// くもってるんだな<LF>
-//<WAI><$14> その時から何かがかゎった<LF>
-// 何かをうったえるように<LF>
-// 小さな<CYL>クリスタル<CWH>が見える<LF>
-// ようになったんだな<END>
-
+<STY><$10><POR><$94>
+Some time ago, the<LF>
+sky darkened.<LF>
+<WAI><$14>And then, little<LF>
+<CYL>Crystals<CWH> started ap-<LF>
+pearing all over the<LF>
+world.<END>
 
 //POINTER #88 @ $1E31E0 - STRING #88 @ $1D8183
 
 #W24($1E31E0)
-//<STY><$11><POR><$2C><VOF>「………<LF>
-//<VON><END>
+<STY><$11><POR><$2C><VOF>………<LF>
+<VON><END>
 
 
 //POINTER #89 @ $1E31E4 - STRING #89 @ $1D818F
 
 #W24($1E31E4)
-//<STY><$10><POR><$94> その小さな<CYL>クリスタル<CWH>を孚<LF>
-// にとってしまったものは<LF>
-//<POR><$97> おかしくなったんだな<END>
+<STY><$10><POR><$94>
+Whoever touched<LF>
+the little <CYL>Crystals<CWH><LF>
+<POR><$97>went insane.<END>
 
 
 //POINTER #90 @ $1E31E8 - STRING #90 @ $1D81D9
 
 #W24($1E31E8)
-//<STY><$11><POR><$2F>「そういえば<VOF>……<VON><LF>
-// キレイだと思って<VOF>……<VON><END>
+<STY><$11><POR><$2F>
+Yes, I remember<VOF>……<VON><LF>
+I thought it looked<LF>
+so pretty<VOF>……<VON><END>
 
 
 //POINTER #91 @ $1E31EC - STRING #91 @ $1D8200
 
 #W24($1E31EC)
-//<STY><$12><POR><$94>「知っているのは<LF>
-// これだけなんだな<END>
+<STY><$12><POR><$94>
+That's all I know.<END>
 
 
 //POINTER #92 @ $1E31F0 - STRING #92 @ $1D8223
 
 #W24($1E31F0)
-//<STY><$11><POR><$58>「ええとぉ~<LF>
-// 今度はなに?<END>
+<STY><$11><POR><$58>
+So well, so good.<LF>
+What do we do now?<END>
+
 
 
 //POINTER #93 @ $1E31F4 - STRING #93 @ $1D823C
 
 #W24($1E31F4)
-//<STY><$11><POR><$2C>「集めるのも<LF>
-// 孚伝ってもらえる<LF>
-// と<END>
+<STY><$11><POR><$2C>
+He said he would<LF>
+help me collect<LF>
+them.<END>
 
 
 //POINTER #94 @ $1E31F8 - STRING #94 @ $1D8261
 
 #W24($1E31F8)
-//<STY><$10><POR><$94>「そのとおりなんだな<END>
+<STY><$10><POR><$94>I guess I did.<END>
 
 
 //POINTER #95 @ $1E31FC - STRING #95 @ $1D8278
 
 #W24($1E31FC)
-//<STY><$13><POR><$0C>"<CGR>ギガントード<CWH>"<LF>
-//(友達魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+<STY><$13><POR><$0C>
+Ally Gem unlocked:<LF>
+<CGR>Gigantoad<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #96 @ $1E3200 - STRING #96 @ $1D82B4
 
 #W24($1E3200)
-//<STY><$10><POR><$D2>「くぅ~~!<END>
+<STY><$10><POR><$D2>Glugg!<END>
 
 
 //POINTER #97 @ $1E3204 - STRING #97 @ $1D82BF
 
 #W24($1E3204)
-//<STY><$11><POR><$2C>「あ!<LF>
-//<WAI><$14><SND><$AD><WAI><$28> 行ってしまった<VOF>……<VON><END>
+<STY><$11><POR><$2C>Oh!<LF>
+<WAI><$14><SND><$AD><WAI><$28>He's gone<VOF>……<VON><END>
 
 
 //POINTER #98 @ $1E3208 - STRING #98 @ $1D82E0
 
 #W24($1E3208)
-//<STY><$13><POR><$24>「おいかけよう<END>
+<STY><$13><POR><$24>Let's follow him.<END>
 
 
 //POINTER #99 @ $1E320C - STRING #99 @ $1D82ED
 
 #W24($1E320C)
-//<STY><$10><POR><$D2>「思い知ったか!<END>
+<STY><$10><POR><$D2>
+You've got some<LF>
+nerve!<END>
 
 
 //POINTER #100 @ $1E3210 - STRING #100 @ $1D82FE
 
 #W24($1E3210)
-//<STY><$13><POR><$58>「なにも,ゎざゎざ向こうへ<LF>
-// 行かなくてもいいのにねぇ<END>
+<STY><$13><POR><$58>
+Oh please, I don't<LF>
+want to go there.<END>
 
 
 //POINTER #101 @ $1E3214 - STRING #101 @ $1D832C
 
 #W24($1E3214)
-//<STY><$0E><POR><$D2>「<VOF>……<VON>負けた<LF>
-//<WAI><$14><POR><$D0> あれ?<LF>
-// 何に負けたんだ?<END>
+<STY><$0E><POR><$D2><VOF>……<VON>I lost?<LF>
+<WAI><$14><POR><$D0>
+How could that<LF>
+happen?<END>
 
 
 //POINTER #102 @ $1E3218 - STRING #102 @ $1D8355
 
 #W24($1E3218)
-//<STY><$11><POR><$58>「もどったみたいだね<END>
+<STY><$11><POR><$58>
+I see you're back<LF>
+to normal.<END>
 
 
 //POINTER #103 @ $1E321C - STRING #103 @ $1D836C
 
 #W24($1E321C)
-//<STY><$11><POR><$2F>「ゎたしのときと<LF>
-// 同じですね<END>
+<STY><$11><POR><$2F>
+Exactly like what<LF>
+happened to me.<END>
+
 
 
 //POINTER #104 @ $1E3220 - STRING #104 @ $1D8388
 
 #W24($1E3220)
-//<STY><$11><POR><$2D>「いいのですよ<LF>
-// <CYL>クリスタル<CWH>の何かに原因が<LF>
-// あるらしいのですから<END>
-
+<STY><$11><POR><$2D>
+It's okay. Something<LF>
+in the <CYL>Crystal<CWH> is<LF>
+causing this.<END>
 
 //POINTER #105 @ $1E3224 - STRING #105 @ $1D83C2
 
 #W24($1E3224)
-//<STY><$10><POR><$A0>「オヤビン<VOF>…………<VON><END>
+<STY><$10><POR><$A0>Hey, boss<VOF>…………<VON><END>
 
 
 //POINTER #106 @ $1E3228 - STRING #106 @ $1D83D6
 
 #W24($1E3228)
-//<STY><$11><POR><$14>「<VOF>………………<VON><LF>
-// 気にしなくて<LF>
-// いいんだな<END>
+<STY><$11><POR><$14><VOF>………………<VON><LF>
+Don't worry about<LF>
+it.<END>
 
 
 //POINTER #107 @ $1E322C - STRING #107 @ $1D83FA
 
 #W24($1E322C)
-//<STY><$11><POR><$59>「そうそう<LF>
-// 気にしない<END>
+<STY><$11><POR><$59>
+Well, I'm not wor-<LF>
+ried at all.<END>
 
 
 //POINTER #108 @ $1E3230 - STRING #108 @ $1D8410
 
 #W24($1E3230)
-//<STY><$11><POR><$10><SND><$AC>(ナニかを見つけたらしい)<END>
+<STY><$11><POR><$10><SND><$AC>
+*emphatic sounds*<END>
 
 
 //POINTER #109 @ $1E3234 - STRING #109 @ $1D842B
 
 #W24($1E3234)
-//<STY><$11><POR><$58>「ドルくん!?<LF>
-// どうしたの<END>
+<STY><$11><POR><$58>Chip!?<LF>
+Did you find<LF>
+something?<END>
 
 
 //POINTER #110 @ $1E3238 - STRING #110 @ $1D8444
 
 #W24($1E3238)
-//<STY><$11><POR><$10><SND><$AC>(あっちらしい)<END>
+<STY><$11><POR><$10><SND><$AC>
+*affirmative sounds*<END>
 
 
 //POINTER #111 @ $1E323C - STRING #111 @ $1D8456
 
 #W24($1E323C)
-//<STY><$11><POR><$2C>「行ってみましょう<END>
+<STY><$11><POR><$2C>
+Let's follow him!<END>
 
 
 //POINTER #112 @ $1E3240 - STRING #112 @ $1D846A
 
 #W24($1E3240)
-//<STY><$10><POR><$D0>「待ってくれ!<LF>
-// <CYL>クリスタル<CWH>に何か<LF>
-// 起こっているのか?<END>
+<STY><$10><POR><$D0>
+Wait! What's going<LF>
+on with the <CYL>Crystal?<CWH><END>
 
 
 //POINTER #113 @ $1E3244 - STRING #113 @ $1D849D
 
 #W24($1E3244)
-//<STY><$11><POR><$24>「たぶん<VOF>…<VON><END>
+<STY><$11><POR><$24>Perhaps<VOF>…<VON><END>
 
 
 //POINTER #114 @ $1E3248 - STRING #114 @ $1D84AC
 
 #W24($1E3248)
-//<STY><$10><POR><$D0>「そりゃマズイ!<LF>
-// オレも行くぞ!<END>
-
+<STY><$10><POR><$D0>
+This is bad! I'm<LF>
+coming with you!<END>
 
 //POINTER #115 @ $1E324C - STRING #115 @ $1D84CD
 
 #W24($1E324C)
-//<STY><$13><POR><$0C>"<CGR>サハギン<CWH>"<LF>
-//(友達魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+<STY><$13><POR><$0C>
+Ally Gem unlocked:<LF>
+<CGR>Sahagin<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #116 @ $1E3250 - STRING #116 @ $1D8506
 
 #W24($1E3250)
-//<STY><$0E><SND><$AD><WAI><$14><POR><$D0>「ふふ~ん<LF>
-//<WAI><$14><POR><$D2> どうだ!<LF>
-// まいったか!!<END>
+<STY><$0E><SND><$AD><WAI><$14><POR><$D0>Blorg!<LF>
+<WAI><$14><POR><$D2>Damn!<LF>
+What's going on!<END>
 
 
 //POINTER #117 @ $1E3254 - STRING #117 @ $1D852F
 
 #W24($1E3254)
-//<STY><$10><POR><$A0>「オヤビン!<LF>
-// さぁ! 次はこいつも!<END>
+<STY><$10><POR><$A0>Boss! Come on!<LF>
+This guy is next!<END>
 
 
 //POINTER #118 @ $1E3258 - STRING #118 @ $1D854F
 
 #W24($1E3258)
-//<STY><$10><POR><$D0>「ふふ~ん<LF>
-//<WAI><$0A><WAI><$14><POR><$D2> そっちこそ!<END>
+<STY><$10><POR><$D0>Blorg!<LF>
+<WAI><$0A><WAI><$14><POR><$D2>Over there!<END>
 
 
 //POINTER #119 @ $1E325C - STRING #119 @ $1D856E
 
 #W24($1E325C)
-//<STY><$11><POR><$58>「あらら~<END>
+<STY><$11><POR><$58>Oh dear!<END>
 
 
 //POINTER #120 @ $1E3260 - STRING #120 @ $1D857A
 
 #W24($1E3260)
-//<STY><$13><POR><$14><VOF>「…<WAI><$0A>…<WAI><$0A>…<WAI><$0A>…<WAI><$0A>…<WAI><$0A>…<LF>
-//<VON><POR><$17><WAI><$14> こまったんだな<END>
+<STY><$13><POR><$14><VOF>…<WAI><$0A>…<WAI><$0A>…<WAI><$0A>…<WAI><$0A>…<WAI><$0A>…<LF>
+<VON><POR><$17><WAI><$14>You have nowhere<LF>
+to go.<END>
 
 
 //POINTER #121 @ $1E3264 - STRING #121 @ $1D85A5
 
 #W24($1E3264)
-//<STY><$0E><POR><$94>「<NC1>は<LF>
-// つよいんだな<END>
+<STY><$0E><POR><$94>
+<NC1> is so strong!<END>
 
 
 //POINTER #122 @ $1E3268 - STRING #122 @ $1D85BB
 
 #W24($1E3268)
-//<STY><$10><POR><$D2>「なんか,くやしいなあ<END>
+<STY><$10><POR><$D2>
+Meh, what a bummer.<END>
 
 
 //POINTER #123 @ $1E326C - STRING #123 @ $1D85CF
 
 #W24($1E326C)
-//<STY><$11><POR><$58>「え!<LF>
-// また?<END>
+<STY><$11><POR><$58>Eh!<LF>
+Again?<END>
 
 
 //POINTER #124 @ $1E3270 - STRING #124 @ $1D85DE
 
 #W24($1E3270)
-//<STY><$10><POR><$D0>「ちがう! ちがう!<LF>
-// ただ<VOF>…………<VON><LF>
-// 負けたからさ<VOF>……<VON><END>
+<STY><$10><POR><$D0>
+No! No! It's just<VOF>……<VON><LF>
+I lost<VOF>……<VON><END>
 
 
 //POINTER #125 @ $1E3274 - STRING #125 @ $1D860A
 
 #W24($1E3274)
-//<STY><$13><POR><$2D>「びっくりしましたよ<END>
+<STY><$13><POR><$2D>
+You surprise me.<END>
 
 
 //POINTER #126 @ $1E3278 - STRING #126 @ $1D861F
 
 #W24($1E3278)
-//<STY><$0E><POR><$94>「おや?<LF>
-// <NC1>が<LF>
-// 負けたんだな<END>
+<STY><$0E><POR><$94>What's that?<LF>
+<NC1> lost.<END>
 
 
 //POINTER #127 @ $1E327C - STRING #127 @ $1D863A
 
 #W24($1E327C)
-//<STY><$12><POR><$D1>「ふふ~ん<LF>
-// やるじゃん!<END>
+<STY><$12><POR><$D1>Blorg!<LF>
+Right on!<END>
 
 
 //POINTER #128 @ $1E3280 - STRING #128 @ $1D8653
 
 #W24($1E3280)
-//<STY><$0E><POR><$AC><VOF>「…………<VON><END>
+<STY><$0E><POR><$AC><VOF>…………<VON><END>
 
 
 //POINTER #129 @ $1E3284 - STRING #129 @ $1D865F
 
 #W24($1E3284)
-//<STY><$10><POR><$D0><VOF>「…………<VON><END>
+<STY><$10><POR><$D0><VOF>…………<VON><END>
 
 
 //POINTER #130 @ $1E3288 - STRING #130 @ $1D866B
 
 #W24($1E3288)
-//<STY><$10><POR><$AD>「そうしましょう<END>
+<STY><$10><POR><$AD>Let's do it!<END>
 
 
 //POINTER #131 @ $1E328C - STRING #131 @ $1D867B
 
 #W24($1E328C)
-//<STY><$10><POR><$D1>「そうだな<END>
+<STY><$10><POR><$D1>I see.<END>
 
 
 //POINTER #132 @ $1E3290 - STRING #132 @ $1D8688
 
 #W24($1E3290)
-//<STY><$12><POR><$AC>「いっしょに行ってくれる<LF>
-// なかまがいるのですが<VOF>……<VON><END>
+<STY><$12><POR><$AC>
+I have a friend who<LF>
+would like to come<LF>
+along<VOF>……<VON><END>
 
 
 //POINTER #133 @ $1E3294 - STRING #133 @ $1D86B6
 
 #W24($1E3294)
-//<STY><$0E><POR><$AD>「ありがとう<END>
+<STY><$0E><POR><$AD>Thank you.<END>
 
 
 //POINTER #134 @ $1E3298 - STRING #134 @ $1D86C3
 
 #W24($1E3298)
-//<STY><$13><POR><$0C>"<CGR>オーガ<CWH>"<LF>
-//(友達魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+<STY><$13><POR><$0C>
+Ally Gem unlocked:<LF>
+<CGR>Ogre<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #135 @ $1E329C - STRING #135 @ $1D86F9
 
 #W24($1E329C)
-//<STY><$0E><POR><$94>「友達なんだな<END>
+<STY><$0E><POR><$94>We're friends now.<END>
 
 
 //POINTER #136 @ $1E32A0 - STRING #136 @ $1D870B
 
 #W24($1E32A0)
-//<STY><$10><POR><$D1>「おお!<LF>
-// いっしょに行こうぜ<END>
+<STY><$10><POR><$D1>Yay!<LF>
+Let's go together!<END>
 
 
 //POINTER #137 @ $1E32A4 - STRING #137 @ $1D8723
 
 #W24($1E32A4)
-//<STY><$13><POR><$0C>"<CGR>デビルフィッシュ<CWH>"<LF>
-//(友達魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+<STY><$13><POR><$0C>
+Ally Gem unlocked:<LF>
+<CGR>Devilfish<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #138 @ $1E32A8 - STRING #138 @ $1D8764
 
 #W24($1E32A8)
-//<STY><$0F><POR><$58>「あの~<VOF>………<VON><END>
+<STY><$0F><POR><$58>Well<VOF>………<VON><END>
 
 
 //POINTER #139 @ $1E32AC - STRING #139 @ $1D8773
 
 #W24($1E32AC)
-//<STY><$10><POR><$84><VOF>「……………<VON><LF>
-// ああ<VOF>……………<VON><END>
+<STY><$10><POR><$84><VOF>「……………<VON><LF>
+Hey<VOF>……………<VON><END>
 
 
 //POINTER #140 @ $1E32B0 - STRING #140 @ $1D878B
 
 #W24($1E32B0)
-//<STY><$11><POR><$24>「だいじょうぶ?<END>
+<STY><$11><POR><$24>Are you okay?<END>
 
 
 //POINTER #141 @ $1E32B4 - STRING #141 @ $1D879B
 
 #W24($1E32B4)
-//<STY><$10><POR><$84>「ああ,だいじょうぶだ<LF>
-// すまないことをしたな<END>
+<STY><$10><POR><$84>
+I'm so sorry, I<LF>
+didn't mean to do<LF>
+that.<END>
 
 
 //POINTER #142 @ $1E32B8 - STRING #142 @ $1D87C1
 
 #W24($1E32B8)
-//<STY><$11><POR><$2D>「いえいえ<LF>
-// ゎたしも同じことを<LF>
-// しました<END>
+<STY><$11><POR><$2D>
+No no, don't worry<LF>
+about it. I behaved<LF>
+the same way.<END>
 
 
 //POINTER #143 @ $1E32BC - STRING #143 @ $1D87E4
 
 #W24($1E32BC)
-//<STY><$11><POR><$51>「ふふ~ん<LF>
-// オレも<END>
+<STY><$11><POR><$51>Blorg!<LF>
+Me too.<END>
 
 
 //POINTER #144 @ $1E32C0 - STRING #144 @ $1D87F9
 
 #W24($1E32C0)
-//<STY><$10><POR><$84>「いったい<LF>
-// なにが<VOF>…………<VON><END>
+<STY><$10><POR><$84>
+What in the world<LF>
+is going on<VOF>…………<VON><END>
 
 
 //POINTER #145 @ $1E32C4 - STRING #145 @ $1D8812
 
 #W24($1E32C4)
-//<STY><$11><POR><$2C>「<CYL>クリスタル<CWH>に何か<LF>
-// おこってるようですね<END>
+<STY><$11><POR><$2C>
+It seems something<LF>
+is wrong with<LF>
+the <CYL>Crystals<CWH>.<END>
 
 
 //POINTER #146 @ $1E32C8 - STRING #146 @ $1D883B
 
 #W24($1E32C8)
-//<STY><$10><POR><$84>「<VOF>…………<VON><LF>
-// <CYL>クリスタル<CWH>か…………<END>
+<STY><$10><POR><$84>
+<VOF>…………<VON><LF>
+The <CYL>Crystals<CWH><VOF>…………<VON><END>
 
 
 //POINTER #147 @ $1E32CC - STRING #147 @ $1D885A
 
 #W24($1E32CC)
-//<STY><$11><POR><$58>「<CYL>クリスタル<CWH>って<LF>
-// どこにあるの?<END>
+<STY><$11><POR><$58>
+Where is the<LF>
+<CYL>Crystal<CWH>?<END>
 
 
 //POINTER #148 @ $1E32D0 - STRING #148 @ $1D887D
 
 #W24($1E32D0)
-//<STY><$10><POR><$84>「森を抜けて<LF>
-// もっと向こうらしいが<VOF>……<VON><END>
+<STY><$10><POR><$84>
+I think it's beyond<LF>
+the forest<VOF>……<VON><END>
 
 
 //POINTER #149 @ $1E32D4 - STRING #149 @ $1D88A1
 
 #W24($1E32D4)
-//<STY><$11><POR><$24>「向こうか<VOF>……<VON><END>
+<STY><$11><POR><$24>Beyond<VOF>……<VON><END>
 
 
 //POINTER #150 @ $1E32D8 - STRING #150 @ $1D88B0
 
 #W24($1E32D8)
-//<STY><$11><POR><$2C>「できればいっしょに<LF>
-// 行きませんか?<END>
+<STY><$11><POR><$2C>
+Would you like to<LF>
+accompany us?<END>
 
 
 //POINTER #151 @ $1E32DC - STRING #151 @ $1D88D1
 
 #W24($1E32DC)
-//<STY><$10><POR><$85>「行こう<LF>
-// 役にたつこともあるだろう<END>
+<STY><$10><POR><$85>
+Indeed. It would be<LF>
+an honor to join<LF>
+your party.<END>
 
 
 //POINTER #152 @ $1E32E0 - STRING #152 @ $1D88F2
 
 #W24($1E32E0)
-//<STY><$13><POR><$0C>"<CRD>ベヒーモス<CWH>"<LF>
-//(攻撃魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+<STY><$13><POR><$0C>
+Magicite unlocked:<LF>
+<CRD>Behemoth<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #153 @ $1E32E4 - STRING #153 @ $1D892C
 
 #W24($1E32E4)
-//<STY><$0F><POR><$58>「また,がんばろ<LF>
-//<WAI><$12><POR><$59> ね<END>
+<STY><$0F><POR><$58>
+Also, good luck!<LF>
+<WAI><$12><POR><$59>Okay?<END>
 
 
 //POINTER #154 @ $1E32E8 - STRING #154 @ $1D8946
 
 #W24($1E32E8)
-//<STY><$11><POR><$2C>「そうですよ<LF>
-//<WAI><$12><POR><$2D> もう一度行きましょう<END>
+<STY><$11><POR><$2C>Right.<LF>
+<WAI><$12><POR><$2D>Let's go again!<END>
 
 
 //POINTER #155 @ $1E32EC - STRING #155 @ $1D896A
 
 #W24($1E32EC)
-//<STY><$13><POR><$24>「さあ!<WAI><$0A><LF>
-//<WAI><$12><POR><$25> 行こう<END>
+<STY><$13><POR><$24>Come on!<WAI><$0A><LF>
+<WAI><$12><POR><$25>You can do it!<END>
 
 
 //POINTER #156 @ $1E32F0 - STRING #156 @ $1D897F
 
 #W24($1E32F0)
-//<STY><$05><POR><$59>「すごいね~<LF>
-// <NC1>は~<END>
+<STY><$05><POR><$59>That great!<LF>
+<NC1> is -<END>
 
 
 //POINTER #157 @ $1E32F4 - STRING #157 @ $1D8991
 
 #W24($1E32F4)
-//<STY><$04><POR><$85>「まったくだ<END>
+<STY><$04><POR><$85>Indeed.<END>
 
 
 //POINTER #158 @ $1E32F8 - STRING #158 @ $1D89A0
 
 #W24($1E32F8)
-//<STY><$04><POR><$85>「<NC1>も<LF>
-// まだまだ,だな<END>
+<STY><$04><POR><$85>And <NC1>.<LF>
+Not quite there yet.<END>
 
 
 //POINTER #159 @ $1E32FC - STRING #159 @ $1D89B8
 
 #W24($1E32FC)
-//<STY><$0E><POR><$85>「なかなかいい肢負だったな<END>
+<STY><$0E><POR><$85>
+Methinks it was a<LF>
+fair bout.<END>
+
+//It was a pretty<LF>
+//good match.<END>
 
 
 //POINTER #160 @ $1E3300 - STRING #160 @ $1D89D2
 
 #W24($1E3300)
-//<STY><$10><POR><$84>「正気に戻してもらった<LF>
-// お礼といってはおかしいが<LF>
-// おもしろい話をしよう<END>
+<STY><$10><POR><$84>
+Peculiar, having to<LF>
+thank someone for re-<LF>
+storing my sanity.<END>
 
 
 //POINTER #161 @ $1E3304 - STRING #161 @ $1D8A0F
 
 #W24($1E3304)
-//<STY><$10><POR><$84>「ゎれゎれベヒーモスには<LF>
-// キングなるものがいる<END>
-
+<STY><$10><POR><$84>
+Now I must inform<LF>
+you that we Behe-<LF>
+moths have a king.<END>
 
 //POINTER #162 @ $1E3308 - STRING #162 @ $1D8A3E
 
 #W24($1E3308)
-//<STY><$11><POR><$2C>「キング<VOF>………<VON>ですか?<END>
+<STY><$11><POR><$2C>Oh. A<VOF>………<VON>King?<END>
 
 
 //POINTER #163 @ $1E330C - STRING #163 @ $1D8A54
 
 #W24($1E330C)
-//<STY><$10><POR><$84>「そうだ<END>
+<STY><$10><POR><$84>Indeed.<END>
 
 
 //POINTER #164 @ $1E3310 - STRING #164 @ $1D8A5F
 
 #W24($1E3310)
-//<STY><$12><POR><$84>「ゎれらベヒーモスたちに<LF>
-// 友としてみとめられた<LF>
-// ものだけがあえるのだ<END>
+<STY><$12><POR><$84>
+Only those our tribe<LF>
+accepts as friends<LF>
+can meet him.<END>
 
 
 //POINTER #165 @ $1E3314 - STRING #165 @ $1D8AA1
 
 #W24($1E3314)
-//<STY><$0F><POR><$25>「あってみたいね<END>
+<STY><$0F><POR><$25>
+Would be nice.<END>
 
 
 //POINTER #166 @ $1E3318 - STRING #166 @ $1D8AB3
 
 #W24($1E3318)
-//<STY><$12><POR><$85>「おまえたちなら<LF>
-// あえるかもしれんな<END>
+<STY><$12><POR><$85>
+As my comrades, this<LF>
+honor might be be-<LF>
+stowed upon you.<END>
 
 
 //POINTER #167 @ $1E331C - STRING #167 @ $1D8AD5
 
 #W24($1E331C)
-//<STY><$0E><POR><$88><VOF>「………………………<LF>
-//<VON> ゎたしをよぶのは<LF>
-// だれだ<END>
+<STY><$0E><POR><$88><VOF>………………………<LF>
+<VON>Who goes there?<END>
+
 
 
 //POINTER #168 @ $1E3320 - STRING #168 @ $1D8AFF
 
 #W24($1E3320)
-//<STY><$11><POR><$04>「そ・その おこえは!<LF>
-//<POR><$05> キング!<END>
+<STY><$11><POR><$04>It- It is him!<LF>
+<POR><$05>My King!<END>
 
 
 //POINTER #169 @ $1E3324 - STRING #169 @ $1D8B1E
 
 #W24($1E3324)
-//<STY><$11><POR><$25>「ほんとにあえた!<END>
+<STY><$11><POR><$25>
+It's actually<LF>
+happening!<END>
 
 
 //POINTER #170 @ $1E3328 - STRING #170 @ $1D8B31
 
 #W24($1E3328)
-//<STY><$11><POR><$04>「キング!<LF>
-// ゎたしたちにチカラを<LF>
-// かしてください!<END>
+<STY><$11><POR><$04>Great King!<LF>
+Please, grant us<LF>
+a boon!<END>
+
 
 
 //POINTER #171 @ $1E332C - STRING #171 @ $1D8B5F
 
 #W24($1E332C)
-//<STY><$10><POR><$88>「よかろう<LF>
-// ベヒーモスを友とする<LF>
-// そなたらに孚をかそう<END>
+<STY><$10><POR><$88>
+Very well. Let me<LF>
+assist the friends<LF>
+of the Behemoths.<END>
+
 
 
 //POINTER #172 @ $1E3330 - STRING #172 @ $1D8B93
 
 #W24($1E3330)
-//<STY><$13><POR><$05>「ありがとうございます!<END>
+<STY><$13><POR><$05>We are grateful.<END>
 
 
 //POINTER #173 @ $1E3334 - STRING #173 @ $1D8BA7
 
 #W24($1E3334)
-//<STY><$13><POR><$0C>"<CRD>キングベヒーモス<CWH>"<LF>
-//(攻撃魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+<STY><$13><POR><$0C>
+Magicite unlocked:<LF>
+<CRD>King Behemoth<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #174 @ $1E3338 - STRING #174 @ $1D8BE7
 
 #W24($1E3338)
-//<STY><$0E><POR><$B7>「なんということだ<LF>
-// このゎたしが<VOF>………<VON><END>
+<STY><$0E><POR><$B7>
+Blast, how could I<LF>
+lose like that<VOF>………<VON><END>
 
 
 //POINTER #175 @ $1E333C - STRING #175 @ $1D8C0A
 
 #W24($1E333C)
-//<STY><$10><POR><$B6>「こうなったら<LF>
-// もっと森のおくふかくへ<LF>
-// さそいこむか<VOF>………<VON><END>
+<STY><$10><POR><$B6>
+I'll have to go<LF>
+deeper into the<LF>
+forest<VOF>………<VON><END>
 
 
 //POINTER #176 @ $1E3340 - STRING #176 @ $1D8C3D
 
 #W24($1E3340)
-//<STY><$10><POR><$A8>「あ,<WAI><$0A>あの<VOF>…<VON><LF>
-//<WAI><$0A><POR><$AB> 森のおくは<VOF>………<VON><END>
+<STY><$10><POR><$A8>Yes-<WAI><$0A>uh<VOF>…<VON><LF>
+<WAI><$0A><POR><$AB>
+about that forest<VOF>……<VON><END>
 
 
 //POINTER #177 @ $1E3344 - STRING #177 @ $1D8C60
 
 #W24($1E3344)
-//<STY><$10><POR><$B4>「ふん<WAI><$0A><LF>
-//<POR><$B6> コカトリスの森林だと<LF>
-// いうのだろうが<END>
+<STY><$10><POR><$B4>Burp!<WAI><$0A><LF>
+<POR><$B6>
+They say Cockatrices<LF>
+live in this forest.<END>
 
 
 //POINTER #178 @ $1E3348 - STRING #178 @ $1D8C90
 
 #W24($1E3348)
-//<STY><$10><POR><$A8>「あ,<WAI><$0A>あの<VOF>…<VON><LF>
-//<WAI><$0A><POR><$AB> それはこまるのです<VOF>……<VON><END>
+<STY><$10><POR><$A8>Oh.<WAI><$0A>That<VOF>…<VON><LF>
+<WAI><$0A><POR><$AB>
+Might be a problem<VOF>…<VON><END>
 
 
 //POINTER #179 @ $1E334C - STRING #179 @ $1D8CBA
 
 #W24($1E334C)
-//<STY><$10><POR><$B6>「それは,こいつらを<LF>
-// 追いはらってから<LF>
-// きいてやる<END>
+<STY><$10><POR><$B6>
+We can have a talk<LF>
+after we get rid of<LF>
+those guys.<END>
 
 
 //POINTER #180 @ $1E3350 - STRING #180 @ $1D8CE9
 
 #W24($1E3350)
-//<STY><$11><POR><$58>「なんだか話が<LF>
-// すすんでるみたいだね~<END>
+<STY><$11><POR><$58>
+At least we're mak-<LF>
+ing some progress.<END>
+
 
 
 //POINTER #181 @ $1E3354 - STRING #181 @ $1D8D0D
 
 #W24($1E3354)
-//<STY><$11><POR><$2C>「そうですね<END>
+<STY><$11><POR><$2C>Agreed.<END>
 
 
 //POINTER #182 @ $1E3358 - STRING #182 @ $1D8D1B
 
 #W24($1E3358)
-//<STY><$11><POR><$24>「森のおく?<END>
+<STY><$11><POR><$24>
+Are we going?<END>
 
 
 //POINTER #183 @ $1E335C - STRING #183 @ $1D8D28
 
 #W24($1E335C)
-//<STY><$13><POR><$04>「ああ<VOF>……<VON><LF>
-// むかいの森林のことだな<END>
+<STY><$13><POR><$04>Oh<VOF>……<VON><LF>
+You mean that forest<LF>
+over there.<END>
 
 
 //POINTER #184 @ $1E3360 - STRING #184 @ $1D8D49
 
 #W24($1E3360)
-//<STY><$0E><POR><$B6>「思い知ったか!<END>
+<STY><$0E><POR><$B6>You got it!<END>
 
 
 //POINTER #185 @ $1E3364 - STRING #185 @ $1D8D5A
 
 #W24($1E3364)
-//<STY><$12><POR><$A8>「あ,<WAI><$0A>あの<VOF>…<VON><LF>
-//<WAI><$0A><POR><$AB> もうこないでほしいと<VOF>…<VON><END>
+<STY><$12><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
+<WAI><$0A><POR><$AB>
+You don't need to<LF>
+trouble yourself<VOF>…<VON><END>
 
 
 //POINTER #186 @ $1E3368 - STRING #186 @ $1D8D82
 
 #W24($1E3368)
-//<STY><$0E><POR><$B5>「ゎははは!<LF>
-// なかなかたのしかったぞ<END>
+<STY><$0E><POR><$B5>Mwahahaha!<LF>
+It was a blast!<END>
 
 
 //POINTER #187 @ $1E336C - STRING #187 @ $1D8DA5
 
 #W24($1E336C)
-//<STY><$12><POR><$A8>「あ,<WAI><$0A>あの<VOF>…<VON><LF>
-//<WAI><$0A><POR><$A9> たのしかったです<END>
+<STY><$12><POR><$A8>Um.<WAI><$0A>Right<VOF>…<VON><LF>
+<WAI><$0A><POR><$A9>It was fun.<END>
 
 
 //POINTER #188 @ $1E3370 - STRING #188 @ $1D8DC8
 
 #W24($1E3370)
-//<STY><$04><POR><$B5>「ゎははは!<LF>
-// <NC1>に<LF>
-// 肢てるとはな<END>
+<STY><$04><POR><$B5>
+Mwahaha! I never<LF>
+thought I could<LF>
+beat <NC1>.<END>
+
 
 
 //POINTER #189 @ $1E3374 - STRING #189 @ $1D8DEA
 
 #W24($1E3374)
-//<STY><$04><POR><$B4>「ふむ<LF>
-//<WAI><$10><POR><$B5> <NC1>も<LF>
-// まだまだ,だな<END>
+<STY><$04><POR><$B4>Burp!<LF>
+<WAI><$10><POR><$B5>
+<NC1> is still a<LF>
+long way off.<END>
+
 
 
 //POINTER #190 @ $1E3378 - STRING #190 @ $1D8E0C
 
 #W24($1E3378)
-//<STY><$04><POR><$B4>「ふむ<LF>
-//<WAI><$10> 連れて行きたいものが<LF>
-// いるのだがよいかな?<END>
+<STY><$04><POR><$B4>
+Burp! <WAI><$10>Wasn't there<LF>
+something I wanted<LF>
+to bring with me?<END>
 
 
 //POINTER #191 @ $1E337C - STRING #191 @ $1D8E3C
 
 #W24($1E337C)
-//<STY><$0E><POR><$B4>「ふむ<LF>
-//<WAI><$10><POR><$B5> 助かる<END>
+<STY><$0E><POR><$B4>Oh, yes.<LF>
+<WAI><$10><POR><$B5>This will help.<END>
 
 
 //POINTER #192 @ $1E3380 - STRING #192 @ $1D8E51
 
 #W24($1E3380)
-//<STY><$13><POR><$0C>"<CGR>マモン<CWH>"<LF>
-//(友達魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+<STY><$13><POR><$0C>
+Ally Gem unlocked:<LF>
+<CGR>Treant<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #193 @ $1E3384 - STRING #193 @ $1D8E88
 
 #W24($1E3384)
-//<STY><$04><POR><$B4>「ふむ<LF>
-//<WAI><$10> 連れて行きたいものが<LF>
-// いるのだがよいかな?<END>
+<STY><$04><POR><$B4>
+Burp! <WAI><$10>Wasn't there<LF>
+someone I wanted<LF>
+to bring with me?<END>
 
 
 //POINTER #194 @ $1E3388 - STRING #194 @ $1D8EB8
 
 #W24($1E3388)
-//<STY><$0F><POR><$0C>"<CGR>ドリッピー<CWH>"<LF>
-//(友達魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+//<STY><$0F><POR><$0C>
+Ally Gem unlocked:<LF>
+<CGR>Drippy<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #195 @ $1E338C - STRING #195 @ $1D8EF2
 
 #W24($1E338C)
-//<STY><$10><POR><$B4>「ゎれゎれモルボルのことに<LF>
-// ついて,話をしておこう<LF>
-//<LF>
-// ゎれゎれは仲間をだいじに<LF>
-// している<LF>
-//<LF>
-// より多くゎれゎれを召喚し<LF>
-// 蛋くがいい<END>
+<STY><$10><POR><$B4>
+Let's talk about us<LF>
+Morbols. We take<LF>
+good care of our<LF>
+friends. The more of<LF>
+us you summon the<LF>
+better.<END>
 
+// +2 LFs
 
 //POINTER #196 @ $1E3390 - STRING #196 @ $1D8F63
 
 #W24($1E3390)
-//<STY><$10><POR><$B5>「話はそれだけだ<END>
+<STY><$10><POR><$B5>
+That's all I have<LF>
+to say.<END>
 
 
 //POINTER #197 @ $1E3394 - STRING #197 @ $1D8F76
 
 #W24($1E3394)
-//<STY><$13><POR><$58>「ゎかった~?<END>
+<STY><$13><POR><$58>Got it?<END>
 
 
 //POINTER #198 @ $1E3398 - STRING #198 @ $1D8F85
 
 #W24($1E3398)
-//<STY><$06><POR><$0C><WAI><$28><SND><$BF><POR><$0F><WAI><$14><POR><$0C><SND><$A9><WAI><$14><$F6><END>
+<STY><$06><POR><$0C><WAI><$28><SND><$BF><POR><$0F><WAI><$14><POR><$0C><SND><$A9><WAI><$14><$F6><END>
 
 
 //POINTER #199 @ $1E339C - STRING #199 @ $1D8F99
 
 #W24($1E339C)
-//<STY><$05><POR><$59>「そうだね~<LF>
-// そのうちゎかるよね<END>
+<STY><$05><POR><$59>Right.<LF>
+We'll figure it out.<END>
 
 
 //POINTER #200 @ $1E33A0 - STRING #200 @ $1D8FB9
 
 #W24($1E33A0)
-//<STY><$0E><POR><$B6>「なんということだ<LF>
-// このゎたしが<VOF>………<VON><END>
+<STY><$0E><POR><$B6>
+Blast! How could I<LF>
+lose like that<VOF>………<VON><END>
 
 
 //POINTER #201 @ $1E33A4 - STRING #201 @ $1D8FDC
 
 #W24($1E33A4)
-//<STY><$12><POR><$A8>「あ,<WAI><$0A>あの<VOF>…<VON><LF>
-//<WAI><$0A><POR><$AB> やはり向こうには<LF>
-// こないでほしいと<VOF>…<VON><END>
+<STY><$12><POR><$A8>Um.<WAI><$0A>Well.<VOF>…<VON><LF>
+<WAI><$0A><POR><$AB>
+Again, please don't<LF>
+come any closer<VOF>…<VON><END>
 
 
 //POINTER #202 @ $1E33A8 - STRING #202 @ $1D9011
 
 #W24($1E33A8)
-//<STY><$0E><POR><$B6>「思い知ったか!<END>
+<STY><$0E><POR><$B6>Got it!<END>
 
 
 //POINTER #203 @ $1E33AC - STRING #203 @ $1D9022
 
 #W24($1E33AC)
-//<STY><$12><POR><$A8>「あ,<WAI><$0A>あの<VOF>…<VON><LF>
-//<WAI><$0A><POR><$AB> 向こうにも<LF>
-// こないでほしいと<VOF>…<VON><END>
+<STY><$12><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
+<WAI><$0A><POR><$AB>
+Please don't come<LF>
+any closer<VOF>…<VON><END>
 
 
 //POINTER #204 @ $1E33B0 - STRING #204 @ $1D9051
 
 #W24($1E33B0)
-//<STY><$0F><POR><$58>「どうですかぁ~<END>
+<STY><$0F><POR><$58>How about-<END>
 
 
 //POINTER #205 @ $1E33B4 - STRING #205 @ $1D9060
 
 #W24($1E33B4)
-//<STY><$10><POR><$A8>「あ,<WAI><$0A>あの<VOF>…<VON><LF>
-//<WAI><$0A><POR><$AB> <VOF>………<VON>スイマセン!<END>
+<STY><$10><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
+<WAI><$0A><POR><$AB><VOF>………<VON>I'm sorry!<END>
 
 
 //POINTER #206 @ $1E33B8 - STRING #206 @ $1D9086
 
 #W24($1E33B8)
-//<STY><$11><POR><$2C>「いえいえ,ゎたしもやって<LF>
-// しまいましたから<END>
-
+<STY><$11><POR><$2C>
+No, no, I've done<LF>
+similar things<LF>
+myself.<END>
 
 //POINTER #207 @ $1E33BC - STRING #207 @ $1D90AC
 
 #W24($1E33BC)
-//<STY><$10><POR><$B4>「<VOF>…<VON>見知らぬかたがた<LF>
-//<POR><$B7> もうしゎけないことを<LF>
-// してしまったな<END>
+<STY><$10><POR><$B4><VOF>…<VON>
+Strangers<LF>
+<POR><$B7>
+I'm so sorry for my<LF>
+behavior.<END>
 
 
 //POINTER #208 @ $1E33C0 - STRING #208 @ $1D90E4
 
 #W24($1E33C0)
-//<STY><$11><POR><$48>「なおって…<LF>
-// よかったよ<END>
+<STY><$11><POR><$48>He's healed<VOF>…<VON><LF>
+Good.<END>
 
 
 //POINTER #209 @ $1E33C4 - STRING #209 @ $1D90FD
 
 #W24($1E33C4)
-//<STY><$10><POR><$B4>「ふむ<WAI><$14><LF>
-//<POR><$B5> 心配をかけたな<END>
+<STY><$10><POR><$B4>Burp!<WAI><$14><LF>
+<POR><$B5>
+I didn't mean to<LF>
+worry you.<END>
 
 
 //POINTER #210 @ $1E33C8 - STRING #210 @ $1D9119
 
 #W24($1E33C8)
-//<STY><$11><POR><$58>「それよりも<LF>
-// ダイジョウブですかぁ?<END>
+<STY><$11><POR><$58>
+What's important is<LF>
+that you're feeling<LF>
+better now.<END>
+
 
 
 //POINTER #211 @ $1E33CC - STRING #211 @ $1D913D
 
 #W24($1E33CC)
-//<STY><$10><POR><$B4>「ふむ<WAI><$10><LF>
-// 問題ないだろう<VOF>…<VON><END>
+<STY><$10><POR><$B4>Burp!<WAI><$10><LF>
+No problem, I feel<LF>
+great!<VOF>…<VON><END>
 
 
 //POINTER #212 @ $1E33D0 - STRING #212 @ $1D915A
 
 #W24($1E33D0)
-//<STY><$10><POR><$B4>「それよりも,なにが<LF>
-// おころうとしているのか<LF>
-// 知っているのか?<END>
+<STY><$10><POR><$B4>
+But what happened to<LF>
+me? Do you have any<LF>
+clue?<END>
 
 
 //POINTER #213 @ $1E33D4 - STRING #213 @ $1D9191
 
 #W24($1E33D4)
-//<STY><$11><POR><$2C>「おかしくなってしまうのは<END>
+<STY><$11><POR><$2C>
+This one suspicious<LF>
+element we keep<LF>
+encountering-<END>
 
 
 //POINTER #214 @ $1E33D8 - STRING #214 @ $1D91A9
 
 #W24($1E33D8)
-//<STY><$11><POR><$24>「<CYL>クリスタル<CWH>に<LF>
-// なにかがおこって<VOF>………<VON><END>
+<STY><$11><POR><$24>
+The <CYL>Crystal<CWH>.<END>
 
 
 //POINTER #215 @ $1E33DC - STRING #215 @ $1D91D0
 
 #W24($1E33DC)
-//<STY><$11><POR><$2C>「いるらしいのですが<VOF>……<VON><LF>
-// はっきりとは<LF>
-// していません<END>
+//<STY><$11><POR><$2C>
+So we've been told<VOF>…<VON><LF>
+Yet I'm not certain.<END>
 
 
 //POINTER #216 @ $1E33E0 - STRING #216 @ $1D91FF
 
 #W24($1E33E0)
-//<STY><$11><POR><$58>「でも~<END>
+<STY><$11><POR><$58>But-<END>
 
 
 //POINTER #217 @ $1E33E4 - STRING #217 @ $1D920A
 
 #W24($1E33E4)
-//<STY><$11><POR><$2C>「関係しているのは<LF>
-// 確かです<END>
+<STY><$11><POR><$2C>
+I'm sure there is<LF>
+some sort of<LF>
+connection.<END>
 
 
 //POINTER #218 @ $1E33E8 - STRING #218 @ $1D9226
 
 #W24($1E33E8)
-//<STY><$10><POR><$B4>「なるほど<VOF>………<VON><END>
+<STY><$10><POR><$B4>I see<VOF>………<VON><END>
 
 
 //POINTER #219 @ $1E33EC - STRING #219 @ $1D9239
 
 #W24($1E33EC)
-//<STY><$10><POR><$B4>「<CYL>【マスタークリスタル】<CWH><LF>
-// になにかあったの<LF>
-// かもしれんな<END>
+<STY><$10><POR><$B4>
+Something might have<LF>
+happened to the<LF>
+<CYL>Master Crystal<CWH>.<END>
 
 
 //POINTER #220 @ $1E33F0 - STRING #220 @ $1D9270
 
 #W24($1E33F0)
-//<STY><$11><POR><$58>「ますた~?<END>
+<STY><$11><POR><$58>Master-?<END>
 
 
 //POINTER #221 @ $1E33F4 - STRING #221 @ $1D927D
 
 #W24($1E33F4)
-//<STY><$11><POR><$24>「<CYL>クリスタル<CWH>?<END>
+<STY><$11><POR><$24><CYL>Crystal<CWH>?<END>
 
 
 //POINTER #222 @ $1E33F8 - STRING #222 @ $1D9290
 
 #W24($1E33F8)
-//<STY><$11><POR><$2C>「ですか<VOF>………?<VON><END>
+<STY><$11><POR><$2C>
+What is that<VOF>………?<VON><END>
 
 
 //POINTER #223 @ $1E33FC - STRING #223 @ $1D92A0
 
 #W24($1E33FC)
-//<STY><$10><POR><$B4>「<CYL>【マスタークリスタル】<CWH><LF>
-// を調べに行く必要が<LF>
-// ありそうだな<END>
+<STY><$10><POR><$B4>
+I guess we must go<LF>
+and check on the<LF>
+<CYL>Master Crystal<CWH>.<END>
 
 
 //POINTER #224 @ $1E3400 - STRING #224 @ $1D92D9
 
 #W24($1E3400)
-//<STY><$11><POR><$24>「どこに<VOF>………?<VON><END>
+<STY><$11><POR><$24>But<VOF>………<VON>where?<END>
 
 
 //POINTER #225 @ $1E3404 - STRING #225 @ $1D92EA
 
 #W24($1E3404)
-//<STY><$12><POR><$B4>「上に見えている火山の<LF>
-// おくにあると言ゎれている<END>
+<STY><$12><POR><$B4>
+It's said to be hid-<LF>
+den deep in the vol-<LF>
+cano looming there.<END>
 
 
 //POINTER #226 @ $1E3408 - STRING #226 @ $1D9318
 
 #W24($1E3408)
-//<STY><$06><POR><$0C><WAI><$1E><POR><$0D><SND><$AB><WAI><$1E><POR><$0C><WAI><$1E><$F6><END>
+<STY><$06><POR><$0C><WAI><$1E><POR><$0D><SND><$AB><WAI><$1E><POR><$0C><WAI><$1E><$F6><END>
 
 
 //POINTER #227 @ $1E340C - STRING #227 @ $1D932A
 
 #W24($1E340C)
-//<STY><$11><POR><$2D>「行ったことはないと<VOF>…<VON><END>
+<STY><$11><POR><$2D>
+I've never been<LF>
+there<VOF>…<VON><END>
 
 
 //POINTER #228 @ $1E3410 - STRING #228 @ $1D9343
 
 #W24($1E3410)
-//<STY><$10><POR><$B4>「そうだ<LF>
-// 行ったことはない<LF>
-//<POR><$B5><WAI><$14> では,行こうか<END>
+<STY><$10><POR><$B4>
+Yup, me neither.<LF>
+<POR><$B5><WAI><$14>Well, let's go.<END>
 
 
 //POINTER #229 @ $1E3414 - STRING #229 @ $1D936E
 
 #W24($1E3414)
-//<STY><$11><POR><$0C>"<CGR>モルボル<CWH>"<LF>
-//(友達魔石)を召喚できる<LF>
-//<SND><$A9><POR><$0D>ようになった!!<END>
+<STY><$11><POR><$0C>
+Ally Gem unlocked:<LF>
+<CGR>Morbol<CWH><LF>
+<SND><$A9><POR><$0D>Amazing!<END>
 
 
 //POINTER #230 @ $1E3418 - STRING #230 @ $1D93A7
