@@ -34,17 +34,17 @@ Game speed<END>
 //POINTER #4 @ $1E3090 - STRING #4 @ $1D687E
 
 #W24($1E3090)
-Show player magic<END>
+Animate player magic<END>
 
 //POINTER #5 @ $1E3094 - STRING #5 @ $1D68B9
 
 #W24($1E3094)
-Show enemy magic<END>
+Animate enemy magic<END>
 
 //POINTER #6 @ $1E3098 - STRING #6 @ $1D68F4
 
 #W24($1E3098)
-Notify on skip turn<END>
+Notify when skipping turn<END>
 
 //##########################################
 // Encyclopedia Intros
@@ -214,11 +214,11 @@ square you land on, un-<LF>
 less you have Confusion<LF>
 or Poison status.<LF>
 Cost = (number Defenders ×<LF>
-        square fee) × 2<LF>
-Also, your Ally's growth<LF>
-rate(or their stack size)<LF>
+        square value) × 2<LF>
+Also, your Ally's power<LF>
 must be greater than the<LF>
-enemy's.<END>
+enemy's. Allies can stack<LF>
+their power.<END>
 
 //POINTER #23 @ $1E30DC - STRING #23 @ $1D737E
 
@@ -243,13 +243,13 @@ gone.<END>
 When you land on one of<LF>
 your squares, you can<LF>
 stack more Allies on it,<LF>
-increasing the growth<LF>
-rate and the number of<LF>
-defenders against at-<LF>
-tacks.CP value rises with<LF>
-the growth rate. Up to 3<LF>
-Allies can be placed in 1<LF>
-square.<END>
+increasing the power and<LF>
+the number of defenders<LF>
+against attacks. CP value<LF>
+is increased by the com-<LF>
+bined power factor. Up to<LF>
+three Allies can be<LF>
+placed in one square.<END>
 
 //POINTER #25 @ $1E30E4 - STRING #25 @ $1D75C5
 
@@ -264,8 +264,7 @@ his square.<LF>
 <LF>
 Selling price =<LF>
 square value (including<LF> 
-growth rate and status <LF>
-effects)               +<LF>
+power and status eff.) +<LF>
 (Ally's summon CP ÷ 2) ×<LF>
 number of stacks       +<LF>
 (square level × 100 )<END>
@@ -1116,7 +1115,7 @@ Let's go together!<END>
 #W24($1E32A4)
 <STY><$13><POR><$0C>
 Ally Gem unlocked:<LF>
-<CGR>Devilfish<CWH><LF>
+<CGR>Octokraken<CWH><LF>
 <SND><$A9><POR><$0D>Amazing!<END>
 
 
@@ -3016,7 +3015,7 @@ Why am I, like, los-<LF>
 ing?<VOF>……<VON>Damn! I must<LF>
 turn this around!<END>
 「なんだってアタシが<LF>
-// 負けちゃうのよ<VOF>………<VON><LF>
+// Bけちゃうのよ<VOF>………<VON><LF>
 // まったく!<END>
 
 
@@ -3978,7 +3977,7 @@ thoughts<VOF>…<VON><END>
 #W24($1E385C)
 <STY><$11><POR><$24>
 What is it with<LF>
-these <CYL>>Crystals<CWH><VOF>…<VON><END>
+these <CYL>Crystals<CWH><VOF>…<VON><END>
 
 
 //POINTER #504 @ $1E3860 - STRING #504 @ $1DB746
@@ -4000,17 +3999,16 @@ influence<VOF>…<VON><END>
 
 #W24($1E3868)
 <STY><$11><POR><$25>
-If we gather the<LF>
-<CYL>Crystals<CWH> first<VOF>…<VON><END>
+If we get the<LF>
+<CYL>Crystal<CWH> first<VOF>…<VON><END>
 
 
 //POINTER #507 @ $1E386C - STRING #507 @ $1DB7AB
 
 #W24($1E386C)
 <STY><$11><POR><$59>
-Looks like you're<LF>
-back to where<LF>
-you started.<END>
+He'll be back<LF>
+to normal!<END>
 
 
 //POINTER #508 @ $1E3870 - STRING #508 @ $1DB7C4
@@ -5430,7 +5428,7 @@ Let's proceed.<END>
 
 #W24($1E3B64)
 <STY><$0E><POR><$CC>□△×<WAI><$3C><LF>
-#○*<WAI><$14><END>
+*#○*<WAI><$14><END>
 
 
 //POINTER #698 @ $1E3B68 - STRING #698 @ $1DCE19
@@ -6624,7 +6622,7 @@ to be awestruck!<END>
 #W24($1E3DD4)
 <STY><$13><POR><$0C>
 Magicite unlocked:<LF>
-<CRD>Kings<CWH><LF>
+<CRD>King's Boon<CWH><LF>
 <SND><$A9><POR><$0D>Amazing!<END>
 
 
@@ -6721,3356 +6719,3407 @@ All stages complete.<END>
 #W24($1E3E04)
 Cleared!<END>
 
-
+//**********************************************
+// Level names (16 ch)
 //POINTER #866 @ $1E3E08 - STRING #866 @ $1DE412
 
 #W24($1E3E08)
 Mage Plains<LF>
-<CWH>Target<END>
+<CWH>Goal<END>
 
 
 //POINTER #867 @ $1E3E0C - STRING #867 @ $1DE425
 
 #W24($1E3E0C)
-//サハギンの水辺<LF>
-//<CWH>目標<END>
+Sahagin Marsh<LF>
+<CWH>Goal<END>
 
 
 //POINTER #868 @ $1E3E10 - STRING #868 @ $1DE43A
 
 #W24($1E3E10)
-//ギガントードの沼<LF>
-//<CWH>目標<END>
+Gigantoad Swamp<LF>
+<CWH>Goal<END>
 
 
 //POINTER #869 @ $1E3E14 - STRING #869 @ $1DE450
 
 #W24($1E3E14)
-//ベヒーモスヶ原<LF>
-//<CWH>目標<END>
+Behemoth Plains<LF>
+<CWH>Goal<END>
 
 
 //POINTER #870 @ $1E3E18 - STRING #870 @ $1DE464
 
 #W24($1E3E18)
-//モルボルの森<LF>
-//<CWH>目標<END>
+Morbol Forest<LF>
+<CWH>Goal<END>
 
 
 //POINTER #871 @ $1E3E1C - STRING #871 @ $1DE477
 
 #W24($1E3E1C)
-//コカトリスの森林<LF>
-//<CWH>目標<END>
+Cockatrice Wood<LF>
+<CWH>Goal<END>
 
 
 //POINTER #872 @ $1E3E20 - STRING #872 @ $1DE48E
 
 #W24($1E3E20)
-//トンベリの洞窟<LF>
-//<CWH>目標<END>
+Tonberry Cave<LF>
+<CWH>Goal<END>
 
 
 //POINTER #873 @ $1E3E24 - STRING #873 @ $1DE4A3
 
 #W24($1E3E24)
-//ゴブリンの岩場<LF>
-//<CWH>目標<END>
+Goblin Crag<LF>
+<CWH>Goal<END>
 
 
 //POINTER #874 @ $1E3E28 - STRING #874 @ $1DE4B8
 
 #W24($1E3E28)
-//ラミアの火山<LF>
-//<CWH>目標<END>
+Lamia Volcano<LF>
+<CWH>Goal<END>
 
 
 //POINTER #875 @ $1E3E2C - STRING #875 @ $1DE4CB
 
 #W24($1E3E2C)
-//ゴーレムの護る地<LF>
-//<CWH>目標<END>
+Golem's Domain<LF>
+<CWH>Goal<END>
 
 
 //POINTER #876 @ $1E3E30 - STRING #876 @ $1DE4E1
 
 #W24($1E3E30)
-//いにしえの遺跡<LF>
-//<CWH>目標<END>
+Ancient Ruins<LF>
+<CWH>Goal<END>
 
 
 //POINTER #877 @ $1E3E34 - STRING #877 @ $1DE4F3
 
 #W24($1E3E34)
-//隠された間技場<LF>
-//<CWH>目標<END>
+Hidden Arena<LF>
+<CWH>Goal<END>
 
 
 //POINTER #878 @ $1E3E38 - STRING #878 @ $1DE507
 
 #W24($1E3E38)
-//風の舞う森<LF>
-//<CWH>目標<END>
+Galewood<LF>
+<CWH>Goal<END>
 
 
 //POINTER #879 @ $1E3E3C - STRING #879 @ $1DE517
 
 #W24($1E3E3C)
-//風の香る森<LF>
-//<CWH>目標<END>
+Springwood<LF>
+<CWH>Goal<END>
 
 
 //POINTER #880 @ $1E3E40 - STRING #880 @ $1DE528
 
 #W24($1E3E40)
-//名もなき洞窟<LF>
-//<CWH>目標<END>
+Nameless Cave<LF>
+<CWH>Goal<END>
 
 
 //POINTER #881 @ $1E3E44 - STRING #881 @ $1DE53A
 
 #W24($1E3E44)
-//くれゆく洞窟<LF>
-//<CWH>目標<END>
+Twilight Cave<LF>
+<CWH>Goal<END>
 
-
+//**********************************************
+// Ally Gem short descriptions (26ch)
 //POINTER #882 @ $1E3E48 - STRING #882 @ $1DE54B
 
 #W24($1E3E48)
-//<STY><$02><CGR>カーバンクル  <LF>
-//<CWH>攻撃魔石の攻撃から守ってくれること<LF>
-//があります<END>
+<STY><$02><CGR>Carbuncle<LF>
+<CWH>Protects from Magicite<END>
 
 
 //POINTER #883 @ $1E3E4C - STRING #883 @ $1DE585
 
 #W24($1E3E4C)
-//<STY><$02><CGR>白魔道士    <LF>
-//<CWH>状態異常をなおしてくれることが<LF>
-//あります<END>
+<STY><$02><CGR>White Mage<LF>
+<CWH>Heals status effects<END>
 
 
 //POINTER #884 @ $1E3E50 - STRING #884 @ $1DE5B7
 
 #W24($1E3E50)
-//<STY><$02><CGR>ドル      <LF>
-//<CWH>マスをレベルアップさせるとしばらく<LF>
-//起きていてアップ率があがります<END>
+<STY><$02><CGR>Chip<LF>
+<CWH>Bonus power when awake<LF>
+after level-up<END>
 
 
 //POINTER #885 @ $1E3E54 - STRING #885 @ $1DE5FE
 
 #W24($1E3E54)
-//<STY><$02><CGR>黒魔道士    <LF>
-//<CWH>となりあったマスへ蛋くとアップ率が<LF>
-//あがります<END>
+<STY><$02><CGR>Black Mage<LF>
+<CWH>Bonus power when adjacent<LF>
+to other Black Mages<END>
 
 
 //POINTER #886 @ $1E3E58 - STRING #886 @ $1DE637
 
 #W24($1E3E58)
-//<STY><$02><CGR>オーガ     <LF>
-//<CWH>襲いかかってくることがあります<LF>
-//襲ゎれるとはね飛ばされます<END>
+<STY><$02><CGR>Ogre<LF>
+<CWH>Bounces players randomly<END>
 
 
 //POINTER #887 @ $1E3E5C - STRING #887 @ $1DE676
 
 #W24($1E3E5C)
-//<STY><$02><CGR>ヘッジホッグ  <LF>
-//<CWH>トゲで刺してくることがあります<LF>
-//刺されると6がでなくなります<END>
+<STY><$02><CGR>Hedgehog<LF>
+<CWH>Stings enemies to prevent<LF>
+a 6 roll<END>
 
 
 //POINTER #888 @ $1E3E60 - STRING #888 @ $1DE6BA
 
 #W24($1E3E60)
-//<STY><$02><CGR>サハギン    <LF>
-//<CWH>ライバルが「カエル」であればそれを<LF>
-//ひきのばすことがあります<END>
+<STY><$02><CGR>Sahagin<LF>
+<CWH>Extends Frog effect<LF>
+on enemies<END>
 
 
 //POINTER #889 @ $1E3E64 - STRING #889 @ $1DE6FD
 
 #W24($1E3E64)
-//<STY><$02><CGR>デビルフィッシュ<LF>
-//<CWH>キュウバンで吸いつくことがあります<LF>
-//吸いつかれると1順休みになります<END>
+<STY><$02><CGR>Octokraken<LF>
+<CWH>Ensnares enemies to<LF>
+make them miss a turn<END>
 
 
 //POINTER #890 @ $1E3E68 - STRING #890 @ $1DE74C
 
 #W24($1E3E68)
-//<STY><$02><CGR>ミストドラゴン<LF>
-//<CWH>「眠り」にならないように守ってくれ<LF>
-//ることがあります<END>
+<STY><$02><CGR>Mist Dragon<LF>
+<CWH>Protects from Sleep<END>
 
 
 //POINTER #891 @ $1E3E6C - STRING #891 @ $1DE78A
 
 #W24($1E3E6C)
-//<STY><$02><CGR>モルボル<LF>
-//<CWH>ライバルが「混乱」「毒」であれば<LF>
-//それをひきのばすことがあります<END>
+<STY><$02><CGR>Morbol<LF>
+<CWH>Extends Confusion and<LF>
+Poison effects on enemies<END>
 
 
 //POINTER #892 @ $1E3E70 - STRING #892 @ $1DE7CB
 
 #W24($1E3E70)
-//<STY><$02><CGR>マモン<LF>
-//<CWH>進む方向をゎからなくさせてしまう<LF>
-//ことがあります<END>
+<STY><$02><CGR>Treant<LF>
+<CWH>Changes move direction<END>
 
 
 //POINTER #893 @ $1E3E74 - STRING #893 @ $1DE7FC
 
 #W24($1E3E74)
-//<STY><$02><CGR>ドリッピー<LF>
-//<CWH>木ヅチでたたいてくることがあります<LF>
-//キゼツして1順休みになります<END>
+<STY><$02><CGR>Drippy<LF>
+<CWH>Hammers enemies to stun<LF>
+them for a turn<END>
 
 
 //POINTER #894 @ $1E3E78 - STRING #894 @ $1DE841
 
 #W24($1E3E78)
-//<STY><$02><CGR>オニオン<LF>
-//<CWH>怪音波をだしてライバルの「加速」を<LF>
-//消してしまうことがあります<END>
+<STY><$02><CGR>Onion<LF>
+<CWH>Screams at enemies to<LF>
+remove Haste<END>
 
 
 //POINTER #895 @ $1E3E7C - STRING #895 @ $1DE882
 
 #W24($1E3E7C)
-//<STY><$02><CGR>ゴブリン<LF>
-//<CWH>CPをちょっと多めにとることが<LF>
-//あります<END>
+<STY><$02><CGR>Goblin<LF>
+<CWH>Collects extra CP<LF>
+from enemies<END>
 
 
 //POINTER #896 @ $1E3E80 - STRING #896 @ $1DE8B1
 
 #W24($1E3E80)
-//<STY><$02><CGR>トンベリ<LF>
-//<CWH>攻撃されたウラミをおぼえています<LF>
-//ウラミの分アップ率があがります<END>
+<STY><$02><CGR>Tonberry<LF>
+<CWH>Holds a grudge when<LF>
+attacked for bonus power<END>
 
 
 //POINTER #897 @ $1E3E84 - STRING #897 @ $1DE8F5
 
 #W24($1E3E84)
-//<STY><$02><CGR>スティールバット<LF>
-//<CWH>ライバルが「減速」であればそれを<LF>
-//ひきのばすことがあります<END>
+<STY><$02><CGR>Steel Bat<LF>
+<CWH>Extends Slow effect<LF>
+on enemies<END>
 
 
 //POINTER #898 @ $1E3E88 - STRING #898 @ $1DE939
 
 #W24($1E3E88)
-//<STY><$02><CGR>フロータイボール<LF>
-//<CWH>にらみつけてくることがあります<LF>
-//ビックリして2しかでなくなります<END>
+<STY><$02><CGR>Floateye<LF>
+<CWH>Stares at enemies to make<LF>
+them roll a 2 next turn<END>
 
 
 //POINTER #899 @ $1E3E8C - STRING #899 @ $1DE980
 
 #W24($1E3E8C)
-//<STY><$02><CGR>ムース<LF>
-//<CWH>ふんでころんでしまうことがあります<LF>
-//次に進む方向が逆になります<END>
+<STY><$02><CGR>Mousse<LF>
+<CWH>Trips players to reverse<LF>
+move direction<END>
 
 
 //POINTER #900 @ $1E3E90 - STRING #900 @ $1DE9BF
 
 #W24($1E3E90)
-//<STY><$02><CGR>マッドマン<LF>
-//<CWH>足首をつかんでくることがあります<LF>
-//つかまれたら1しかでなくなります<END>
+<STY><$02><CGR>Mudman<LF>
+<CWH>Grabs enemies to make<LF>
+them roll a 1 next turn<END>
 
 
 //POINTER #901 @ $1E3E94 - STRING #901 @ $1DEA04
 
 #W24($1E3E94)
-//<STY><$02><CGR>ゴーレム<LF>
-//<CWH>「石化」にならないように守って<LF>
-//くれることがあります<END>
+<STY><$02><CGR>Golem<LF>
+<CWH>Protects from Petrify<END>
 
 
 //POINTER #902 @ $1E3E98 - STRING #902 @ $1DEA3B
 
 #W24($1E3E98)
-//<STY><$02><CGR>ダークタイタン<LF>
-//<CWH>頭突きで襲ってくることがあります<LF>
-//クラクラして2しかでなくなります<END>
+<STY><$02><CGR>Dark Titan<LF>
+<CWH>Headbutts enemies to make<LF>
+them roll a 2 next turn<END>
 
 
 //POINTER #903 @ $1E3E9C - STRING #903 @ $1DEA83
 
 #W24($1E3E9C)
-//<STY><$02><CGR>ヒルギガース<LF>
-//<CWH>クサリをまきつけてくることがありま<LF>
-//す 動けなくて1順休みになります<END>
+<STY><$02><CGR>Hill Gigas<LF>
+<CWH>Enchains enemies to make<LF>
+them miss a turn<END>
 
 
 //POINTER #904 @ $1E3EA0 - STRING #904 @ $1DEACB
 
 #W24($1E3EA0)
-//<STY><$02><CGR>ボム<LF>
-//<CWH>マスをレベルアップさせると気合いが<LF>
-//入ってアップ率があがります<END>
+<STY><$02><CGR>Bomb<LF>
+<CWH>Builds up energy on<LF>
+level-up for bonus power<END>
 
 
 //POINTER #905 @ $1E3EA4 - STRING #905 @ $1DEB0A
 
 #W24($1E3EA4)
-//<STY><$02><CGR>ランドタートル<LF>
-//<CWH>マスのレベルに合ゎせてみがまえます<LF>
-//みがまえるとアップ率があがります<END>
+<STY><$02><CGR>Land Turtle<LF>
+<CWH>Retracts its head on even<LF>
+levels for bonus power<END>
 
 
 //POINTER #906 @ $1E3EA8 - STRING #906 @ $1DEB56
 
 #W24($1E3EA8)
-//<STY><$02><CGR>ローラー<LF>
-//<CWH>となりあったマスへ蛋くとアップ率が<LF>
-//あがります<END>
+<STY><$02><CGR>Roller<LF>
+<CWH>Bonus power when adjacent<LF>
+to other Rollers<END>
 
 
 //POINTER #907 @ $1E3EAC - STRING #907 @ $1DEB89
 
 #W24($1E3EAC)
-//<STY><$02><CGR>ホーリードラゴン<LF>
-//<CWH>はげしくほえることがあります<LF>
-//こゎくなって1しかでなくなります<END>
+<STY><$02><CGR>Holy Dragon<LF>
+<CWH>Roars at enemies to make<LF>
+them roll a 1 next turn<END>
 
 
 //POINTER #908 @ $1E3EB0 - STRING #908 @ $1DEBCB
 
 #W24($1E3EB0)
-//<STY><$02><CGR>ワーム<LF>
-//<CWH>「眠り」にならないように守って<LF>
-//くれます<END>
+<STY><$02><CGR>Worm<LF>
+<CWH>Protects from Sleep effect<END>
 
 
 //POINTER #909 @ $1E3EB4 - STRING #909 @ $1DEBF7
 
 #W24($1E3EB4)
-//<STY><$02><CGR>ギガントード<LF>
-//<CWH>「カエル」にならないように守って<LF>
-//くれます<END>
+<STY><$02><CGR>Gigantoad<LF>
+<CWH>Protects from Frog effect<END>
 
 
 //POINTER #910 @ $1E3EB8 - STRING #910 @ $1DEC2B
 
 #W24($1E3EB8)
-//<STY><$02><CGR>コカトリス<LF>
-//<CWH>「石化」にならないように守って<LF>
-//くれます<END>
+<STY><$02><CGR>Cockatrice<LF>
+<CWH>Protects from Petrify<LF>
+effect<END>
 
 
 //POINTER #911 @ $1E3EBC - STRING #911 @ $1DEC5C
 
 #W24($1E3EBC)
-//<STY><$02><CGR>ワイルドラット<LF>
-//<CWH>白分が「加速」であればさらに<LF>
-//ひきのばしてくれます<END>
+<STY><$02><CGR>Wild Rat<LF>
+<CWH>Extends Haste effect<END>
 
 
 //POINTER #912 @ $1E3EC0 - STRING #912 @ $1DEC98
 
 #W24($1E3EC0)
-//<STY><$02><CGR>スラグ<LF>
-//<CWH>ライバルが「減速」であればそれを<LF>
-//さらにひきのばします<END>
+<STY><$02><CGR>Slug<LF>
+<CWH>Extends Slow effect<LF>
+on enemies<END>
 
 
 //POINTER #913 @ $1E3EC4 - STRING #913 @ $1DECD1
 
 #W24($1E3EC4)
-//<STY><$02><CGR>ラミア<LF>
-//<CWH>ライバルが「混乱」であればそれを<LF>
-//さらにひきのばします<END>
+<STY><$02><CGR>Lamia<LF>
+<CWH>Extends Confusion effect<LF>
+on enemies<END>
 
 
 //POINTER #914 @ $1E3EC8 - STRING #914 @ $1DED0A
 
 #W24($1E3EC8)
-//<STY><$02><CGR>サボテンダー<LF>
-//<CWH>ライバルが「毒」であればそれを<LF>
-//さらにひきのばします<END>
+<STY><$02><CGR>Cactuar<LF>
+<CWH>Extends Poison effect<LF>
+on enemies<END>
 
 
 //POINTER #915 @ $1E3ECC - STRING #915 @ $1DED46
 
 #W24($1E3ECC)
-//<STY><$02><CGR>アトラ<LF>
-//<CWH>CPを多めにとることがあります<LF>
-//それをくれることもあります<END>
+<STY><$02><CGR>Atla<LF>
+<CWH>Collects extra CP<LF>
+from enemies<END>
 
+//**********************************************
+// Magicite description short
 
 //POINTER #916 @ $1E3ED0 - STRING #916 @ $1DED81
 
 #W24($1E3ED0)
-//<STY><$02><CRD>ワーム     <LF>
-//<CWH>「眠り」になります<LF>
-//1順休みになります<END>
+<STY><$02><CRD>Worm<LF>
+<CWH>Sleep: Lose a turn<END>
 
 
 //POINTER #917 @ $1E3ED4 - STRING #917 @ $1DEDB1
 
 #W24($1E3ED4)
-//<STY><$02><CRD>ギガントード  <LF>
-//<CWH>「カエル」になります<LF>
-//3順魔石が使えなくなります<END>
+<STY><$02><CRD>Gigantoad<LF>
+<CWH>Frog: Can't use Magicite<LF>
+or Ally Gems for 3 turns<END>
 
 
 //POINTER #918 @ $1E3ED8 - STRING #918 @ $1DEDEB
 
 #W24($1E3ED8)
-//<STY><$02><CRD>コカトリス   <LF>
-//<CWH>「石化」になります<LF>
-//2順休みになります<END>
+<STY><$02><CRD>Cockatrice<LF>
+<CWH>Petrify: Lose 2 turns<END>
 
 
 //POINTER #919 @ $1E3EDC - STRING #919 @ $1DEE1E
 
 #W24($1E3EDC)
-//<STY><$02><CRD>ワイルドラット <LF>
-//<CWH>「加速」になり,2順ダイスが<LF>
-//4・5・6だけになります<END>
+<STY><$02><CRD>Wild Rat<LF>
+<CWH>Haste: Roll only 4,5 or 6<LF>
+for 2 turns<END>
 
 
 //POINTER #920 @ $1E3EE0 - STRING #920 @ $1DEE5C
 
 #W24($1E3EE0)
-//<STY><$02><CRD>スラグ     <LF>
-//<CWH>「減速」になり,2順ダイスが<LF>
-//1・2・3だけになります<END>
+<STY><$02><CRD>Slug<LF>
+<CWH>Slow: Roll only 1,2 or 3<LF>
+for 2 turns<END>
 
 
 //POINTER #921 @ $1E3EE4 - STRING #921 @ $1DEE96
 
 #W24($1E3EE4)
-//<STY><$02><CRD>ラミア     <LF>
-//<CWH>「混乱」になり2順のあいだダイ<LF>
-//スをふることができなくなります<END>
+<STY><$02><CRD>Lamia<LF>
+<CWH>Confusion: Can't roll dice<LF>
+for 2 turns<END>
 
 
 //POINTER #922 @ $1E3EE8 - STRING #922 @ $1DEEDA
 
 #W24($1E3EE8)
-//<STY><$02><CRD>サボテンダー  <LF>
-//<CWH>「毒」になり2順のあいだCPが<LF>
-//少しこぼれてしまいます<END>
+<STY><$02><CRD>Cactuar<LF>
+<CWH>Poison: Lose CP each turn<LF>
+for 2 turns<END>
 
 
 //POINTER #923 @ $1E3EEC - STRING #923 @ $1DEF15
 
 #W24($1E3EEC)
-//<STY><$02><CRD>ベヒーモス   <LF>
-//<CWH>マスのレベルを1つさげます<END>
+<STY><$02><CRD>Behemoth<LF>
+<CWH>Lower the level of<LF>
+a square by 1<END>
 
 
 //POINTER #924 @ $1E3EF0 - STRING #924 @ $1DEF3D
 
 #W24($1E3EF0)
-//<STY><$02><CRD>キングベヒーモス<LF>
-//<CWH>3×3マスはんいの中にあるマスの<LF>
-//レベルを1つさげます<END>
+<STY><$02><CRD>King Behemoth<LF>
+<CWH>Lower the level of squares<LF>
+by 1 in a 3×3 area<END>
 
 
 //POINTER #925 @ $1E3EF4 - STRING #925 @ $1DEF7E
 
 #W24($1E3EF4)
-//<STY><$02><CRD>キングス    <LF>
-//<CWH>5×5マスはんいの中にあるマスの<LF>
-//レベルを1つさげます<END>
+<STY><$02><CRD>King's Boon<LF>
+<CWH>Lower the level of squares<LF>
+by 1 in a 5×5 area<END>
 
 
 //POINTER #926 @ $1E3EF8 - STRING #926 @ $1DEFBC
 
 #W24($1E3EF8)
-//<STY><$02><CRD>ラミアクイーン <LF>
-//<CWH>3×3マスはんいに「混乱」を<LF>
-//あたえます<END>
+<STY><$02><CRD>Queen Lamia<LF>
+<CWH>Apply Confusion to a<LF>
+3×3 area<END>
 
 
 //POINTER #927 @ $1E3EFC - STRING #927 @ $1DEFEE
 
 #W24($1E3EFC)
-//<STY><$02><CRD>モルボルグレート<LF>
-//<CWH>3×3マスはんいに「混乱,毒,<LF>
-//眠り」のどれかをあたえます<END>
+<STY><$02><CRD>Great Morbol<LF>
+<CWH>Apply Confusion, Poison<LF>
+or Sleep to a 3×3 area<END>
 
+//**********************************************
+// Player Names (6 ch)
 
 //POINTER #928 @ $1E3F00 - STRING #928 @ $1DF030
 
 #W24($1E3F00)
-//チョコボ<END>
+Choco<END>
 
 
 //POINTER #929 @ $1E3F04 - STRING #929 @ $1DF039
 
 #W24($1E3F04)
-//チョコボ<END>
+Choco<END>
 
 
 //POINTER #930 @ $1E3F08 - STRING #930 @ $1DF042
 
 #W24($1E3F08)
-//チョコボ<END>
+Choco<END>
 
 
 //POINTER #931 @ $1E3F0C - STRING #931 @ $1DF04B
 
 #W24($1E3F0C)
-//チョコボ<END>
+Choco<END>
 
 
 //POINTER #932 @ $1E3F10 - STRING #932 @ $1DF054
 
 #W24($1E3F10)
-//黒魔道士<END>
+Croma<END>
 
 
 //POINTER #933 @ $1E3F14 - STRING #933 @ $1DF05D
 
 #W24($1E3F14)
-//サハギン<END>
+Sahagい<END>
 
 
 //POINTER #934 @ $1E3F18 - STRING #934 @ $1DF066
 
 #W24($1E3F18)
-//モルボル<END>
+Morbol<END>
 
 
 //POINTER #935 @ $1E3F1C - STRING #935 @ $1DF06F
 
 #W24($1E3F1C)
-//コカトリス<END>
+C.T.<END>
 
 
 //POINTER #936 @ $1E3F20 - STRING #936 @ $1DF07A
 
 #W24($1E3F20)
-//ゴブリン<END>
+Goblin<END>
 
 
 //POINTER #937 @ $1E3F24 - STRING #937 @ $1DF083
 
 #W24($1E3F24)
-//トンベリ<END>
+Berry<END>
 
 
 //POINTER #938 @ $1E3F28 - STRING #938 @ $1DF08C
 
 #W24($1E3F28)
-//スラグ<END>
+Slug<END>
 
 
 //POINTER #939 @ $1E3F2C - STRING #939 @ $1DF093
 
 #W24($1E3F2C)
-//ゴーレム<END>
+Golem<END>
 
 
 //POINTER #940 @ $1E3F30 - STRING #940 @ $1DF09B
 
 #W24($1E3F30)
-//ラミア<END>
+Lamia<END>
 
 
 //POINTER #941 @ $1E3F34 - STRING #941 @ $1DF0A2
 
 #W24($1E3F34)
-//サボテンダー<END>
+Cactu<END>
 
 
 //POINTER #942 @ $1E3F38 - STRING #942 @ $1DF0AE
 
 #W24($1E3F38)
-//オメガ<END>
+Omega<END>
 
 
 //POINTER #943 @ $1E3F3C - STRING #943 @ $1DF0B5
 
 #W24($1E3F3C)
-//神奄<END>
+Shいryu<END>
+//Nova,Shinru?
 
 
 //POINTER #944 @ $1E3F40 - STRING #944 @ $1DF0BA
 
 #W24($1E3F40)
-//ベヒーモス<END>
+Behemo<END>
+//Ben?
+
+//**********************************************
+// Ally Gems, full description, Names
 
 
 //POINTER #945 @ $1E3F44 - STRING #945 @ $1DF0C4
 
 #W24($1E3F44)
-//カーバンクル<END>
-
+Carbuncle<END>
 
 //POINTER #946 @ $1E3F48 - STRING #946 @ $1DF0D0
 
 #W24($1E3F48)
-//白魔道士<END>
+White Mage<END>
 
 
 //POINTER #947 @ $1E3F4C - STRING #947 @ $1DF0D9
 
 #W24($1E3F4C)
-//ドル<END>
+Chip<END>
 
 
 //POINTER #948 @ $1E3F50 - STRING #948 @ $1DF0DE
 
 #W24($1E3F50)
-//黒魔道士<END>
+Black Mage<END>
 
 
 //POINTER #949 @ $1E3F54 - STRING #949 @ $1DF0E7
 
 #W24($1E3F54)
-//オーガ<END>
+Ogre<END>
 
 
 //POINTER #950 @ $1E3F58 - STRING #950 @ $1DF0ED
 
 #W24($1E3F58)
-//ヘッジホッグ<END>
+Hedgehog<END>
 
 
 //POINTER #951 @ $1E3F5C - STRING #951 @ $1DF0FA
 
 #W24($1E3F5C)
-//サハギン<END>
+Sahagin<END>
 
 
 //POINTER #952 @ $1E3F60 - STRING #952 @ $1DF103
 
 #W24($1E3F60)
-//デビルフィッシュ<END>
+Octokraken<END>
 
 
 //POINTER #953 @ $1E3F64 - STRING #953 @ $1DF114
 
 #W24($1E3F64)
-//ミストドラゴン<END>
+Mist Dragon<END>
 
 
 //POINTER #954 @ $1E3F68 - STRING #954 @ $1DF123
 
 #W24($1E3F68)
-//モルボル<END>
+Morbol<END>
 
 
 //POINTER #955 @ $1E3F6C - STRING #955 @ $1DF12C
 
 #W24($1E3F6C)
-//マモン<END>
+Treant<END>
 
 
 //POINTER #956 @ $1E3F70 - STRING #956 @ $1DF133
 
 #W24($1E3F70)
-//ドリッピー<END>
+Drippy<END>
 
 
 //POINTER #957 @ $1E3F74 - STRING #957 @ $1DF13D
 
 #W24($1E3F74)
-//オニオン<END>
+Onion<END>
 
 
 //POINTER #958 @ $1E3F78 - STRING #958 @ $1DF146
 
 #W24($1E3F78)
-//ゴブリン<END>
+Goblin<END>
 
 
 //POINTER #959 @ $1E3F7C - STRING #959 @ $1DF14F
 
 #W24($1E3F7C)
-//トンベリ<END>
+Tonberry<END>
 
 
 //POINTER #960 @ $1E3F80 - STRING #960 @ $1DF158
 
 #W24($1E3F80)
-//スティールバット<END>
+Steel Bat<END>
 
 
 //POINTER #961 @ $1E3F84 - STRING #961 @ $1DF168
 
 #W24($1E3F84)
-//フロータイボール<END>
+Floateye<END>
 
 
 //POINTER #962 @ $1E3F88 - STRING #962 @ $1DF177
 
 #W24($1E3F88)
-//ムース<END>
+Mousse<END>
 
 
 //POINTER #963 @ $1E3F8C - STRING #963 @ $1DF17D
 
 #W24($1E3F8C)
-//マッドマン<END>
+Mudman<END>
 
 
 //POINTER #964 @ $1E3F90 - STRING #964 @ $1DF188
 
 #W24($1E3F90)
-//ゴーレム<END>
+Golem<END>
 
 
 //POINTER #965 @ $1E3F94 - STRING #965 @ $1DF190
 
 #W24($1E3F94)
-//ダークタイタン<END>
+Dark Titan<END>
 
 
 //POINTER #966 @ $1E3F98 - STRING #966 @ $1DF19E
 
 #W24($1E3F98)
-//ヒルギガース<END>
+Hill Gigas<END>
 
 
 //POINTER #967 @ $1E3F9C - STRING #967 @ $1DF1AA
 
 #W24($1E3F9C)
-//ボム<END>
+Bomb<END>
 
 
 //POINTER #968 @ $1E3FA0 - STRING #968 @ $1DF1AF
 
 #W24($1E3FA0)
-//ランドタートル<END>
+Land Turtle<END>
 
 
 //POINTER #969 @ $1E3FA4 - STRING #969 @ $1DF1BD
 
 #W24($1E3FA4)
-//ローラー<END>
+Roller<END>
 
 
 //POINTER #970 @ $1E3FA8 - STRING #970 @ $1DF1C4
 
 #W24($1E3FA8)
-//ホーリードラゴン<END>
+Holy Dragon<END>
 
-
+//**********************************************
+// Magicite, Long description, Name
 //POINTER #971 @ $1E3FAC - STRING #971 @ $1DF1D3
 
 #W24($1E3FAC)
-//ワーム<END>
+Worm<END>
 
 
 //POINTER #972 @ $1E3FB0 - STRING #972 @ $1DF1D9
 
 #W24($1E3FB0)
-//ギガントード<END>
+Gigantoad<END>
 
 
 //POINTER #973 @ $1E3FB4 - STRING #973 @ $1DF1E5
 
 #W24($1E3FB4)
-//コカトリス<END>
+Cockatrice<END>
 
 
 //POINTER #974 @ $1E3FB8 - STRING #974 @ $1DF1F0
 
 #W24($1E3FB8)
-//ワイルドラット<END>
+Wild Rat<END>
 
 
 //POINTER #975 @ $1E3FBC - STRING #975 @ $1DF1FF
 
 #W24($1E3FBC)
-//スラグ<END>
+Slug<END>
 
 
 //POINTER #976 @ $1E3FC0 - STRING #976 @ $1DF206
 
 #W24($1E3FC0)
-//ラミア<END>
+Lamia<END>
 
 
 //POINTER #977 @ $1E3FC4 - STRING #977 @ $1DF20D
 
 #W24($1E3FC4)
-//サボテンダー<END>
+Cactuar<END>
 
 
 //POINTER #978 @ $1E3FC8 - STRING #978 @ $1DF219
 
 #W24($1E3FC8)
-//アトラ<END>
+Atla<END>
 
-
+//**********************************************
+// magicite ingame label
 //POINTER #979 @ $1E3FCC - STRING #979 @ $1DF220
 
 #W24($1E3FCC)
-//ワーム<END>
+Worm<END>
 
 
 //POINTER #980 @ $1E3FD0 - STRING #980 @ $1DF226
 
 #W24($1E3FD0)
-//ギガントード<END>
+Gigantoad<END>
 
 
 //POINTER #981 @ $1E3FD4 - STRING #981 @ $1DF232
 
 #W24($1E3FD4)
-//コカトリス<END>
+Cockatrice<END>
 
 
 //POINTER #982 @ $1E3FD8 - STRING #982 @ $1DF23D
 
 #W24($1E3FD8)
-//ワイルドラット<END>
+Wild Rat<END>
 
 
 //POINTER #983 @ $1E3FDC - STRING #983 @ $1DF24C
 
 #W24($1E3FDC)
-//スラグ<END>
+Slug<END>
 
 
 //POINTER #984 @ $1E3FE0 - STRING #984 @ $1DF253
 
 #W24($1E3FE0)
-//ラミア<END>
+Lamia<END>
 
 
 //POINTER #985 @ $1E3FE4 - STRING #985 @ $1DF25A
 
 #W24($1E3FE4)
-//サボテンダー<END>
+Cactuar<END>
 
 
 //POINTER #986 @ $1E3FE8 - STRING #986 @ $1DF266
 
 #W24($1E3FE8)
-//ベヒーモス<END>
+Behemoth<END>
 
 
 //POINTER #987 @ $1E3FEC - STRING #987 @ $1DF270
 
 #W24($1E3FEC)
-//キングベヒーモス<END>
+King Behemoth<END>
 
 
 //POINTER #988 @ $1E3FF0 - STRING #988 @ $1DF280
 
 #W24($1E3FF0)
-//キングス<END>
+King's Boon<END>
 
 
 //POINTER #989 @ $1E3FF4 - STRING #989 @ $1DF289
 
 #W24($1E3FF4)
-//ラミアクイーン<END>
+Queen Lamia<END>
 
 
 //POINTER #990 @ $1E3FF8 - STRING #990 @ $1DF297
 
 #W24($1E3FF8)
-//モルボルグレート<END>
+Great Morbol<END>
 
-
+//**********************************************
+// Land area names
 //POINTER #991 @ $1E3FFC - STRING #991 @ $1DF2A7
 
 #W24($1E3FFC)
-//モーグリ<END>
+Moogle<END>
 
 
 //POINTER #992 @ $1E4000 - STRING #992 @ $1DF2AF
 
 #W24($1E4000)
-//プレインエリア<END>
+Plain area<END>
 
 
 //POINTER #993 @ $1E4004 - STRING #993 @ $1DF2BE
 
 #W24($1E4004)
-//ダイアエリア<END>
+Diamond area<END>
 
 
 //POINTER #994 @ $1E4008 - STRING #994 @ $1DF2CB
 
 #W24($1E4008)
-//サークルエリア<END>
+Circle Area<END>
 
 
 //POINTER #995 @ $1E400C - STRING #995 @ $1DF2D9
 
 #W24($1E400C)
-//リングエリア<END>
+Ring Area<END>
 
 
 //POINTER #996 @ $1E4010 - STRING #996 @ $1DF2E6
 
 #W24($1E4010)
-//アングルエリア<END>
+Angle Area<END>
 
 
 //POINTER #997 @ $1E4014 - STRING #997 @ $1DF2F5
 
 #W24($1E4014)
-//ペンタゴンエリア<END>
+Pentagon Area<END>
 
-
+//**********************************************
+// client names
 //POINTER #998 @ $1E4018 - STRING #998 @ $1DF306
 
 #W24($1E4018)
-//プレイヤー1<END>
+Plr-1<END>
 
 
 //POINTER #999 @ $1E401C - STRING #999 @ $1DF311
 
 #W24($1E401C)
-//プレイヤー2<END>
+Plr-2<END>
 
 
 //POINTER #1000 @ $1E4020 - STRING #1000 @ $1DF31C
 
 #W24($1E4020)
-//プレイヤー3<END>
+Plr-3<END>
 
 
 //POINTER #1001 @ $1E4024 - STRING #1001 @ $1DF327
 
 #W24($1E4024)
-//プレイヤー4<END>
+Plr-4<END>
 
 
 //POINTER #1002 @ $1E4028 - STRING #1002 @ $1DF332
 
 #W24($1E4028)
-//<END>
+<END>
 
-
+//************************************************
+// ingame events
 //POINTER #1003 @ $1E402C - STRING #1003 @ $1DF333
 
 #W24($1E402C)
-//<NC1>さんの<LF>
-//    順番です<END>
+<NC1><LF>
+    Your turn<END>
 
 
 //POINTER #1004 @ $1E4030 - STRING #1004 @ $1DF346
 
 #W24($1E4030)
-//どこをトオセンボしますか?<END>
+Where do you want to go?<END>
 
 
 //POINTER #1005 @ $1E4034 - STRING #1005 @ $1DF35C
 
 #W24($1E4034)
-//CP<END>
+CP<END>
 
 
 //POINTER #1006 @ $1E4038 - STRING #1006 @ $1DF35F
 
 #W24($1E4038)
-//目標CP  <$EC>CP<LF>
-//マスの数      <$ED>コ<LF>
-//あそぶ時間    約<$EE>時間<END>
+Goal    <$EC>CP<LF>
+Squares   <$ED><LF>
+Duration ~<$EE> hrs.<END>
 
 
 //POINTER #1007 @ $1E403C - STRING #1007 @ $1DF392
 
 #W24($1E403C)
-//<NC1><$FD><NC2><LF>
-//<LF>
-//セーブをする<END>
+<NC1><$FD><NC2><LF>
+<LF>
+Save<END>
 
 
 //POINTER #1008 @ $1E4040 - STRING #1008 @ $1DF3A2
 
 #W24($1E4040)
-//眠り<END>
+Sleep<END>
 
 
 //POINTER #1009 @ $1E4044 - STRING #1009 @ $1DF3A7
 
 #W24($1E4044)
-//カエル<END>
+Frog<END>
 
 
 //POINTER #1010 @ $1E4048 - STRING #1010 @ $1DF3AE
 
 #W24($1E4048)
-//石化<END>
+Petrify<END>
 
 
 //POINTER #1011 @ $1E404C - STRING #1011 @ $1DF3B3
 
 #W24($1E404C)
-//加速<END>
+Haste<END>
 
 
 //POINTER #1012 @ $1E4050 - STRING #1012 @ $1DF3B8
 
 #W24($1E4050)
-//減速<END>
+Slow<END>
 
 
 //POINTER #1013 @ $1E4054 - STRING #1013 @ $1DF3BD
 
 #W24($1E4054)
-//混乱<END>
+Confusion<END>
 
 
 //POINTER #1014 @ $1E4058 - STRING #1014 @ $1DF3C2
 
 #W24($1E4058)
-//毒<END>
+Poison<END>
 
 
 //POINTER #1015 @ $1E405C - STRING #1015 @ $1DF3C5
 
 #W24($1E405C)
-//<NC1>さんは<LF>
-//「<NC2>」になった<END>
+<NC1><LF>
+became "<NC2>"<END>
 
 
 //POINTER #1016 @ $1E4060 - STRING #1016 @ $1DF3D8
 
 #W24($1E4060)
-//<NC1>さんは<LF>
-//「<NC2>」がなおった<END>
+<NC1><LF>
+fixed "<NC2>"<END>
 
 
 //POINTER #1017 @ $1E4064 - STRING #1017 @ $1DF3EB
 
 #W24($1E4064)
-//<NC1>は<LF>
-//「<NC2>」になった<END>
+<NC1><LF>
+became "<NC2>"<END>
 
 
 //POINTER #1018 @ $1E4068 - STRING #1018 @ $1DF3FB
 
 #W24($1E4068)
-//<NC1>は<LF>
-//「<NC2>」がなおった<END>
+<NC1><LF>
+fixed "<NC2>"<END>
 
 
 //POINTER #1019 @ $1E406C - STRING #1019 @ $1DF40B
 
 #W24($1E406C)
-//新しい友達のおかげで<LF>
-//<NC1>は<LF>
-//「<NC2>」がなおった<END>
+Thanks to my new friend<LF>
+<NC1><LF>
+fixed "<NC2>"<END>
 
 
 //POINTER #1020 @ $1E4070 - STRING #1020 @ $1DF42B
 
 #W24($1E4070)
-//<NC1>さんは<LF>
-//「<NC2>」がなおった<END>
+<NC1><LF>
+fixed "<NC2>"<END>
 
 
 //POINTER #1021 @ $1E4074 - STRING #1021 @ $1DF43E
 
 #W24($1E4074)
-//<NC1>さんはトゲがぬけて<LF>
-//足の痛みがとんでいった<END>
+<NC1> pulled out<LF>
+the quill and can<LF>
+walk normally again.<END>
 
 
 //POINTER #1022 @ $1E4078 - STRING #1022 @ $1DF464
 
 #W24($1E4078)
-//<NC1>さんは<LF>
-//キュウバンをはずせた<END>
+<NC1> escaped<LF>
+the tentacles.<END>
 
 
 //POINTER #1023 @ $1E407C - STRING #1023 @ $1DF47E
 
 #W24($1E407C)
-//<NC1>さんは元気になった<END>
+<NC1> is feeling<LF>
+better.<END>
 
 
 //POINTER #1024 @ $1E4080 - STRING #1024 @ $1DF491
 
 #W24($1E4080)
-//<NC1>さんの<LF>
-//ビックリしているのがなおった<END>
+<NC1> is no longer<LF>
+hypnotized.<END>
 
 
 //POINTER #1025 @ $1E4084 - STRING #1025 @ $1DF4B1
 
 #W24($1E4084)
-//<NC1>さんは立ちあがった<END>
+<NC1> stood up.<END>
 
 
 //POINTER #1026 @ $1E4088 - STRING #1026 @ $1DF4C2
 
 #W24($1E4088)
-//<NC1>さんは逃げることが<LF>
-//できた ダイスは元にもどった<END>
+<NC1> escaped and<LF>
+restored his dice.<END>
 
 
 //POINTER #1027 @ $1E408C - STRING #1027 @ $1DF4ED
 
 #W24($1E408C)
-//<NC1>さんの<LF>
-//クサリはとれた!<END>
+<NC1> escapes<LF>
+the chains!<END>
 
 
 //POINTER #1028 @ $1E4090 - STRING #1028 @ $1DF504
 
 #W24($1E4090)
-//<NC1>さんは落ちつきを<LF>
-//とりもどした<END>
+<NC1> regained<LF>
+his composure.<END>
 
 
 //POINTER #1029 @ $1E4094 - STRING #1029 @ $1DF520
 
 #W24($1E4094)
-//<NC1>さんは元気になった<LF>
-//ダイスは元にもどった<END>
+<NC1> has recovered<LF>
+and restored his dice.<END>
 
 
 //POINTER #1030 @ $1E4098 - STRING #1030 @ $1DF548
 
 #W24($1E4098)
-//<NC1>さんは<LF>
-//「眠り」になっているので休みです<END>
+<NC1> is asleep<LF>
+and can't move.<END>
 
 
 //POINTER #1031 @ $1E409C - STRING #1031 @ $1DF56C
 
 #W24($1E409C)
-//<NC1>さんは<LF>
-//「石化」しているので休みです<END>
+<NC1> is petrified<LF>
+and can't move.<END>
 
 
 //POINTER #1032 @ $1E40A0 - STRING #1032 @ $1DF58B
 
 #W24($1E40A0)
-//<NC1>さんは<LF>
-//「加速」になっているので<LF>
-//4・5・6しかでません<END>
+<NC1> is hasted<LF>
+and can roll only<LF>
+4,5 or 6.<END>
 
 
 //POINTER #1033 @ $1E40A4 - STRING #1033 @ $1DF5B7
 
 #W24($1E40A4)
-//<NC1>さんは<LF>
-//「減速」になっているので<LF>
-//1・2・3しかでません<END>
+<NC1> is slowed<LF>
+and can roll only<LF>
+1,2 or 3.<END>
 
 
 //POINTER #1034 @ $1E40A8 - STRING #1034 @ $1DF5E3
 
 #W24($1E40A8)
-//<NC1>さんは<LF>
-//「混乱」になっているので<LF>
-//ダイスをふることができません<END>
+<NC1>さんは<LF>
+「混乱」になっているので<LF>
+ダイスをふることができません<END>
 
 
 //POINTER #1035 @ $1E40AC - STRING #1035 @ $1DF619
 
 #W24($1E40AC)
-//<NC1>さんは<LF>
-//「毒」になっているので<LF>
-//CPを落としてしまった<END>
+<NC1>さんは<LF>
+「毒」になっているので<LF>
+CPを落としてしまった<END>
 
 
 //POINTER #1036 @ $1E40B0 - STRING #1036 @ $1DF647
 
 #W24($1E40B0)
-//<NC1>さんは<LF>
-//足が痛くて6がでません<END>
+<NC1>さんは<LF>
+足が痛くて6がでません<END>
 
 
 //POINTER #1037 @ $1E40B4 - STRING #1037 @ $1DF660
 
 #W24($1E40B4)
-//<NC1>さんは<LF>
-//吸いつかれてるので休みです<END>
+<NC1>さんは<LF>
+吸いつかれてるので休みです<END>
 
 
 //POINTER #1038 @ $1E40B8 - STRING #1038 @ $1DF67F
 
 #W24($1E40B8)
-//<NC1>さんは<LF>
-//フラフラしていて休みです<END>
+<NC1>さんは<LF>
+フラフラしていて休みです<END>
 
 
 //POINTER #1039 @ $1E40BC - STRING #1039 @ $1DF69C
 
 #W24($1E40BC)
-//<NC1>さんは<LF>
-//ビックリしていて2しかでません<END>
+<NC1>さんは<LF>
+ビックリしていて2しかでません<END>
 
 
 //POINTER #1040 @ $1E40C0 - STRING #1040 @ $1DF6BC
 
 #W24($1E40C0)
-//<NC1>さんは<LF>
-//ころんでいるので休みです<END>
+<NC1>さんは<LF>
+ころんでいるので休みです<END>
 
 
 //POINTER #1041 @ $1E40C4 - STRING #1041 @ $1DF6D9
 
 #W24($1E40C4)
-//<NC1>さんは<LF>
-//足をつかまれているので<LF>
-//1しかでません<END>
+<NC1>さんは<LF>
+足をつかまれているので<LF>
+1しかでません<END>
 
 
 //POINTER #1042 @ $1E40C8 - STRING #1042 @ $1DF700
 
 #W24($1E40C8)
-//<NC1>さんは<LF>
-//クサリでまかれているので休みです<END>
+<NC1>さんは<LF>
+クサリでまかれているので休みです<END>
 
 
 //POINTER #1043 @ $1E40CC - STRING #1043 @ $1DF725
 
 #W24($1E40CC)
-//<NC1>さんは<LF>
-//こゎくなっていて1しかでません<END>
+<NC1>さんは<LF>
+こゎくなっていて1しかでません<END>
 
 
 //POINTER #1044 @ $1E40D0 - STRING #1044 @ $1DF744
 
 #W24($1E40D0)
-//<NC1>さんは<LF>
-//頭突きをされてクラクラしている<LF>
-//ので,2しかだせません<END>
+<NC1>さんは<LF>
+頭突きをされてクラクラしている<LF>
+ので,2しかだせません<END>
 
 
 //POINTER #1045 @ $1E40D4 - STRING #1045 @ $1DF777
 
 #W24($1E40D4)
-//<NC1>は<LF>
-//「眠り」になった<END>
+<NC1>は<LF>
+「眠り」になった<END>
 
 
 //POINTER #1046 @ $1E40D8 - STRING #1046 @ $1DF78A
 
 #W24($1E40D8)
-//<NC1>は<LF>
-//「カエル」になった<END>
+<NC1>は<LF>
+「カエル」になった<END>
 
 
 //POINTER #1047 @ $1E40DC - STRING #1047 @ $1DF79F
 
 #W24($1E40DC)
-//<NC1>は<LF>
-//「石化」になった<END>
+<NC1>は<LF>
+「石化」になった<END>
 
 
 //POINTER #1048 @ $1E40E0 - STRING #1048 @ $1DF7B2
 
 #W24($1E40E0)
-//<NC1>は<LF>
-//「加速」になった<LF>
-//マスのCPが50あがった<END>
+<NC1>は<LF>
+「加速」になった<LF>
+マスのCPが50あがった<END>
 
 
 //POINTER #1049 @ $1E40E4 - STRING #1049 @ $1DF7D8
 
 #W24($1E40E4)
-//<NC1>は<LF>
-//「減速」になった<LF>
-//マスのCPが50さがった<END>
+<NC1>は<LF>
+「減速」になった<LF>
+マスのCPが50さがった<END>
 
 
 //POINTER #1050 @ $1E40E8 - STRING #1050 @ $1DF7FE
 
 #W24($1E40E8)
-//<NC1>は<LF>
-//「混乱」になった<END>
+<NC1>は<LF>
+「混乱」になった<END>
 
 
 //POINTER #1051 @ $1E40EC - STRING #1051 @ $1DF811
 
 #W24($1E40EC)
-//<NC1>は<LF>
-//「毒」になった<LF>
-//アップ率が半分になった<END>
+<NC1>は<LF>
+「毒」になった<LF>
+アップ率が半分になった<END>
 
 
 //POINTER #1052 @ $1E40F0 - STRING #1052 @ $1DF838
 
 #W24($1E40F0)
-//<NC1>の<LF>
-//「<NC2>」がなおった<END>
+<NC1>の<LF>
+「<NC2>」がなおった<END>
 
 
 //POINTER #1053 @ $1E40F4 - STRING #1053 @ $1DF848
 
 #W24($1E40F4)
-//<NC1>に<LF>
-//「<NC2>」がきかなかった!<END>
+<NC1>に<LF>
+「<NC2>」がきかなかった!<END>
 
 
 //POINTER #1054 @ $1E40F8 - STRING #1054 @ $1DF85B
 
 #W24($1E40F8)
-//レベルアップされていなかったので<LF>
-//きかなかった<END>
+レベルアップされていなかったので<LF>
+きかなかった<END>
 
 
 //POINTER #1055 @ $1E40FC - STRING #1055 @ $1DF883
 
 #W24($1E40FC)
-//<NC1>さんにはきかなかった<END>
+<NC1>さんにはきかなかった<END>
 
 
 //POINTER #1056 @ $1E4100 - STRING #1056 @ $1DF895
 
 #W24($1E4100)
-//<NC1>さんは<LF>
-//「石化」しているのできかなかった<END>
+<NC1>さんは<LF>
+「石化」しているのできかなかった<END>
 
 
 //POINTER #1057 @ $1E4104 - STRING #1057 @ $1DF8B6
 
 #W24($1E4104)
-//<NC1>は<LF>
-//「石化」しているのできかなかった<END>
+<NC1>は<LF>
+「石化」しているのできかなかった<END>
 
 
 //POINTER #1058 @ $1E4108 - STRING #1058 @ $1DF8D4
 
 #W24($1E4108)
-//<NC1>が<LF>
-//攻撃を防いでくれた<END>
+<NC1>が<LF>
+攻撃を防いでくれた<END>
 
 
 //POINTER #1059 @ $1E410C - STRING #1059 @ $1DF8E8
 
 #W24($1E410C)
-//同じエリアの<NC1>が<LF>
-//攻撃を防いでくれた<END>
+同じエリアの<NC1>が<LF>
+攻撃を防いでくれた<END>
 
 
 //POINTER #1060 @ $1E4110 - STRING #1060 @ $1DF907
 
 #W24($1E4110)
-//<SND><$D7>マスのレベルがさがってしまった!<END>
+<SND><$D7>マスのレベルがさがってしまった!<END>
 
 
 //POINTER #1061 @ $1E4114 - STRING #1061 @ $1DF925
 
 #W24($1E4114)
-//<SND><$D7><NC1>さんの<LF>
-//マスのレベルがさがってしまった!<END>
+<SND><$D7><NC1>さんの<LF>
+マスのレベルがさがってしまった!<END>
 
 
 //POINTER #1062 @ $1E4118 - STRING #1062 @ $1DF94A
 
 #W24($1E4118)
-//<SND><$D8>マスのCPがさがってしまった!<END>
+<SND><$D8>マスのCPがさがってしまった!<END>
 
 
 //POINTER #1063 @ $1E411C - STRING #1063 @ $1DF964
 
 #W24($1E411C)
-//<SND><$D8><NC1>さんの<LF>
-//マスのCPがさがってしまった!<END>
+<SND><$D8><NC1>さんの<LF>
+マスのCPがさがってしまった!<END>
 
 
 //POINTER #1064 @ $1E4120 - STRING #1064 @ $1DF985
 
 #W24($1E4120)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//「<NC2>」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+「<NC2>」になるのを防いだ!<END>
 
 
 //POINTER #1065 @ $1E4124 - STRING #1065 @ $1DF9AE
 
 #W24($1E4124)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//「眠り」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+「眠り」になるのを防いだ!<END>
 
 
 //POINTER #1066 @ $1E4128 - STRING #1066 @ $1DF9DA
 
 #W24($1E4128)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//「カエル」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+「カエル」になるのを防いだ!<END>
 
 
 //POINTER #1067 @ $1E412C - STRING #1067 @ $1DFA08
 
 #W24($1E412C)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//「石化」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+「石化」になるのを防いだ!<END>
 
 
 //POINTER #1068 @ $1E4130 - STRING #1068 @ $1DFA34
 
 #W24($1E4130)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//「加速」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+「加速」になるのを防いだ!<END>
 
 
 //POINTER #1069 @ $1E4134 - STRING #1069 @ $1DFA60
 
 #W24($1E4134)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//「減速」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+「減速」になるのを防いだ!<END>
 
 
 //POINTER #1070 @ $1E4138 - STRING #1070 @ $1DFA8C
 
 #W24($1E4138)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//「混乱」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+「混乱」になるのを防いだ!<END>
 
 
 //POINTER #1071 @ $1E413C - STRING #1071 @ $1DFAB8
 
 #W24($1E413C)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//「毒」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+「毒」になるのを防いだ!<END>
 
 
 //POINTER #1072 @ $1E4140 - STRING #1072 @ $1DFAE2
 
 #W24($1E4140)
-//<NC1>は<LF>
-//魔石の中から<LF>
-//「<NC2>」になるのを防いだ!<END>
+<NC1>は<LF>
+魔石の中から<LF>
+「<NC2>」になるのを防いだ!<END>
 
 
 //POINTER #1073 @ $1E4144 - STRING #1073 @ $1DFB06
 
 #W24($1E4144)
-//<NC1>は<LF>
-//魔石から飛びだして<LF>
-//マスのレベルダウンを防いだ!<END>
+<NC1>は<LF>
+魔石から飛びだして<LF>
+マスのレベルダウンを防いだ!<END>
 
 
 //POINTER #1074 @ $1E4148 - STRING #1074 @ $1DFB36
 
 #W24($1E4148)
-//<NC1>は<LF>
-//魔石の中から<LF>
-//マスのレベルダウンを防いだ!<END>
+<NC1>は<LF>
+魔石の中から<LF>
+マスのレベルダウンを防いだ!<END>
 
 
 //POINTER #1075 @ $1E414C - STRING #1075 @ $1DFB61
 
 #W24($1E414C)
-//<NC1>は「カエル」なので<LF>
-//クリスタルポイントをとられなかった<END>
+<NC1>は「カエル」なので<LF>
+クリスタルポイントをとられなかった<END>
 
 
 //POINTER #1076 @ $1E4150 - STRING #1076 @ $1DFB95
 
 #W24($1E4150)
-//<NC1>は「石化」なので<LF>
-//クリスタルポイントをとられなかった<END>
+<NC1>は「石化」なので<LF>
+クリスタルポイントをとられなかった<END>
 
 
 //POINTER #1077 @ $1E4154 - STRING #1077 @ $1DFBC7
 
 #W24($1E4154)
-//<NC1>は「眠り」なので<LF>
-//クリスタルポイントをとられなかった<END>
+<NC1>は「眠り」なので<LF>
+クリスタルポイントをとられなかった<END>
 
 
 //POINTER #1078 @ $1E4158 - STRING #1078 @ $1DFBF9
 
 #W24($1E4158)
-//<NC1>は「混乱」なので<LF>
-//クリスタルポイントをとりゎすれた<END>
+<NC1>は「混乱」なので<LF>
+クリスタルポイントをとりゎすれた<END>
 
 
 //POINTER #1079 @ $1E415C - STRING #1079 @ $1DFC29
 
 #W24($1E415C)
-//<NC1>が<LF>
-//調子が悪いのをなおしてくれた<END>
+<NC1>が<LF>
+調子が悪いのをなおしてくれた<END>
 
 
 //POINTER #1080 @ $1E4160 - STRING #1080 @ $1DFC44
 
 #W24($1E4160)
-//<NC1>は疲れたので<LF>
-//宿てしまいました…<END>
+<NC1>は疲れたので<LF>
+宿てしまいました…<END>
 
 
 //POINTER #1081 @ $1E4164 - STRING #1081 @ $1DFC61
 
 #W24($1E4164)
-//<NC1>が起きました!<LF>
-//やる気十分です!!<END>
+<NC1>が起きました!<LF>
+やる気十分です!!<END>
 
 
 //POINTER #1082 @ $1E4168 - STRING #1082 @ $1DFC7D
 
 #W24($1E4168)
-//<NC1>が<$EC>マスならんだので<LF>
-//アップ率が<$ED>あがった!<END>
+<NC1>が<$EC>マスならんだので<LF>
+アップ率が<$ED>あがった!<END>
 
 
 //POINTER #1083 @ $1E416C - STRING #1083 @ $1DFCA4
 
 #W24($1E416C)
-//ならんでいる仲間がいなくなったので<LF>
-//アップ率がさがってしまった<END>
+ならんでいる仲間がいなくなったので<LF>
+アップ率がさがってしまった<END>
 
 
 //POINTER #1084 @ $1E4170 - STRING #1084 @ $1DFCDA
 
 #W24($1E4170)
-//<NC1>が襲ってきた!<LF>
-//襲う相孚をまちがえている!<LF>
-//びっくりして飛びのいた!<END>
+<NC1>が襲ってきた!<LF>
+襲う相Aをまちがえている!<LF>
+びっくりして飛びのいた!<END>
 
 
 //POINTER #1085 @ $1E4174 - STRING #1085 @ $1DFD12
 
 #W24($1E4174)
-//<NC1>が襲ってきた!<LF>
-//びっくりして飛びのいた!<END>
+<NC1>が襲ってきた!<LF>
+びっくりして飛びのいた!<END>
 
 
 //POINTER #1086 @ $1E4178 - STRING #1086 @ $1DFD34
 
 #W24($1E4178)
-//イタイ! 足にトゲが刺さった!<LF>
-//<NC2>さんは<LF>
-//6がでなくなった<END>
+イタイ! 足にトゲが刺さった!<LF>
+<NC2>さんは<LF>
+6がでなくなった<END>
 
 
 //POINTER #1087 @ $1E417C - STRING #1087 @ $1DFD63
 
 #W24($1E417C)
-//<NC1>が「カエル」を<LF>
-//ひきのばした <NC2>さんは<LF>
-//3順「カエル」のままです<END>
+<NC1>が「カエル」を<LF>
+ひきのばした <NC2>さんは<LF>
+3順「カエル」のままです<END>
 
 
 //POINTER #1088 @ $1E4180 - STRING #1088 @ $1DFD97
 
 #W24($1E4180)
-//キュウバンで吸いつかれてしまった<LF>
-//<NC2>さんは,動けなくなった<LF>
-//ので次の順は休みです<END>
+キュウバンで吸いつかれてしまった<LF>
+<NC2>さんは,動けなくなった<LF>
+ので次の順は休みです<END>
 
 
 //POINTER #1089 @ $1E4184 - STRING #1089 @ $1DFDDD
 
 #W24($1E4184)
-//<NC1>が「眠り」を誘う…<LF>
-//<NC2>さんは,ふかく<LF>
-//眠ってしまった<END>
+<NC1>が「眠り」を誘う…<LF>
+<NC2>さんは,ふかく<LF>
+眠ってしまった<END>
 
 
 //POINTER #1090 @ $1E4188 - STRING #1090 @ $1DFE06
 
 #W24($1E4188)
-//<NC1>が「毒」をひきのばした<LF>
-//<NC2>さんは,あと3順<LF>
-//「毒」のままです<END>
+<NC1>が「毒」をひきのばした<LF>
+<NC2>さんは,あと3順<LF>
+「毒」のままです<END>
 
 
 //POINTER #1091 @ $1E418C - STRING #1091 @ $1DFE35
 
 #W24($1E418C)
-//<NC1>が「混乱」をひきのばした<LF>
-//<NC2>さんは,あと3順<LF>
-//「混乱」のままです<END>
+<NC1>が「混乱」をひきのばした<LF>
+<NC2>さんは,あと3順<LF>
+「混乱」のままです<END>
 
 
 //POINTER #1092 @ $1E4190 - STRING #1092 @ $1DFE68
 
 #W24($1E4190)
-//<NC1>のおかげで<LF>
-//次の順は好きな方向へ進めます<END>
+<NC1>のおかげで<LF>
+次の順は好きな方向へ進めます<END>
 
 
 //POINTER #1093 @ $1E4194 - STRING #1093 @ $1DFE8C
 
 #W24($1E4194)
-//<NC1>にまどゎされて<LF>
-//どちらへ進んでいたのか<LF>
-//ゎからなくなってしまった<END>
+<NC1>にまどゎされて<LF>
+どちらへ進んでいたのか<LF>
+ゎからなくなってしまった<END>
 
 
 //POINTER #1094 @ $1E4198 - STRING #1094 @ $1DFEC6
 
 #W24($1E4198)
-//<NC1>に木ヅチでたたかれた!<LF>
-//<NC2>さんは<LF>
-//「混乱」がなおった<END>
+<NC1>に木ヅチでたたかれた!<LF>
+<NC2>さんは<LF>
+「混乱」がなおった<END>
 
 
 //POINTER #1095 @ $1E419C - STRING #1095 @ $1DFEF2
 
 #W24($1E419C)
-//<NC1>に木ヅチでたたかれた!<LF>
-//<NC2>さんはキゼツしてしまい<LF>
-//次の順は,休みです<END>
+<NC1>に木ヅチでたたかれた!<LF>
+<NC2>さんはキゼツしてしまい<LF>
+次の順は,休みです<END>
 
 
 //POINTER #1096 @ $1E41A0 - STRING #1096 @ $1DFF2D
 
 #W24($1E41A0)
-//<NC1>の怪音波をうけて<LF>
-//<NC2>さんの「加速」がきえた<END>
+<NC1>の怪音波をうけて<LF>
+<NC2>さんの「加速」がきえた<END>
 
 
 //POINTER #1097 @ $1E41A4 - STRING #1097 @ $1DFF4F
 
 #W24($1E41A4)
-//ゴブリンがとっていた全額の<LF>
-//CPをもらった<END>
+ゴブリンがとっていた全額の<LF>
+CPをもらった<END>
 
 
 //POINTER #1098 @ $1E41A8 - STRING #1098 @ $1DFF75
 
 #W24($1E41A8)
-//ゴブリンがとっていた半分の<LF>
-//CPをもらった<END>
+ゴブリンがとっていた半分の<LF>
+CPをもらった<END>
 
 
 //POINTER #1099 @ $1E41AC - STRING #1099 @ $1DFF9B
 
 #W24($1E41AC)
-//ん? なにかおかしいぞ!<LF>
-//ゴブリンが横からCPを少し多めに<LF>
-//とっているぞ!<END>
+ん? なにかおかしいぞ!<LF>
+ゴブリンが横からCPを少し多めに<LF>
+とっているぞ!<END>
 
 
 //POINTER #1100 @ $1E41B0 - STRING #1100 @ $1DFFD5
 
 #W24($1E41B0)
-//トンベリは攻撃されたウラミで<LF>
-//アップ率が<$EC>あがった!<END>
+トンベリは攻撃されたウラミで<LF>
+アップ率が<$EC>あがった!<END>
 
 
 //POINTER #1101 @ $1E41B4 - STRING #1101 @ $1E0004
 
 #W24($1E41B4)
-//トンベリはウラミをはらして<LF>
-//すっきりした<END>
+トンベリはウラミをはらして<LF>
+すっきりした<END>
 
 
 //POINTER #1102 @ $1E41B8 - STRING #1102 @ $1E0028
 
 #W24($1E41B8)
-//<NC1>が<LF>
-//「減速」をひきのばした<LF>
-//<LF>
-//<NC2>さんは,あと3順<LF>
-//「減速」のままです<END>
+<NC1>が<LF>
+「減速」をひきのばした<LF>
+<LF>
+<NC2>さんは,あと3順<LF>
+「減速」のままです<END>
 
 
 //POINTER #1103 @ $1E41BC - STRING #1103 @ $1E005D
 
 #W24($1E41BC)
-//ギロリ! 目があってしまった!<LF>
-//<NC2>さんはビックリして<LF>
-//2しかでなくなった<END>
+ギロリ! 目があってしまった!<LF>
+<NC2>さんはビックリして<LF>
+2しかでなくなった<END>
 
 
 //POINTER #1104 @ $1E41C0 - STRING #1104 @ $1E0097
 
 #W24($1E41C0)
-//<NC2>さんを見て<LF>
-//ニッコリゎらった<END>
+<NC2>さんを見て<LF>
+ニッコリゎらった<END>
 
 
 //POINTER #1105 @ $1E41C4 - STRING #1105 @ $1E00B3
 
 #W24($1E41C4)
-//ムースが足元へもぐった<LF>
-//次の順は好きな方向へ進めます<END>
+ムースが足元へもぐった<LF>
+次の順は好きな方向へ進めます<END>
 
 
 //POINTER #1106 @ $1E41C8 - STRING #1106 @ $1E00E2
 
 #W24($1E41C8)
-//しまった!<LF>
-//ムースをふんでしまいころんだ!<LF>
-//進行方向が,逆転してしまった<END>
+しまった!<LF>
+ムースをふんでしまいころんだ!<LF>
+進行方向が,逆転してしまった<END>
 
 
 //POINTER #1107 @ $1E41CC - STRING #1107 @ $1E011E
 
 #W24($1E41CC)
-//       <END>
+       <END>
 
 
 //POINTER #1108 @ $1E41D0 - STRING #1108 @ $1E0126
 
 #W24($1E41D0)
-//ピチャリ・・・<LF>
-//マッドマンに足首をつかまれた<LF>
-//<LF>
-//<NC2>さんは<LF>
-//動けなくて1しかでなくなった<END>
+ピチャリ・・・<LF>
+マッドマンに足首をつかまれた<LF>
+<LF>
+<NC2>さんは<LF>
+動けなくて1しかでなくなった<END>
 
 
 //POINTER #1109 @ $1E41D4 - STRING #1109 @ $1E016D
 
 #W24($1E41D4)
-//ピチャリ・・・<LF>
-//マッドマンに足首をつかまれた<LF>
-//<LF>
-//しかし!<LF>
-//コカトリスに,にらまれて<LF>
-//マッドマンは逃げていった<END>
+ピチャリ・・・<LF>
+マッドマンに足首をつかまれた<LF>
+<LF>
+しかし!<LF>
+コカトリスに,にらまれて<LF>
+マッドマンは逃げていった<END>
 
 
 //POINTER #1110 @ $1E41D8 - STRING #1110 @ $1E01CA
 
 #W24($1E41D8)
-//<NC1>が<LF>
-//ちょっとおまけしてくれた<END>
+<NC1>が<LF>
+ちょっとおまけしてくれた<END>
 
 
 //POINTER #1111 @ $1E41DC - STRING #1111 @ $1E01E2
 
 #W24($1E41DC)
-//<NC1>が襲ってきた<LF>
-//頭突きをくらってしまった<LF>
-//クラクラ~・・・<LF>
-//<NC2>さんはクラクラして<LF>
-//2しかでなくなった<END>
+<NC1>が襲ってきた<LF>
+頭突きをくらってしまった<LF>
+クラクラ~・・・<LF>
+<NC2>さんはクラクラして<LF>
+2しかでなくなった<END>
 
 
 //POINTER #1112 @ $1E41E0 - STRING #1112 @ $1E0232
 
 #W24($1E41E0)
-//<NC1>が襲ってきた<LF>
-//しかし!<LF>
-//ゴーレムが守ってくれた<END>
+<NC1>が襲ってきた<LF>
+しかし!<LF>
+ゴーレムが守ってくれた<END>
 
 
 //POINTER #1113 @ $1E41E4 - STRING #1113 @ $1E0257
 
 #W24($1E41E4)
-//<NC1>がクサリを<LF>
-//まきつけてきた<LF>
-//<LF>
-//<NC2>さんは動けなくなった<LF>
-//次の順は,休みです<END>
+<NC1>がクサリを<LF>
+まきつけてきた<LF>
+<LF>
+<NC2>さんは動けなくなった<LF>
+次の順は,休みです<END>
 
 
 //POINTER #1114 @ $1E41E8 - STRING #1114 @ $1E0293
 
 #W24($1E41E8)
-//<NC1>さんは動けない<END>
+<NC1>さんは動けない<END>
 
 
 //POINTER #1115 @ $1E41EC - STRING #1115 @ $1E02A0
 
 #W24($1E41EC)
-//<NC1>は気合いが入った!<LF>
-//アップ率があがった<END>
+<NC1>は気合いが入った!<LF>
+アップ率があがった<END>
 
 
 //POINTER #1116 @ $1E41F0 - STRING #1116 @ $1E02C1
 
 #W24($1E41F0)
-//<NC1>は気合いが抜けてしまった<LF>
-//アップ率がさがった<END>
+<NC1>は気合いが抜けてしまった<LF>
+アップ率がさがった<END>
 
 
 //POINTER #1117 @ $1E41F4 - STRING #1117 @ $1E02E7
 
 #W24($1E41F4)
-//<NC1>は<SND><$55>みがまえた!<LF>
-//アップ率があがった<END>
+<NC1>は<SND><$55>みがまえた!<LF>
+アップ率があがった<END>
 
 
 //POINTER #1118 @ $1E41F8 - STRING #1118 @ $1E0306
 
 #W24($1E41F8)
-//<NC1>は<SND><$54>かまえをといた<LF>
-//アップ率がさがった<END>
+<NC1>は<SND><$54>かまえをといた<LF>
+アップ率がさがった<END>
 
 
 //POINTER #1119 @ $1E41FC - STRING #1119 @ $1E0327
 
 #W24($1E41FC)
-//<SND><$45><NC1>がほえた!<LF>
-//<NC2>さんはこゎくなって<LF>
-//1しかだせなくなった<END>
+<SND><$45><NC1>がほえた!<LF>
+<NC2>さんはこゎくなって<LF>
+1しかだせなくなった<END>
 
 
 //POINTER #1120 @ $1E4200 - STRING #1120 @ $1E0353
 
 #W24($1E4200)
-//ワイルドラットが「加速」を<LF>
-//ひきのばしてくれた<LF>
-//<LF>
-//<NC2>さんは,もう3順<LF>
-//「加速」がつづきます<END>
+ワイルドラットが「加速」を<LF>
+ひきのばしてくれた<LF>
+<LF>
+<NC2>さんは,もう3順<LF>
+「加速」がつづきます<END>
 
 
 //POINTER #1121 @ $1E4204 - STRING #1121 @ $1E039A
 
 #W24($1E4204)
-//<NC1>がちょろまかしていたCPを<LF>
-//しぶしぶ,ゎたしてくれた<END>
+<NC1>がちょろまかしていたCPを<LF>
+しぶしぶ,ゎたしてくれた<END>
 
 
 //POINTER #1122 @ $1E4208 - STRING #1122 @ $1E03C4
 
 #W24($1E4208)
-//<NC1>に言いくるめられて<LF>
-//たくさんはらってしまった<END>
+<NC1>に言いくるめられて<LF>
+たくさんはらってしまった<END>
 
 
 //POINTER #1123 @ $1E420C - STRING #1123 @ $1E03EC
 
 #W24($1E420C)
-//まずはじめに,あなたのなまえを<LF>
-//おしえてください<END>
+まずはじめに,あなたのなまえを<LF>
+おしえてください<END>
 
 
 //POINTER #1124 @ $1E4210 - STRING #1124 @ $1E0411
 
 #W24($1E4210)
-//つぎに,チョコボのなまえを<LF>
-//おしえてください<END>
+つぎに,チョコボのなまえを<LF>
+おしえてください<END>
 
 
 //POINTER #1125 @ $1E4214 - STRING #1125 @ $1E0434
 
 #W24($1E4214)
-//<STY><$09>ゲームを終ゎりますか?<END>
+<STY><$09>ゲームを終ゎりますか?<END>
 
 
 //POINTER #1126 @ $1E4218 - STRING #1126 @ $1E0449
 
 #W24($1E4218)
-//<STY><$09>ほんとうに陷参して<LF>
-//ゲームを終ゎりますか?<END>
+<STY><$09>ほんとうに陷参して<LF>
+ゲームを終ゎりますか?<END>
 
 
 //POINTER #1127 @ $1E421C - STRING #1127 @ $1E046F
 
 #W24($1E421C)
-//セーブしますか?<END>
+セーブしますか?<END>
 
 
 //POINTER #1128 @ $1E4220 - STRING #1128 @ $1E047B
 
 #W24($1E4220)
-//<STY><$09>いらっしゃい 召喚屋です<LF>
-//攻撃魔石を召喚しますか?<END>
+<STY><$09>いらっしゃい 召喚屋です<LF>
+攻撃魔石を召喚しますか?<END>
 
 
 //POINTER #1129 @ $1E4224 - STRING #1129 @ $1E04A6
 
 #W24($1E4224)
-//<STY><$09>マスのレベルアップを<LF>
-//しますか?<END>
+<STY><$09>マスのレベルアップを<LF>
+しますか?<END>
 
 
 //POINTER #1130 @ $1E4228 - STRING #1130 @ $1E04C4
 
 #W24($1E4228)
-//<STY><$09>誰かを召喚しますか?<LF>
-//(L・Rでページ切り替え)<END>
+<STY><$09>誰かを召喚しますか?<LF>
+(L・Rでページ切り替え)<END>
 
 
 //POINTER #1131 @ $1E422C - STRING #1131 @ $1E04EA
 
 #W24($1E422C)
-//<STY><$09>マスのレベルアップですか?<LF>
-//誰かを召喚しますか?<END>
+<STY><$09>マスのレベルアップですか?<LF>
+誰かを召喚しますか?<END>
 
 
 //POINTER #1132 @ $1E4230 - STRING #1132 @ $1E0514
 
 #W24($1E4230)
-//<STY><$09>友達を蛋きますか?<END>
+<STY><$09>友達を蛋きますか?<END>
 
 
 //POINTER #1133 @ $1E4234 - STRING #1133 @ $1E0525
 
 #W24($1E4234)
-//<STY><$09>マスのレベルアップですか?<LF>
-//友達を蛋きますか?<END>
+<STY><$09>マスのレベルアップですか?<LF>
+友達を蛋きますか?<END>
 
 
 //POINTER #1134 @ $1E4238 - STRING #1134 @ $1E054E
 
 #W24($1E4238)
-//<STY><$09>友達魔石で乗っとれます<LF>
-//乗っとりますか?<END>
+<STY><$09>友達魔石で乗っとれます<LF>
+乗っとりますか?<END>
 
 
 //POINTER #1135 @ $1E423C - STRING #1135 @ $1E0574
 
 #W24($1E423C)
-//<STY><$09>準備はととのいましたか?<END>
+<STY><$09>準備はととのいましたか?<END>
 
 
 //POINTER #1136 @ $1E4240 - STRING #1136 @ $1E058B
 
 #W24($1E4240)
-//<STY><$09><$EC>でマスを孚ばな<LF>
-//せます 孚ばなしますか?<END>
+<STY><$09><$EC>でマスをAばな<LF>
+せます Aばなしますか?<END>
 
 
 //POINTER #1137 @ $1E4244 - STRING #1137 @ $1E05AF
 
 #W24($1E4244)
-//<STY><$01>連れて行く友達を召喚できます<END>
-
+<STY><$01>連れて行く友達を召喚できます<END>
 
 //POINTER #1138 @ $1E4248 - STRING #1138 @ $1E05CB
 
 #W24($1E4248)
-//チェッククリスタルをチェックしてい<LF>
-//ないのでCPをもらえません<END>
+チェッククリスタルをチェックしてい<LF>
+ないのでCPをもらえません<END>
 
 
 //POINTER #1139 @ $1E424C - STRING #1139 @ $1E0602
 
 #W24($1E424C)
-//<NC1>を<LF>
-//独占しました!!<END>
+<NC1>を<LF>
+独占しました!!<END>
 
 
 //POINTER #1140 @ $1E4250 - STRING #1140 @ $1E0613
 
 #W24($1E4250)
-//<NC1>の<LF>
-//独占がなくなりました!<END>
+<NC1>の<LF>
+独占がなくなりました!<END>
 
 
 //POINTER #1141 @ $1E4254 - STRING #1141 @ $1E062A
 
 #W24($1E4254)
-//クリスタルポイントが不足しています<LF>
-//帰ってもらう友達を遥んでください!<END>
+クリスタルポイントが不足しています<LF>
+帰ってもらう友達を遥んでください!<END>
 
 
 //POINTER #1142 @ $1E4258 - STRING #1142 @ $1E0667
 
 #W24($1E4258)
-//<NC1>に<LF>
-//帰ってもらいました<END>
+<NC1>に<LF>
+帰ってもらいました<END>
 
 
 //POINTER #1143 @ $1E425C - STRING #1143 @ $1E067C
 
 #W24($1E425C)
-//<STY><$03><NC1>が<LF>
-//孚伝ってくれます<END>
+<STY><$03><NC1>が<LF>
+A伝ってくれます<END>
 
 
 //POINTER #1144 @ $1E4260 - STRING #1144 @ $1E0690
 
 #W24($1E4260)
-//これ以上お孚伝いをたのめません<LF>
-//このマスの友達は満席です<LF>
-//(最穴 3体まで)<END>
+これ以上おA伝いをたのめません<LF>
+このマスの友達は満席です<LF>
+(最穴 3体まで)<END>
 
 
 //POINTER #1145 @ $1E4264 - STRING #1145 @ $1E06D1
 
 #W24($1E4264)
-//友達が増えました<END>
+友達が増えました<END>
 
 
 //POINTER #1146 @ $1E4268 - STRING #1146 @ $1E06DF
 
 #W24($1E4268)
-//新しい友達のおかげで<END>
+新しい友達のおかげで<END>
 
 
 //POINTER #1147 @ $1E426C - STRING #1147 @ $1E06EF
 
 #W24($1E426C)
-//<NC1>さんは<LF>
-//「カエル」なので魔石を使えません<END>
+<NC1>さんは<LF>
+「カエル」なので魔石を使えません<END>
 
 
 //POINTER #1148 @ $1E4270 - STRING #1148 @ $1E0713
 
 #W24($1E4270)
-//クリスタルポイントが<LF>
-//不足しています!<END>
+クリスタルポイントが<LF>
+不足しています!<END>
 
 
 //POINTER #1149 @ $1E4274 - STRING #1149 @ $1E0734
 
 #W24($1E4274)
-//<NC1>と<LF>
-//こうたいしました<END>
+<NC1>と<LF>
+こうたいしました<END>
 
 
 //POINTER #1150 @ $1E4278 - STRING #1150 @ $1E0744
 
 #W24($1E4278)
-//マスを孚に入れるだけの<LF>
-//クリスタルポイントがないので<LF>
-//友達にお孚伝いをたのめません<END>
+マスをAに入れるだけの<LF>
+クリスタルポイントがないので<LF>
+友達におA伝いをたのめません<END>
 
 
 //POINTER #1151 @ $1E427C - STRING #1151 @ $1E078F
 
 #W24($1E427C)
-//友達魔石を召喚していないので<LF>
-//お孚伝いをたのめません!<END>
+友達魔石を召喚していないので<LF>
+おA伝いをたのめません!<END>
 
 
 //POINTER #1152 @ $1E4280 - STRING #1152 @ $1E07BE
 
 #W24($1E4280)
-//<NC1>さんはまだ<LF>
-//攻撃魔石を召喚できません<END>
+<NC1>さんはまだ<LF>
+攻撃魔石を召喚できません<END>
 
 
 //POINTER #1153 @ $1E4284 - STRING #1153 @ $1E07E0
 
 #W24($1E4284)
-//これ以上,攻撃魔石をもてません<LF>
-//(最穴 4つまで)<END>
+これ以上,攻撃魔石をもてません<LF>
+(最穴 4つまで)<END>
 
 
 //POINTER #1154 @ $1E4288 - STRING #1154 @ $1E080B
 
 #W24($1E4288)
-//レベルアップできるマスはありません<END>
+レベルアップできるマスはありません<END>
 
 
 //POINTER #1155 @ $1E428C - STRING #1155 @ $1E082B
 
 #W24($1E428C)
-//これ以上レベルアップできません<END>
+これ以上レベルアップできません<END>
 
 
 //POINTER #1156 @ $1E4290 - STRING #1156 @ $1E0847
 
 #W24($1E4290)
-//もっているマスがないので<LF>
-//レベルアップできません!<END>
+もっているマスがないので<LF>
+レベルアップできません!<END>
 
 
 //POINTER #1157 @ $1E4294 - STRING #1157 @ $1E0873
 
 #W24($1E4294)
-//クリスタルポイントがたりないので<LF>
-//マスのレベルアップができません<LF>
-//(10以上必要です)<END>
+クリスタルポイントがたりないので<LF>
+マスのレベルアップができません<LF>
+(10以上必要です)<END>
 
 
 //POINTER #1158 @ $1E4298 - STRING #1158 @ $1E08BE
 
 #W24($1E4298)
-//厳しい状態のあなたにオマケです<LF>
-//特別に,<SND><$56>赤字を消しましょう<LF>
-//・・・ナイショですよ<LF>
-//さらに,プレゼントです<LF>
-//ちょっとだけ,<SND><$57>おこづかいを<LF>
-//差し上げます<END>
+厳しい状態のあなたにオマケです<LF>
+特別に,<SND><$56>赤字を消しましょう<LF>
+・・・ナイショですよ<LF>
+さらに,プレゼントです<LF>
+ちょっとだけ,<SND><$57>おこづかいを<LF>
+差し上げます<END>
 
 
 //POINTER #1159 @ $1E429C - STRING #1159 @ $1E0938
 
 #W24($1E429C)
-//厳しい状態のあなたにオマケです<LF>
-//特別に,赤字を消しましょう<LF>
-//・・・ナイショですよ<END>
+厳しい状態のあなたにオマケです<LF>
+特別に,赤字を消しましょう<LF>
+・・・ナイショですよ<END>
 
 
 //POINTER #1160 @ $1E42A0 - STRING #1160 @ $1E097B
 
 #W24($1E42A0)
-//さらに,プレゼントです<LF>
-//ちょっとだけ,おこづかいを<LF>
-//差し上げます<END>
+さらに,プレゼントです<LF>
+ちょっとだけ,おこづかいを<LF>
+差し上げます<END>
 
 
 //POINTER #1161 @ $1E42A4 - STRING #1161 @ $1E09AE
 
 #W24($1E42A4)
-//厳しい状態のあなたにオマケです<LF>
-//ちょっとだけ,<SND><$57>おこづかいを<LF>
-//差し上げます<END>
+厳しい状態のあなたにオマケです<LF>
+ちょっとだけ,<SND><$57>おこづかいを<LF>
+差し上げます<END>
 
 
 //POINTER #1162 @ $1E42A8 - STRING #1162 @ $1E09EA
 
 #W24($1E42A8)
-//厳しい状態のあなたにオマケです<LF>
-//ちょっとだけ,おこづかいを<LF>
-//差し上げます<END>
+厳しい状態のあなたにオマケです<LF>
+ちょっとだけ,おこづかいを<LF>
+差し上げます<END>
 
 
 //POINTER #1163 @ $1E42AC - STRING #1163 @ $1E0A24
 
 #W24($1E42AC)
-//こんにちは,召喚屋です<LF>
-//ちょっと負けてますね<LF>
-//そんなあなたにプレゼントです<LF>
-//<SND><$04>攻撃魔石の<NC1>です<LF>
-//あまりむりしないで<LF>
-//ゆっくりやればいいさ<END>
+こんにちは,召喚屋です<LF>
+ちょっとBけてますね<LF>
+そんなあなたにプレゼントです<LF>
+<SND><$04>攻撃魔石の<NC1>です<LF>
+あまりむりしないで<LF>
+ゆっくりやればいいさ<END>
 
 
 //POINTER #1164 @ $1E42B0 - STRING #1164 @ $1E0A98
 
 #W24($1E42B0)
-//こんにちは,召喚屋です<LF>
-//ちょっと負けてますね<LF>
-//そんなあなたにプレゼントです<END>
+こんにちは,召喚屋です<LF>
+ちょっとBけてますね<LF>
+そんなあなたにプレゼントです<END>
 
 
 //POINTER #1165 @ $1E42B4 - STRING #1165 @ $1E0ADA
 
 #W24($1E42B4)
-//攻撃魔石の<NC1>です<LF>
-//あまりむりしないで<LF>
-//ゆっくりやればいいさ<END>
+攻撃魔石の<NC1>です<LF>
+あまりむりしないで<LF>
+ゆっくりやればいいさ<END>
 
 
 //POINTER #1166 @ $1E42B8 - STRING #1166 @ $1E0B0A
 
 #W24($1E42B8)
-//こんにちは,召喚屋です<LF>
-//ちょっと負けてますね<LF>
-//そんなあなたにプレゼントです<LF>
-//なんと<SND><$1F>チェッククリスタルです<LF>
-//<LF>
-//<LF>
-//あまりむりしないで<LF>
-//ゆっくりやればいいさ<END>
+こんにちは,召喚屋です<LF>
+ちょっとBけてますね<LF>
+そんなあなたにプレゼントです<LF>
+なんと<SND><$1F>チェッククリスタルです<LF>
+<LF>
+<LF>
+あまりむりしないで<LF>
+ゆっくりやればいいさ<END>
 
 
 //POINTER #1167 @ $1E42BC - STRING #1167 @ $1E0B8D
 
 #W24($1E42BC)
-//こんにちは,召喚屋です<LF>
-//ちょっと負けてますね<LF>
-//そんなあなたにプレゼントです<LF>
-//なんとチェッククリスタルです<END>
+こんにちは,召喚屋です<LF>
+ちょっとBけてますね<LF>
+そんなあなたにプレゼントです<LF>
+なんとチェッククリスタルです<END>
 
 
 //POINTER #1168 @ $1E42C0 - STRING #1168 @ $1E0BEB
 
 #W24($1E42C0)
-//あまりむりしないで<LF>
-//ゆっくりやればいいさ<END>
+あまりむりしないで<LF>
+ゆっくりやればいいさ<END>
 
 
 //POINTER #1169 @ $1E42C4 - STRING #1169 @ $1E0C0C
 
 #W24($1E42C4)
-//おはなしをすすめながら遊びます<LF>
-//ひとりで遊びます<END>
+おはなしをすすめながら遊びます<LF>
+ひとりで遊びます<END>
 
 
 //POINTER #1170 @ $1E42C8 - STRING #1170 @ $1E0C35
 
 #W24($1E42C8)
-//<END>
+<END>
 
 
 //POINTER #1171 @ $1E42CC - STRING #1171 @ $1E0C36
 
 #W24($1E42CC)
-//みんなで遊べます<LF>
-//2~4人で対戦ができます<END>
+みんなで遊べます<LF>
+2~4人で対戦ができます<END>
 
 
 //POINTER #1172 @ $1E42D0 - STRING #1172 @ $1E0C59
 
 #W24($1E42D0)
-//<END>
+<END>
 
 
 //POINTER #1173 @ $1E42D4 - STRING #1173 @ $1E0C5A
 
 #W24($1E42D4)
-//おんがくをきいたり<LF>
-//せいせきを見ることができます<END>
+おんがくをきいたり<LF>
+せいせきを見ることができます<END>
 
 
 //POINTER #1174 @ $1E42D8 - STRING #1174 @ $1E0C7D
 
 #W24($1E42D8)
-//<END>
+<END>
 
 
 //POINTER #1175 @ $1E42DC - STRING #1175 @ $1E0C7E
 
 #W24($1E42DC)
-//おはなしをはじめから<LF>
-//遊びます<END>
+おはなしをはじめから<LF>
+遊びます<END>
 
 
 //POINTER #1176 @ $1E42E0 - STRING #1176 @ $1E0C97
 
 #W24($1E42E0)
-//セーブしたところから<LF>
-//おはなしのつづきを遊びます<END>
+セーブしたところから<LF>
+おはなしのつづきを遊びます<END>
 
 
 //POINTER #1177 @ $1E42E4 - STRING #1177 @ $1E0CBF
 
 #W24($1E42E4)
-//ゲームでながれている<LF>
-//おんがくがきけます<END>
+ゲームでながれている<LF>
+おんがくがきけます<END>
 
 
 //POINTER #1178 @ $1E42E8 - STRING #1178 @ $1E0CDD
 
 #W24($1E42E8)
-//友達の「ずかん」を<LF>
-//見ることができます<END>
+友達の「ずかん」を<LF>
+見ることができます<END>
 
 
 //POINTER #1179 @ $1E42EC - STRING #1179 @ $1E0CFB
 
 #W24($1E42EC)
-//肢ち負けのせいせきを<LF>
-//見ることができます<END>
+CちBけのせいせきを<LF>
+見ることができます<END>
 
 
 //POINTER #1180 @ $1E42F0 - STRING #1180 @ $1E0D1A
 
 #W24($1E42F0)
-//くゎしい遊びかたを<LF>
-//見ることができます<END>
+くゎしい遊びかたを<LF>
+見ることができます<END>
 
 
 //POINTER #1181 @ $1E42F4 - STRING #1181 @ $1E0D38
 
 #W24($1E42F4)
-//なまえをかえることが<LF>
-//できます<END>
+なまえをかえることが<LF>
+できます<END>
 
 
 //POINTER #1182 @ $1E42F8 - STRING #1182 @ $1E0D4F
 
 #W24($1E42F8)
-//プレイヤーのなまえを<LF>
-//かえますか?<END>
+プレイヤーのなまえを<LF>
+かえますか?<END>
 
 
 //POINTER #1183 @ $1E42FC - STRING #1183 @ $1E0D6A
 
 #W24($1E42FC)
-//チョコボのなまえを<LF>
-//かえますか?<END>
+チョコボのなまえを<LF>
+かえますか?<END>
 
 
 //POINTER #1184 @ $1E4300 - STRING #1184 @ $1E0D84
 
 #W24($1E4300)
-//セーブをしますか?<END>
+セーブをしますか?<END>
 
 
 //POINTER #1185 @ $1E4304 - STRING #1185 @ $1E0D92
 
 #W24($1E4304)
-//なまえをセーブしていません<LF>
-//セーブしますか?<END>
+なまえをセーブしていません<LF>
+セーブしますか?<END>
 
 
 //POINTER #1186 @ $1E4308 - STRING #1186 @ $1E0DB4
 
 #W24($1E4308)
-//さんの記録<END>
+さんの記録<END>
 
 
 //POINTER #1187 @ $1E430C - STRING #1187 @ $1E0DBE
 
 #W24($1E430C)
-//絲合計額<END>
+絲合計額<END>
 
 
 //POINTER #1188 @ $1E4310 - STRING #1188 @ $1E0DC7
 
 #W24($1E4310)
-//白分のマス数<END>
+白分のマス数<END>
 
 
 //POINTER #1189 @ $1E4314 - STRING #1189 @ $1E0DD4
 
 #W24($1E4314)
-//独占エリア数<END>
+独占エリア数<END>
 
 
 //POINTER #1190 @ $1E4318 - STRING #1190 @ $1E0DE1
 
 #W24($1E4318)
-//           <END>
+           <END>
 
 
 //POINTER #1191 @ $1E431C - STRING #1191 @ $1E0DED
 
 #W24($1E431C)
-//白分のマスの最咼CP<END>
+白分のマスの最咼CP<END>
 
 
 //POINTER #1192 @ $1E4320 - STRING #1192 @ $1E0E00
 
 #W24($1E4320)
-//もらった合計/回数<END>
+もらった合計/回数<END>
 
 
 //POINTER #1193 @ $1E4324 - STRING #1193 @ $1E0E12
 
 #W24($1E4324)
-//はらった合計/回数<END>
+はらった合計/回数<END>
 
 
 //POINTER #1194 @ $1E4328 - STRING #1194 @ $1E0E24
 
 #W24($1E4328)
-//もらった回数<END>
+もらった回数<END>
 
 
 //POINTER #1195 @ $1E432C - STRING #1195 @ $1E0E31
 
 #W24($1E432C)
-//はらった回数<END>
+はらった回数<END>
 
 
 //POINTER #1196 @ $1E4330 - STRING #1196 @ $1E0E3E
 
 #W24($1E4330)
-//乗っとった回数<END>
+乗っとった回数<END>
 
 
 //POINTER #1197 @ $1E4334 - STRING #1197 @ $1E0E4D
 
 #W24($1E4334)
-//乗っとられた回数<END>
+乗っとられた回数<END>
 
 
 //POINTER #1198 @ $1E4338 - STRING #1198 @ $1E0E5E
 
 #W24($1E4338)
-//もらったCPの最穴額<END>
+もらったCPの最穴額<END>
 
 
 //POINTER #1199 @ $1E433C - STRING #1199 @ $1E0E71
 
 #W24($1E433C)
-//はらったCPの最穴額<END>
+はらったCPの最穴額<END>
 
 
 //POINTER #1200 @ $1E4340 - STRING #1200 @ $1E0E84
 
 #W24($1E4340)
-//マイナスになった回数<END>
+マイナスになった回数<END>
 
 
 //POINTER #1201 @ $1E4344 - STRING #1201 @ $1E0E99
 
 #W24($1E4344)
-//マイナスにさせた回数<END>
+マイナスにさせた回数<END>
 
 
 //POINTER #1202 @ $1E4348 - STRING #1202 @ $1E0EAC
 
 #W24($1E4348)
-//セーブ中です<END>
+セーブ中です<END>
 
 
 //POINTER #1203 @ $1E434C - STRING #1203 @ $1E0EB7
 
 #W24($1E434C)
-//あたらしいデータを<LF>
-//うゎがきしますか?<END>
+あたらしいデータを<LF>
+うゎがきしますか?<END>
 
 
 //POINTER #1204 @ $1E4350 - STRING #1204 @ $1E0ED2
 
 #W24($1E4350)
-//セーブが終ゎりました<END>
+セーブが終ゎりました<END>
 
 
 //POINTER #1205 @ $1E4354 - STRING #1205 @ $1E0EE4
 
 #W24($1E4354)
-//セーブデータがありません<END>
+セーブデータがありません<END>
 
 
 //POINTER #1206 @ $1E4358 - STRING #1206 @ $1E0EF8
 
 #W24($1E4358)
-//このデータをロード<LF>
-//しますか?<END>
+このデータをロード<LF>
+しますか?<END>
 
 
 //POINTER #1207 @ $1E435C - STRING #1207 @ $1E0F0F
 
 #W24($1E435C)
-//ロードが終ゎりました<END>
+ロードが終ゎりました<END>
 
 
 //POINTER #1208 @ $1E4360 - STRING #1208 @ $1E0F21
 
 #W24($1E4360)
-//クリアデータをセーブせずに<LF>
-//終了してもよろしいですか?<END>
+クリアデータをセーブせずに<LF>
+終了してもよろしいですか?<END>
 
 
 //POINTER #1209 @ $1E4364 - STRING #1209 @ $1E0F4D
 
 #W24($1E4364)
-//データのセーブに失敗しました<END>
+データのセーブに失敗しました<END>
 
 
 //POINTER #1210 @ $1E4368 - STRING #1210 @ $1E0F66
 
 #W24($1E4368)
-//データのロードに失敗しました<END>
+データのロードに失敗しました<END>
 
 
 //POINTER #1211 @ $1E436C - STRING #1211 @ $1E0F7F
 
 #W24($1E436C)
-//データが壊れています<LF>
-//このデータは使えません<END>
+データが壊れています<LF>
+このデータは使えません<END>
 
 
 //POINTER #1212 @ $1E4370 - STRING #1212 @ $1E0FA3
 
 #W24($1E4370)
-//つないでAボタンを押してください<END>
+つないでAボタンを押してください<END>
 
 
 //POINTER #1213 @ $1E4374 - STRING #1213 @ $1E0FBE
 
 #W24($1E4374)
-//プレイヤー1を見つけました<END>
+プレイヤー1を見つけました<END>
 
 
 //POINTER #1214 @ $1E4378 - STRING #1214 @ $1E0FD5
 
 #W24($1E4378)
-//プレイヤー2を見つけました<END>
+プレイヤー2を見つけました<END>
 
 
 //POINTER #1215 @ $1E437C - STRING #1215 @ $1E0FEC
 
 #W24($1E437C)
-//プレイヤー3を見つけました<END>
+プレイヤー3を見つけました<END>
 
 
 //POINTER #1216 @ $1E4380 - STRING #1216 @ $1E1003
 
 #W24($1E4380)
-//プレイヤー4を見つけました<END>
+プレイヤー4を見つけました<END>
 
 
 //POINTER #1217 @ $1E4384 - STRING #1217 @ $1E101A
 
 #W24($1E4384)
-//そろえばAボタンを押してください<END>
+そろえばAボタンを押してください<END>
 
 
 //POINTER #1218 @ $1E4388 - STRING #1218 @ $1E1035
 
 #W24($1E4388)
-//通信ができません<END>
+通信ができません<END>
 
 
 //POINTER #1219 @ $1E438C - STRING #1219 @ $1E1043
 
 #W24($1E438C)
-//対戦する人数を決めてください<END>
+対戦する人数を決めてください<END>
 
 
 //POINTER #1220 @ $1E4390 - STRING #1220 @ $1E105C
 
 #W24($1E4390)
-//プレイヤー1の設定をします<END>
+プレイヤー1の設定をします<END>
 
 
 //POINTER #1221 @ $1E4394 - STRING #1221 @ $1E1073
 
 #W24($1E4394)
-//プレイヤー2の設定をします<END>
+プレイヤー2の設定をします<END>
 
 
 //POINTER #1222 @ $1E4398 - STRING #1222 @ $1E108A
 
 #W24($1E4398)
-//プレイヤー3の設定をします<END>
+プレイヤー3の設定をします<END>
 
 
 //POINTER #1223 @ $1E439C - STRING #1223 @ $1E10A1
 
 #W24($1E439C)
-//プレイヤー4の設定をします<END>
+プレイヤー4の設定をします<END>
 
 
 //POINTER #1224 @ $1E43A0 - STRING #1224 @ $1E10B8
 
 #W24($1E43A0)
-//COMが操作します<END>
+COMが操作します<END>
 
 
 //POINTER #1225 @ $1E43A4 - STRING #1225 @ $1E10C5
 
 #W24($1E43A4)
-//プレイヤーのなまえを決めてください<END>
+プレイヤーのなまえを決めてください<END>
 
 
 //POINTER #1226 @ $1E43A8 - STRING #1226 @ $1E10E3
 
 #W24($1E43A8)
-//使うコマを決めてください<END>
+使うコマを決めてください<END>
 
 
 //POINTER #1227 @ $1E43AC - STRING #1227 @ $1E10F8
 
 #W24($1E43AC)
-//遊ぶマップを遥べます<END>
+遊ぶマップを遥べます<END>
 
 
 //POINTER #1228 @ $1E43B0 - STRING #1228 @ $1E110C
 
 #W24($1E43B0)
-//ハンデなどを遥べます<END>
+ハンデなどを遥べます<END>
 
 
 //POINTER #1229 @ $1E43B4 - STRING #1229 @ $1E1120
 
 #W24($1E43B4)
-//あなたの設定をしてください<END>
+あなたの設定をしてください<END>
 
 
 //POINTER #1230 @ $1E43B8 - STRING #1230 @ $1E1136
 
 #W24($1E43B8)
-//L・Rボタンでマップを遥択できます<END>
+L・Rボタンでマップを遥択できます<END>
 
 
 //POINTER #1231 @ $1E43BC - STRING #1231 @ $1E1154
 
 #W24($1E43BC)
-//十字ボタンで目標CPを変更できます<END>
+十字ボタンで目標CPを変更できます<END>
 
 
 //POINTER #1232 @ $1E43C0 - STRING #1232 @ $1E1173
 
 #W24($1E43C0)
-//十字ボタンの左右で遥んでください<END>
+十字ボタンの左右で遥んでください<END>
 
 
 //POINTER #1233 @ $1E43C4 - STRING #1233 @ $1E1191
 
 #W24($1E43C4)
-//十字ボタンで遥んでください<END>
+十字ボタンで遥んでください<END>
 
 
 //POINTER #1234 @ $1E43C8 - STRING #1234 @ $1E11A9
 
 #W24($1E43C8)
-//使う友達魔石を遥ぶことができます<END>
+使う友達魔石を遥ぶことができます<END>
 
 
 //POINTER #1235 @ $1E43CC - STRING #1235 @ $1E11C5
 
 #W24($1E43CC)
-//使う攻撃魔石を遥ぶことができます<END>
+使う攻撃魔石を遥ぶことができます<END>
 
 
 //POINTER #1236 @ $1E43D0 - STRING #1236 @ $1E11E1
 
 #W24($1E43D0)
-//周回ボーナスの値を変更できます<END>
+周回ボーナスの値を変更できます<END>
 
 
 //POINTER #1237 @ $1E43D4 - STRING #1237 @ $1E11FD
 
 #W24($1E43D4)
-//十字ボタンの左右で周回数を変更でき<LF>
-//ます 周回数が多いほどスタートマス<LF>
-//でもらえるCPが多くなります<END>
+十字ボタンの左右で周回数を変更でき<LF>
+ます 周回数が多いほどスタートマス<LF>
+でもらえるCPが多くなります<END>
 
 
 //POINTER #1238 @ $1E43D8 - STRING #1238 @ $1E1254
 
 #W24($1E43D8)
-//この設定ではじめますか?<END>
+この設定ではじめますか?<END>
 
 
 //POINTER #1239 @ $1E43DC - STRING #1239 @ $1E1268
 
 #W24($1E43DC)
-//操作をCOMに切り替えます<LF>
-//「順番です」のときにAボタンを<LF>
-//押すと元にもどすことができます<END>
+操作をCOMに切り替えます<LF>
+「順番です」のときにAボタンを<LF>
+押すと元にもどすことができます<END>
 
 
 //POINTER #1240 @ $1E43E0 - STRING #1240 @ $1E12B1
 
 #W24($1E43E0)
-//「順番です」のときに<LF>
-//Aボタンを押すと元にもどすことが<LF>
-//できます<END>
+「順番です」のときに<LF>
+Aボタンを押すと元にもどすことが<LF>
+できます<END>
 
 
 //POINTER #1241 @ $1E43E4 - STRING #1241 @ $1E12E5
 
 #W24($1E43E4)
-//COMに切り替えますか?<END>
+COMに切り替えますか?<END>
 
 
 //POINTER #1242 @ $1E43E8 - STRING #1242 @ $1E12F7
 
 #W24($1E43E8)
-//操作を<NC1>さんに<LF>
-//切り替えますか?<END>
+操作を<NC1>さんに<LF>
+切り替えますか?<END>
 
 
 //POINTER #1243 @ $1E43EC - STRING #1243 @ $1E1311
 
 #W24($1E43EC)
-//1だいをみんなで使って<LF>
-//対戦できます(4人まで)<END>
+1だいをみんなで使って<LF>
+対戦できます(4人まで)<END>
 
 
 //POINTER #1244 @ $1E43F0 - STRING #1244 @ $1E133A
 
 #W24($1E43F0)
-//通信ケーブルで4だいまで<LF>
-//つないで対戦できます<END>
+通信ケーブルで4だいまで<LF>
+つないで対戦できます<END>
 
 
 //POINTER #1245 @ $1E43F4 - STRING #1245 @ $1E1362
 
 #W24($1E43F4)
-//対戦のけっかを<LF>
-//セーブしますか?<END>
+対戦のけっかを<LF>
+セーブしますか?<END>
 
 
 //POINTER #1246 @ $1E43F8 - STRING #1246 @ $1E137B
 
 #W24($1E43F8)
-//1Pの操作をまっています<END>
+1Pの操作をまっています<END>
 
 
 //POINTER #1247 @ $1E43FC - STRING #1247 @ $1E1390
 
 #W24($1E43FC)
-//2Pの操作をまっています<END>
+2Pの操作をまっています<END>
 
 
 //POINTER #1248 @ $1E4400 - STRING #1248 @ $1E13A5
 
 #W24($1E4400)
-//3Pの操作をまっています<END>
+3Pの操作をまっています<END>
 
 
 //POINTER #1249 @ $1E4404 - STRING #1249 @ $1E13BA
 
 #W24($1E4404)
-//4Pの操作をまっています<END>
+4Pの操作をまっています<END>
 
 
 //POINTER #1250 @ $1E4408 - STRING #1250 @ $1E13CF
 
 #W24($1E4408)
-//<NC1>さんは次回に<LF>
-//はじめの孚持ちCPに+500CP<LF>
-//してもらえます<END>
+<NC1>さんは次回に<LF>
+はじめのA持ちCPに+500CP<LF>
+してもらえます<END>
 
 
 //POINTER #1251 @ $1E440C - STRING #1251 @ $1E1400
 
 #W24($1E440C)
-//はじめから<END>
+はじめから<END>
 
 
 //POINTER #1252 @ $1E4410 - STRING #1252 @ $1E1409
 
 #W24($1E4410)
-//つづきから<END>
+つづきから<END>
 
 
 //POINTER #1253 @ $1E4414 - STRING #1253 @ $1E1412
 
 #W24($1E4414)
-//2人対戦<END>
+2人対戦<END>
 
 
 //POINTER #1254 @ $1E4418 - STRING #1254 @ $1E141A
 
 #W24($1E4418)
-//3人対戦<END>
+3人対戦<END>
 
 
 //POINTER #1255 @ $1E441C - STRING #1255 @ $1E1422
 
 #W24($1E441C)
-//4人対戦<END>
+4人対戦<END>
 
 
 //POINTER #1256 @ $1E4420 - STRING #1256 @ $1E142A
 
 #W24($1E4420)
-//クリスタルポイントを<LF>
-//支払いました<END>
+クリスタルポイントを<LF>
+支払いました<END>
 
 
 //POINTER #1257 @ $1E4424 - STRING #1257 @ $1E144A
 
 #W24($1E4424)
-// THANK YOU<LF>
-//     FOR PLAYING<END>
+ THANK YOU<LF>
+     FOR PLAYING<END>
 
 
 //POINTER #1258 @ $1E4428 - STRING #1258 @ $1E1466
 
 #W24($1E4428)
-// このバージョンでの,プレイは<LF>
-// ここまでになります<LF>
-// はつばいを,ごきたいください<LF>
-// ゲームないようは<LF>
-// かいはつ中のものです<END>
+ このバージョンでの,プレイは<LF>
+ ここまでになります<LF>
+ はつばいを,ごきたいください<LF>
+ ゲームないようは<LF>
+ かいはつ中のものです<END>
 
 
 //POINTER #1259 @ $1E442C - STRING #1259 @ $1E14CA
 
 #W24($1E442C)
-//このバージョンでは<LF>
-//えらべません<END>
+このバージョンでは<LF>
+えらべません<END>
 
 
 //POINTER #1260 @ $1E4430 - STRING #1260 @ $1E14E6
 
 #W24($1E4430)
-//    ゲームないようは<LF>
-//   かいはつ中のものです<END>
+    ゲームないようは<LF>
+   かいはつ中のものです<END>
 
 
 //POINTER #1261 @ $1E4434 - STRING #1261 @ $1E150D
 
 #W24($1E4434)
-//ダミーデータ(^~^)/<LF>
-//★せいしきデータくれ!☆<END>
+ダミーデータ(^~^)/<LF>
+★せいしきデータくれ!☆<END>
 
 
 //POINTER #1262 @ $1E4438 - STRING #1262 @ $1E152E
 
 #W24($1E4438)
-//☆ダミー★<END>
+☆ダミー★<END>
 
 
 //POINTER #1263 @ $1E443C - STRING #1263 @ $1E1536
 
 #W24($1E443C)
 //,。.・:;?!^々ー/~…"()「」【】+-×÷=>″&*@☆★○□△0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎをんァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロワヲンヴ交代<END>
+AlphabetABC<END>
 
+//************************************************
+// Ally Gems, full description
 
 //POINTER #1264 @ $1E4440 - STRING #1264 @ $1E16C5
 
 #W24($1E4440)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>攻撃魔石の攻撃から守ってくれること<LF>
-//があります 垂ねがけをすると守って<LF>
-//くれるはんいがひろくなります<END>
-
+//Carbuncle
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>None<LF>
+<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Nullifies Magicite at-<LF>
+tacks. Covered area in-<LF>
+creases with stack size.<END>
 
 //POINTER #1265 @ $1E4444 - STRING #1265 @ $1E1757
 
 #W24($1E4444)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>状態異常をなおしてくれることがあり<LF>
-//ます 通るだけでもなおしてくれるこ<LF>
-//とがあります<END>
+//White Mage
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>None<LF>
+<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Cures status effects.<LF>
+Chance to trigger on<LF>
+passing.<END>
 
 
 //POINTER #1266 @ $1E4448 - STRING #1266 @ $1E17D8
 
 #W24($1E4448)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>起きてるあいだアップ率があがります<LF>
-//CPを多めにとります<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>レベルアップすると目がさめます<LF>
-//3順のあいだ起きています<LF>
-//<END>
+//Chip
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Bonus power when awake<LF>
+increases square CP fee.<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Wakes up on level-up and<LF>
+stays awake for 3 turns.<LF>
+<END>
 
 
 //POINTER #1267 @ $1E444C - STRING #1267 @ $1E186E
 
 #W24($1E444C)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>となりあって蛋かれている分だけ<LF>
-//アップ率があがりCPを多めにとり<LF>
-//ます<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>となりあったマスへ蛋くとアップ率が<LF>
-//あがります<LF>
-//<END>
+//Black Mage
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Bonus power when adjacent<LF>
+to each other increases<LF>
+square CP fee.<LF>
+<CYL> Effect on friend<LF>
+<CWH>Bonus power when adjacent<LF>
+to another Black Mage<LF>
+<END>
 
 
 //POINTER #1268 @ $1E4450 - STRING #1268 @ $1E190A
 
 #W24($1E4450)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>襲いかかってきて0~2マスはんいの<LF>
-//どこかにはね飛ばされてしまうことが<LF>
-//あります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>たまに,まちがえて襲ってくることが<LF>
-//あります<LF>
-//<END>
+//Ogre
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Pushes enemy 0-2 squares<LF>
+away<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Chance to trigger on<LF>
+friend<LF>
+<END>
 
 
 //POINTER #1269 @ $1E4454 - STRING #1269 @ $1E19A5
 
 #W24($1E4454)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>トゲで刺してくることがあります<LF>
-//刺されると次の順だけ6がでなくなっ<LF>
-//てしまいます<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<END>
+//Hedgehog
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Prevents enemy from<LF>
+rolling a 6 next turn<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>None<LF>
+<LF>
+<END>
 
 
 //POINTER #1270 @ $1E4458 - STRING #1270 @ $1E1A24
 
 #W24($1E4458)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>「カエル」であればさらに3順のあい<LF>
-//だひきのばすことがあります<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「カエル」にならないように守ってく<LF>
-//れることがあります<LF>
-//<END>
+//Sahagin
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Resets duration of Frog<LF>
+to 3 more turns<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Frog<LF>
+status<LF>
+<END>
 
 
 //POINTER #1271 @ $1E445C - STRING #1271 @ $1E1ABC
 
 #W24($1E445C)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>キュウバンで吸いついてくることがあ<LF>
-//ります 吸いつかれたら動けなくなっ<LF>
-//て次の順は休みになります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<END>
+//Octokraken/Devilfish
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Ensnares enemy with<LF>
+tentacles to make him<LF>
+miss a turn<LF>
+<CYL> Effect on friend<LF>
+<CWH>None<LF>
+<LF>
+<END>
 
 
 //POINTER #1272 @ $1E4460 - STRING #1272 @ $1E1B4C
 
 #W24($1E4460)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>ミストドラゴンが蛋いてあるマスで<LF>
-//「眠り」の攻撃をうけると1順ながく<LF>
-//眠ってしまうことがあります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「眠り」にならないように守ってくれ<LF>
-//ることがあります<LF>
-//<END>
+//Mist dragon
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Resets duration of Sleep<LF>
+to 1 more turn<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Sleep<LF>
+status<LF>
+<END>
 
 
 //POINTER #1273 @ $1E4464 - STRING #1273 @ $1E1BFF
 
 #W24($1E4464)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>「混乱」か「毒」であればさらに3順<LF>
-//のあいだひきのばすことがあります<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「眠り」「混乱」「毒」にならないよ<LF>
-//うに守ってくれることがあります<LF>
-//<END>
+//morbol
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Resets duration of Confu-<LF>
+sion or Poison to 3 more<LF>
+turns<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Sleep,<LF>
+Confusion and Poison<LF>
+<END>
 
 
 //POINTER #1274 @ $1E4468 - STRING #1274 @ $1E1CA2
 
 #W24($1E4468)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>まどゎされてどちらに進んでいたのか<LF>
-//ゎからなくなり,次の順に進む方向が<LF>
-//かゎることがあります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>次の順に好きな方向へ進むことができ<LF>
-//ます<LF>
-//<END>
+//Treant / mammon
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Turns enemy to a random<LF>
+direction<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Allows choice of move<LF>
+direction<LF>
+<END>
 
 
 //POINTER #1275 @ $1E446C - STRING #1275 @ $1E1D4D
 
 #W24($1E446C)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>木ヅチでアタマをたたいてくることが<LF>
-//あります たたかれるとキゼツして次<LF>
-//の順は休みになります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「混乱」になっていたら木ヅチでたた<LF>
-//いてなおしてくれることがあります<LF>
-//<END>
+//drippy
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Hits enemy with a mallet<LF>
+to make him miss a turn<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Confusion<LF>
+(with a gentle tap from<LF>
+his mallet)<END>
 
 
 //POINTER #1276 @ $1E4470 - STRING #1276 @ $1E1E10
 
 #W24($1E4470)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>怪音波をだして「加速」を消してしま<LF>
-//うことがあります<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「眠り」「混乱」「毒」にならないよ<LF>
-//うに守ってくれることがあります<LF>
-//<END>
+//onion
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Removes Haste with his<LF>
+supersonic scream<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Sleep,<LF>
+Confusion and Poison<LF>
+<END>
 
 
 //POINTER #1277 @ $1E4474 - STRING #1277 @ $1E1EA9
 
 #W24($1E4474)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>CPをちょっと多めにとることがあり<LF>
-//ます<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>多めにうばってから5順すぎるまでに<LF>
-//あいに行けばCPをゎたしてくれます<LF>
-//<END>
+//goblin
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Loots extra CP from enemy<LF>
+<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Pays out his loot when<LF>
+visited within 5 turns<LF>
+<END>
 
 
 //POINTER #1278 @ $1E4478 - STRING #1278 @ $1E1F3E
 
 #W24($1E4478)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>今までに攻撃されてつのったウラミを<LF>
-//はらします<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「カエル」「石化」「混乱」にならな<LF>
-//いように守ってくれることがあります<LF>
-//<END>
+//tonberry
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Lets go of grudges built<LF>
+up by past attacks<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Frog,<LF>
+Petrify and Confusion<LF>
+<END>
 
 
 //POINTER #1279 @ $1E447C - STRING #1279 @ $1E1FDC
 
 #W24($1E447C)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>「減速」であればさらに3順のあいだ<LF>
-//ひきのばすことがあります<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「混乱」「毒」にならないように守っ<LF>
-//てくれることがあります<LF>
-//<END>
+//steel bat
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Resets duration of Slow<LF>
+to 3 more turns<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Confusion<LF>
+and Poison<LF>
+<END>
 
 
 //POINTER #1280 @ $1E4480 - STRING #1280 @ $1E2074
 
 #W24($1E4480)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>にらみつけてビックリさせることがあ<LF>
-//ります ビックリしたら次の順は2し<LF>
-//かでなくなります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>なごませてくれます<LF>
-//<LF>
-//<END>
+//floateye
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Hypnotizes enemy to make<LF>
+him roll a 2 next turn<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Relaxing<LF>
+<LF>
+<END>
 
 
 //POINTER #1281 @ $1E4484 - STRING #1281 @ $1E2106
 
 #W24($1E4484)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>ふんづけてしまうことがあります<LF>
-//ふんづけてころんでしまうと進む方向<LF>
-//が逆になります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>足元へもぐってくれるので次の順は<LF>
-//好きな方向へ進めます<LF>
-//<END>
+//mousse
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Trips enemy to reverse<LF>
+move direction<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Lifts player up to allow<LF>
+choice of move direction<LF>
+<LF>
+<END>
 
 
 //POINTER #1282 @ $1E4488 - STRING #1282 @ $1E21B5
 
 #W24($1E4488)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>足首をつかんでくることがあります<LF>
-//つかまれると次の順は1しかでません<LF>
-//コカトリスににらまれると放します<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<END>
+//mudman
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Grabs ankle to make enemy<LF>
+roll a 1 next turn.Scared<LF>
+of Cockatrices.<LF>
+<CYL> Effect on friend<LF>
+<CWH>なし<LF>
+<LF>
+<END>
 
 
 //POINTER #1283 @ $1E448C - STRING #1283 @ $1E224B
 
 #W24($1E448C)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>もっているCPが少ないヒトからは<LF>
-//多くのCPをとらないことがあります<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「石化」にならないように守ってくれ<LF>
-//ることがあります<LF>
-//<END>
+//Golem
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Takes less CP if enemy<LF>
+has little CP<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Petrify<LF>
+<LF>
+<END>
 
 
 //POINTER #1284 @ $1E4490 - STRING #1284 @ $1E22E6
 
 #W24($1E4490)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>頭突きをしてくることがあります<LF>
-//クラクラして次の順は2しかでません<LF>
-//ゴーレムがいると守ってくれます<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「混乱」にならないように守ってくれ<LF>
-//ることがあります<LF>
-//<END>
+//dark Titan
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Headbutts enemy to make<LF>
+him roll a 2 next turn.<LF>
+Scared of Golems.<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Confusion<LF>
+<LF>
+<END>
 
 
 //POINTER #1285 @ $1E4494 - STRING #1285 @ $1E239A
 
 #W24($1E4494)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>クサリをまきつけてくることがありま<LF>
-//す まかれると動けなくて次の順は<LF>
-//休みになります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<END>
+//hill gigas
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Enchains enemy to make<LF>
+him miss a turn<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>None<LF>
+<LF>
+<END>
 
 
 //POINTER #1286 @ $1E4498 - STRING #1286 @ $1E241F
 
 #W24($1E4498)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>マスをレベルアップさせると気合いが<LF>
-//入ってアップ率があがります<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「カエル」「石化」にならないように<LF>
-//守ってくれることがあります<LF>
-//<END>
+//Bomb
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Builds up energy on<LF>
+level-up for bonus power<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Frog and<LF>
+Petrify<LF>
+<END>
 
 
 //POINTER #1287 @ $1E449C - STRING #1287 @ $1E24C2
 
 #W24($1E449C)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>みがまえているときはアップ率があが<LF>
-//っていてCPを多くとります<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>レベルアップをしてレベルを偶数にす<LF>
-//ると,みがまえてアップ率があがりま<LF>
-//す<END>
+//land turtle
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Bonus power when retracted<LF>
+into shell to gather<LF>
+more CP<LF>
+<CYL> Effect on friend<LF>
+<CWH>Retracts on even levels<LF>
+for bonus power<LF>
+<END>
 
 
 //POINTER #1288 @ $1E44A0 - STRING #1288 @ $1E256D
 
 #W24($1E44A0)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>となりあって蛋かれている分だけ<LF>
-//アップ率があがりCPを多めにとりま<LF>
-//す<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>となりあったマスへ蛋くとアップ率が<LF>
-//あがります 「混乱」にならないよう<LF>
-//に守ってくれることがあります<END>
+//roller
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Bonus power when adjacent<LF>
+to another Roller to<LF>
+gather more CP<LF>
+<CYL> Effect on friend<LF>
+<CWH>Bonus power when grouped.<LF>
+Protects from Confusion.<LF>
+<END>
 
 
 //POINTER #1289 @ $1E44A4 - STRING #1289 @ $1E2633
 
 #W24($1E44A4)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>はげしくほえることがあります<LF>
-//こゎくなって次の順は1しかでなくな<LF>
-//ります<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「毒」にならないように守ってくれる<LF>
-//ことがあります<LF>
-//<END>
+//holy dragon
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Scares enemy with mighty<LF>
+roar to make him miss<LF>
+a turn<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Poison<LF>
+<LF>
+<END>
 
 
 //POINTER #1290 @ $1E44A8 - STRING #1290 @ $1E26CD
 
 #W24($1E44A8)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「眠り」にならないように守ってくれ<LF>
-//ます<LF>
-//<END>
+//Worm
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>None<LF>
+<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Sleep<LF>
+<LF>
+<END>
 
 
 //POINTER #1291 @ $1E44AC - STRING #1291 @ $1E272E
 
 #W24($1E44AC)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>「カエル」であればさらに3順のあい<LF>
-//だひきのばします<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「カエル」にならないように守ってく<LF>
-//れます<LF>
-//<END>
+//gigantoad
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Resets duration of Frog<LF>
+for 3 more turns<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Frog<LF>
+<LF>
+<END>
 
 
 //POINTER #1292 @ $1E44B0 - STRING #1292 @ $1E27B6
 
 #W24($1E44B0)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「石化」にならないように守ってくれ<LF>
-//ます<LF>
-//<END>
+//Cockatrice
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>None<LF>
+<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Petrify<LF>
+<LF>
+<END>
 
 
 //POINTER #1293 @ $1E44B4 - STRING #1293 @ $1E2817
 
 #W24($1E44B4)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>なし<LF>
-//<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「加速」であればさらに3順のあいだ<LF>
-//ひきのばしてくれます<LF>
-//<END>
+//wild rat
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>None<LF>
+<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Resets duration of Haste<LF>
+to 3 more turns<LF>
+<LF>
+<END>
 
 
 //POINTER #1294 @ $1E44B8 - STRING #1294 @ $1E2883
 
 #W24($1E44B8)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>「減速」であればそれをさらに3順の<LF>
-//あいだひきのばします<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「減速」であればそれをさらに3順の<LF>
-//あいだひきのばします  「減速」に<LF>
-//ならないように守ってくれます<END>
+//slug
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Resets duration of Slow<LF>
+to 3 more turns<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Resets duration of Slow<LF>
+to 3 more turns.<LF>
+Protects from Slow<END>
 
 
 //POINTER #1295 @ $1E44BC - STRING #1295 @ $1E293B
 
 #W24($1E44BC)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>「混乱」であればそれをさらに3順の<LF>
-//あいだひきのばします<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「混乱」にならないように守ってくれ<LF>
-//ます<LF>
-//<END>
+//Lamia
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Resets duration of<LF>
+Confusion to 3 more turns<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Confusion<LF>
+<LF>
+<END>
 
 
 //POINTER #1296 @ $1E44C0 - STRING #1296 @ $1E29C5
 
 #W24($1E44C0)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>「毒」であればさらに3順のあいだ<LF>
-//ひきのばします<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>「毒」にならないように守ってくれま<LF>
-//す<LF>
-//<END>
+//Cactuar
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Resets duration of Poison<LF>
+to 3 more turns<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Protects from Poison<LF>
+<LF>
+<END>
 
 
 //POINTER #1297 @ $1E44C4 - STRING #1297 @ $1E2A45
 
 #W24($1E44C4)
-//<STY><$0D><CYL> ライバルがとまった時の効果<LF>
-//<CWH>CPを多めにとることがあります<LF>
-//<LF>
-//<LF>
-//<CYL> 白分がとまった時の効果<LF>
-//<CWH>4つのチェッククリスタルをチェック<LF>
-//しているときにアトラにあうと,ため<LF>
-//ていたCPをゎたしてくれます<END>
+//Atla
+<STY><$0D><CYL> Effect on enemy<LF>
+<CWH>Collects extra CP<LF>
+<LF>
+<LF>
+<CYL> Effect on friend<LF>
+<CWH>Pays out his CP when<LF>
+visited with 4 checkpoint<LF>
+Crystals<END>
 
 
 //POINTER #1298 @ $1E44C8 - STRING #1298 @ $1E2AEE
 
 #W24($1E44C8)
-//<STY><$0D><LF>
-//<LF>
-//<LF>
-//   まだ誰も召喚できません<LF>
-//<LF>
-//<LF>
-//<END>
+<STY><$0D><LF>
+<LF>
+<LF>
+   Unavailable<LF>
+<LF>
+<LF>
+<END>
 
-
+//************************************************
+// Magicite, full description
 //POINTER #1299 @ $1E44CC - STRING #1299 @ $1E2B0E
 
 #W24($1E44CC)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>「眠り」になります<LF>
-//1順のあいだ休みになります<LF>
-//<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>「眠り」になります<LF>
-//1順のあいだ休みになりCPをもらう<LF>
-//ことができません<END>
+//Worm
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Sleep: Lose 1 turn<LF>
+<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Sleep: Lose 1 turn<LF>
+Can't collect CP<LF>
+<END>
 
 
 //POINTER #1300 @ $1E44D0 - STRING #1300 @ $1E2B96
-
+//Gigantoad
 #W24($1E44D0)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>「カエル」になります<LF>
-//3順のあいだ魔石が使えなくなります<LF>
-//<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>「カエル」になります<LF>
-//3順のあいだCPをもらえなくなりま<LF>
-//す<END>
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Frog: Can't use Magicite<LF>
+or Ally Gems for 3 turns<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Frog: Can't collect CP<LF>
+for 3 turns<LF>
+<END>
 
 
 //POINTER #1301 @ $1E44D4 - STRING #1301 @ $1E2C1B
 
 #W24($1E44D4)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>「石化」になります<LF>
-//2順のあいだ休みになります<LF>
-//<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>「石化」になります<LF>
-//2順のあいだ休みになりCPをもらう<LF>
-//ことができません<END>
+//Cockatrice
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Petrify: Lose 2 turns<LF>
+<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Petrify: Lose 2 turns<LF>
+Can't collect CP<LF>
+<END>
 
 
 //POINTER #1302 @ $1E44D8 - STRING #1302 @ $1E2CA3
-
+//Wild Rat
 #W24($1E44D8)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>「加速」になります<LF>
-//2順のあいだ,4・5・6しかでなく<LF>
-//なります<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>「加速」になります<LF>
-//2順のあいだCPが50あがります<LF>
-//<END>
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Haste: Roll only 4,5 or 6<LF>
+for 2 turns<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Haste: Square value<LF>
+increased by 50 CP<LF>
+for 2 turns<END>
 
 
 //POINTER #1303 @ $1E44DC - STRING #1303 @ $1E2D20
-
+//Slug
 #W24($1E44DC)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>「減速」になります<LF>
-//2順のあいだ,1・2・3しかでなく<LF>
-//なります<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>「減速」になります<LF>
-//2順のあいだCPが50さがります<LF>
-//<END>
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Slow: Roll only 1,2 or 3<LF>
+for 2 turns<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Slow: Square value<LF>
+reduced by 50 CP<LF>
+for 2 turns<END>
 
 
 //POINTER #1304 @ $1E44E0 - STRING #1304 @ $1E2D9D
 
 #W24($1E44E0)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>「混乱」になります<LF>
-//2順のあいだダイスをふることができ<LF>
-//なくなります<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>「混乱」になります<LF>
-//2順のあいだだれからCPをもらって<LF>
-//いいのかゎからなくなります<END>
+//Lamia
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Confusion: Can't roll the<LF>
+die for 2 turns<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Confusion: Confused about<LF>
+CP collection for 2 turns<LF>
+<END>
 
 
 //POINTER #1305 @ $1E44E4 - STRING #1305 @ $1E2E3D
-
+//Cactuar
 #W24($1E44E4)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>「毒」になります<LF>
-//2順のあいだ孚持ちCPの10を<LF>
-//落としてしまいます<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>「毒」になります<LF>
-//2順のあいだアップ率が半分になりま<LF>
-//す<END>
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Poison: Lose 10 CP each<LF>
+turn for 2 turns<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Poison: Half power<LF>
+for 2 turns<LF>
+<END>
 
 
 //POINTER #1306 @ $1E44E8 - STRING #1306 @ $1E2EC8
 
 #W24($1E44E8)
-//<STY><$0D><CYL> マスへの効果<LF>
-//<CWH>マスのレベルを1つさげます<LF>
-//<END>
+//behemoth
+<STY><$0D><CYL> Effect on square<LF>
+<CWH>Reduces level by 1<LF>
+<END>
 
 
 //POINTER #1307 @ $1E44EC - STRING #1307 @ $1E2EF2
 
 #W24($1E44EC)
-//<STY><$0D><CYL> マスへの効果<LF>
-//<CWH>3×3マスはんいのマスのレベルを<LF>
-//1つさげます<LF>
-//<END>
+// king behemoth
+<STY><$0D><CYL> Effect on square<LF>
+<CWH>Reduces level by 1<LF>
+in a 3×3 area<LF>
+<END>
 
 
 //POINTER #1308 @ $1E44F0 - STRING #1308 @ $1E2F2B
 
 #W24($1E44F0)
-//<STY><$0D><CYL> マスへの効果<LF>
-//<CWH>5×5マスはんいのマスのレベルを<LF>
-//1つさげます<LF>
-//<END>
+<STY><$0D><CYL> Effect on square<LF>
+<CWH>Reduces level by 1<LF>
+in a 5×5 area<LF>
+<END>
 
 
 //POINTER #1309 @ $1E44F4 - STRING #1309 @ $1E2F64
-
+//queen lamia
 #W24($1E44F4)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>3×3マスはんいの中にいるコマを<LF>
-//「混乱」にします<LF>
-//<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>3×3マスはんいの中にいる友達を<LF>
-//「混乱」にします<LF>
-//<END>
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Causes Confusion<LF>
+in a 3×3 area<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Causes Confusion<LF>
+in a 3×3 area<LF>
+<END>
 
 
 //POINTER #1310 @ $1E44F8 - STRING #1310 @ $1E2FDE
 
 #W24($1E44F8)
-//<STY><$0D><CYL> コマへの効果<LF>
-//<CWH>3×3マスはんいの中にいるコマを<LF>
-//「混乱」か「眠り」か「毒」かの<LF>
-//どれかにします<LF>
-//<CYL> 友達魔石への効果<LF>
-//<CWH>3×3マスはんいの中にいる友達を<LF>
-//「混乱」か「眠り」か「毒」かの<LF>
-//どれかにします<END>
+//great morbol
+<STY><$0D><CYL> Effect on player<LF>
+<CWH>Causes Confusion, Sleep or<LF>
+Poison in a 3×3 area<LF>
+<LF>
+<CYL> Effect on Allies<LF>
+<CWH>Causes Confusion, Sleep or<LF>
+Poison in a 3×3 area<LF>
+<END>
 

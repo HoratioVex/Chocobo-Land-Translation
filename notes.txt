@@ -62,7 +62,7 @@ E2 XX: Portrait Character
 	2C,2D,2F / AC,AD,AE,AF: Black Mage (Croma)
 	34,36 / B4,B5,B6,B7: Morbol
 	40,42 / C0,C1,C2: Lamia/Siren
-	48,4B / C8,CB: Steel Bat
+	48,4B / C8,CB: Wild Rat(Steel Bat)
 	50,51 / D0,D1,D2: Sahagin (ashaki)
 	58,59,5B / D8,D9,DB: White Mage (Shirma)
 	5C / DC,DD,DE,DF: Frog
@@ -77,7 +77,7 @@ E2 XX: Portrait Character
 	BD: white sad chocobo? (h)
 	C4: Red Lamia (h)
 	CC: Cactuar (h)
-	D4,D6: Bahamuth (h)
+	D4,D6: Shinryu/(Bahamut) (h)
 	E4: worm (h)
 
 FA: voice off
@@ -108,3 +108,12 @@ graphics compressed lz777 with 4byte header:
 	byte 1,2: ???
 	byte 3,4: size of file -8
 and 4 byte footer: 4*FF
+
+030026fe: name entry page number
+8042316: write r4 <- init with 2 instead of 0
+8042146: 80 7F -> 02 20 1st read
+
+
+
+80422b4: 8C 78 - > 02 24      2nd read
+8041fa6: 90 78 -> 02 20 3rd
