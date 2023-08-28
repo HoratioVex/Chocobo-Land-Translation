@@ -7204,19 +7204,19 @@ Choco<END>
 //POINTER #929 @ $1E3F04 - STRING #929 @ $1DF039
 
 #W24($1E3F04)
-Choco<END>
+Poulet<END>
 
 
 //POINTER #930 @ $1E3F08 - STRING #930 @ $1DF042
 
 #W24($1E3F08)
-Choco<END>
+Hahn<END>
 
 
 //POINTER #931 @ $1E3F0C - STRING #931 @ $1DF04B
 
 #W24($1E3F0C)
-Choco<END>
+Gallo<END>
 
 
 //POINTER #932 @ $1E3F10 - STRING #932 @ $1DF054
@@ -7632,19 +7632,19 @@ Player<END>
 //POINTER #999 @ $1E401C - STRING #999 @ $1DF311
 
 #W24($1E401C)
-Plr-2<END>
+Blue<END>
 
 
 //POINTER #1000 @ $1E4020 - STRING #1000 @ $1DF31C
 
 #W24($1E4020)
-Plr-3<END>
+Red<END>
 
 
 //POINTER #1001 @ $1E4024 - STRING #1001 @ $1DF327
 
 #W24($1E4024)
-Plr-4<END>
+Green<END>
 
 
 //POINTER #1002 @ $1E4028 - STRING #1002 @ $1DF332
@@ -7752,7 +7752,7 @@ loses status<LF>
 
 #W24($1E4064)
 <NC1><LF>
-gains status
+gains status<LF>
 <NC2><END>
 
 
@@ -8023,7 +8023,7 @@ loses status<LF>
 
 #W24($1E40F4)
 <NC1><LF>
-is immune to<LF>
+resists<LF>
 <NC2><END>
 
 
@@ -8647,8 +8647,8 @@ Capture with Allies?<END>
 //POINTER #1136 @ $1E4240 - STRING #1136 @ $1E058B
 
 #W24($1E4240)
-<STY><$09>Move <$EC> squares<LF>
-Move?<END>
+<STY><$09>Selling price is <$EC><LF>
+Sell?<END>
 
 
 //POINTER #1137 @ $1E4244 - STRING #1137 @ $1E05AF
@@ -9041,31 +9041,31 @@ Monopolies<END>
 //POINTER #1191 @ $1E431C - STRING #1191 @ $1E0DED
 
 #W24($1E431C)
-Max Sq. CP<END>
+Max Squ.CP<END>
 
 
 //POINTER #1192 @ $1E4320 - STRING #1192 @ $1E0E00
 
 #W24($1E4320)
-Got Fee<END>
+Got Fees<END>
 
 
 //POINTER #1193 @ $1E4324 - STRING #1193 @ $1E0E12
 
 #W24($1E4324)
-Paid Fee<END>
+Paid Fees<END>
 
 
 //POINTER #1194 @ $1E4328 - STRING #1194 @ $1E0E24
 
 #W24($1E4328)
-Got Fee #<END>
+Got Fees #<END>
 
 
 //POINTER #1195 @ $1E432C - STRING #1195 @ $1E0E31
 
 #W24($1E432C)
-Paid Fee #<END>
+Paid Fees#<END>
 
 
 //POINTER #1196 @ $1E4330 - STRING #1196 @ $1E0E3E
@@ -9083,13 +9083,13 @@ Captured<END>
 //POINTER #1198 @ $1E4338 - STRING #1198 @ $1E0E5E
 
 #W24($1E4338)
-Mx CP Got<END>
+Max CP Got<END>
 
 
 //POINTER #1199 @ $1E433C - STRING #1199 @ $1E0E71
 
 #W24($1E433C)
-Mx CP Paid<END>
+MaxCP Paid<END>
 
 
 //POINTER #1200 @ $1E4340 - STRING #1200 @ $1E0E84
@@ -9265,7 +9265,7 @@ Choose map<END>
 //POINTER #1228 @ $1E43B0 - STRING #1228 @ $1E110C
 
 #W24($1E43B0)
-Choose handicap<END>
+Choose handicaps<END>
 
 
 //POINTER #1229 @ $1E43B4 - STRING #1229 @ $1E1120
@@ -9301,13 +9301,13 @@ DPad: Select<END>
 //POINTER #1234 @ $1E43C8 - STRING #1234 @ $1E11A9
 
 #W24($1E43C8)
-Pick Ally Gem<END>
+Choose Ally Gems to lock<END>
 
 
 //POINTER #1235 @ $1E43CC - STRING #1235 @ $1E11C5
 
 #W24($1E43CC)
-Pick Magicite<END>
+Choose Magicite to lock<END>
 
 
 //POINTER #1236 @ $1E43D0 - STRING #1236 @ $1E11E1
@@ -9319,7 +9319,7 @@ Adjust Lap Bonus<END>
 //POINTER #1237 @ $1E43D4 - STRING #1237 @ $1E11FD
 
 #W24($1E43D4)
-DPad: Set Laps<LF>
+DPad: Set extra laps<LF>
 More laps means higher<LF>
 bonus CP on Start<END>
 
@@ -9334,8 +9334,8 @@ Ready to start?<END>
 
 #W24($1E43DC)
 Switch to COM<LF>
-Switch back with<LF>
-A at turn start<END>
+Press "A" at turn start<LF>
+to switch back<END>
 
 
 //POINTER #1240 @ $1E43E0 - STRING #1240 @ $1E12B1
