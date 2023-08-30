@@ -7677,8 +7677,8 @@ CP<END>
 
 #W24($1E4038)
 Goal    <$EC>CP<LF>
-Squares   <$ED><LF>
-Duration ~<$EE> hrs.<END>
+Squares    <$ED><LF>
+Duration   ~<$EE> hrs.<END>
 
 
 //POINTER #1007 @ $1E403C - STRING #1007 @ $1DF392
@@ -8238,7 +8238,7 @@ Rise and shine!<END>
 //POINTER #1082 @ $1E4168 - STRING #1082 @ $1DFC7D
 
 #W24($1E4168)
-<NC1> has<LF>
+<NC1> controls<LF>
 <$EC> squares, receiving<LF>
 <$ED> bonus power.<END>
 
@@ -8606,7 +8606,7 @@ any square?<END>
 
 #W24($1E4228)
 <STY><$09>
-Buy Ally Gems?<LF>
+Buy Gems?<LF>
 (L/R: Change page)<END>
 
 
@@ -8654,7 +8654,7 @@ Sell?<END>
 //POINTER #1137 @ $1E4244 - STRING #1137 @ $1E05AF
 
 #W24($1E4244)
-<STY><$01>Buy Ally Gems<END>
+<STY><$01>Start Shop<END>
 
 //POINTER #1138 @ $1E4248 - STRING #1138 @ $1E05CB
 
@@ -8958,7 +8958,7 @@ from the game<END>
 
 #W24($1E42E8)
 Bestiary<LF>
-for Ally Gems<END>
+Allies you met<END>
 
 
 //POINTER #1179 @ $1E42EC - STRING #1179 @ $1E0CFB
@@ -9017,7 +9017,7 @@ Save now?<END>
 //POINTER #1187 @ $1E430C - STRING #1187 @ $1E0DBE
 
 #W24($1E430C)
-End Total<END>
+Final CP<END>
 
 
 //POINTER #1188 @ $1E4310 - STRING #1188 @ $1E0DC7
