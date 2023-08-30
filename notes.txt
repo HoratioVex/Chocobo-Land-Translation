@@ -104,16 +104,23 @@ base:2026dd8
 
 bm 8037896: load tile offsets for rendering letter from 818a4b8 (no port) / 818a404 (port l) / 0818a584 (ency)
 ----
+030026fe: name entry page number
+8042316: write r4 <- init with 2 instead of 0
+8042146: 80 7F -> 02 20 1st read
+-----
 graphics compressed lz777 with 4byte header:
 	byte 1,2: ???
 	byte 3,4: size of file -8
 and 4 byte footer: 4*FF
 
-030026fe: name entry page number
-8042316: write r4 <- init with 2 instead of 0
-8042146: 80 7F -> 02 20 1st read
-
-
-
-80422b4: 8C 78 - > 02 24      2nd read
-8041fa6: 90 78 -> 02 20 3rd
+text71 (843): universal tiles?
+---
+201e240: ram for names
+3005ce6: relative tile positions?
+81c6206: vs, names, tilemap
+81c2bba: vs confirm, 1.name, tilemap
+81c2b92: vs confirm, 2.name, tilemap
+81c2b6a: vs confirm, 3.name, tilemap
+81c2b42: vs confirm, 4.name, tilemap
+81c8a56: records, name, tilemap
+81c65b6: name change
