@@ -14,17 +14,17 @@
 // Tooltips
 
 #W24($1E3080)
-Always show minimap<END>
+Show minimap<END>
 
 //POINTER #1 @ $1E3084 - STRING #1 @ $1D6800
 
 #W24($1E3084)
-Always show rankings<END>
+Show leaderboard<END>
 
 //POINTER #2 @ $1E3088 - STRING #2 @ $1D682C
 
 #W24($1E3088)
-Always show board<END>
+Show square details<END>
 
 //POINTER #3 @ $1E308C - STRING #3 @ $1D685B
 
@@ -44,7 +44,8 @@ Animate enemy magic<END>
 //POINTER #6 @ $1E3098 - STRING #6 @ $1D68F4
 
 #W24($1E3098)
-Notify when skipping turn<END>
+Notify when missing<LF>
+a turn<END>
 
 //##########################################
 // Encyclopedia Intros
@@ -346,7 +347,7 @@ Where's Croma?<END>
 
 #W24($1E3104)
 <STY><$11><POR><$11><SND><$AC>
-*inquisitive sounds*<END>
+*inquisitive noises*<END>
 
 //POINTER #34 @ $1E3108 - STRING #34 @ $1D7B15
 
@@ -393,7 +394,7 @@ everyone?<END>
 
 #W24($1E3120)
 <STY><$11><POR><$10><SND><$AC>
-*irritated sounds*<END>
+*irritated noises*<END>
 
 
 //POINTER #41 @ $1E3124 - STRING #41 @ $1D7BAB
@@ -908,7 +909,7 @@ ried at all.<END>
 
 #W24($1E3230)
 <STY><$11><POR><$10><SND><$AC>
-*emphatic sounds*<END>
+*emphatic noises*<END>
 
 
 //POINTER #109 @ $1E3234 - STRING #109 @ $1D842B
@@ -923,7 +924,7 @@ something?<END>
 
 #W24($1E3238)
 <STY><$11><POR><$10><SND><$AC>
-*affirmative sounds*<END>
+*affirmative noises*<END>
 
 
 //POINTER #111 @ $1E323C - STRING #111 @ $1D8456
@@ -2033,7 +2034,7 @@ choice then.<END>
 #W24($1E3478)
 <STY><$11><POR><$10><SND><$AC>
 *understanding<LF>
-sounds*<END>
+noises*<END>
 
 
 //POINTER #255 @ $1E347C - STRING #255 @ $1D972F
@@ -2130,7 +2131,7 @@ talkative today.<END>
 #W24($1E34AC)
 <STY><$11><POR><$11><SND><$AC>
 *appreciative<LF>
-sounds*<END>
+noises*<END>
 
 
 //POINTER #268 @ $1E34B0 - STRING #268 @ $1D989D
@@ -4174,7 +4175,7 @@ going?<END>
 #W24($1E38C8)
 <STY><$11><POR><$10><SND><$AE>
 *deliberative<LF>
-sounds*<END>
+noises*<END>
 
 
 //POINTER #531 @ $1E38CC - STRING #531 @ $1DBA00
@@ -4187,7 +4188,7 @@ sounds*<END>
 
 #W24($1E38D0)
 <STY><$11><POR><$11><SND><$AC>
-*lively sounds*<END>
+*lively noises*<END>
 
 
 //POINTER #533 @ $1E38D4 - STRING #533 @ $1DBA2C
@@ -4565,7 +4566,7 @@ together.<END>
 #W24($1E399C)
 <STY><$0F><POR><$10>
 *investigative<LF>
-sounds*<END>
+noises*<END>
 
 
 //POINTER #584 @ $1E39A0 - STRING #584 @ $1DBFFB
@@ -4727,7 +4728,7 @@ you guys here before.<END>
 
 #W24($1E39F0)
 <STY><$11><POR><$11><SND><$AC>
-*happy sounds*<END>
+*happy noises*<END>
 
 
 //POINTER #605 @ $1E39F4 - STRING #605 @ $1DC2DB
@@ -4804,7 +4805,7 @@ Malboro!<END>
 
 #W24($1E3A18)
 <STY><$11><POR><$11><SND><$AC>
-*happy sounds*<END>
+*happy noises*<END>
 
 
 //POINTER #615 @ $1E3A1C - STRING #615 @ $1DC42B
@@ -5131,7 +5132,7 @@ Please calm down.<END>
 
 #W24($1E3AC8)
 <STY><$11><POR><$11><SND><$AC>
-*explanatory sounds*<END>
+*explanatory noises*<END>
 
 
 //POINTER #659 @ $1E3ACC - STRING #659 @ $1DC963
@@ -5441,7 +5442,7 @@ Let's proceed.<END>
 
 #W24($1E3B6C)
 <STY><$11><POR><$10><SND><$AC>
-*baffled sounds*<END>
+*baffled noises*<END>
 
 
 //POINTER #700 @ $1E3B70 - STRING #700 @ $1DCE41
@@ -6168,7 +6169,7 @@ I'll give it a try.<END>
 
 #W24($1E3CE8)
 <STY><$10><POR><$91><SND><$AC>
-*challenging sounds*<END>
+*challenging noises*<END>
 
 
 //POINTER #795 @ $1E3CEC - STRING #795 @ $1DD9FE
@@ -6210,7 +6211,7 @@ a thing<VOF>………<VON><END>
 
 #W24($1E3D00)
 <STY><$11><POR><$11><SND><$AC>
-*emphatic sounds*<END>
+*emphatic noises*<END>
 
 
 //POINTER #801 @ $1E3D04 - STRING #801 @ $1DDA78
@@ -8606,7 +8607,7 @@ any square?<END>
 
 #W24($1E4228)
 <STY><$09>
-Buy Gems?<LF>
+Buy Gems / Magicite?<LF>
 (L/R: Change page)<END>
 
 
@@ -8647,14 +8648,14 @@ Capture with Allies?<END>
 //POINTER #1136 @ $1E4240 - STRING #1136 @ $1E058B
 
 #W24($1E4240)
-<STY><$09>Selling price is <$EC><LF>
+<STY><$09>Selling price: <$EC><LF>
 Sell?<END>
 
 
 //POINTER #1137 @ $1E4244 - STRING #1137 @ $1E05AF
 
 #W24($1E4244)
-<STY><$01>Start Shop<END>
+<STY><$01>Buy Ally Gems<END>
 
 //POINTER #1138 @ $1E4248 - STRING #1138 @ $1E05CB
 
@@ -8910,7 +8911,7 @@ Single Player<END>
 //POINTER #1171 @ $1E42CC - STRING #1171 @ $1E0C36
 
 #W24($1E42CC)
-Free Play<LF>
+Versus Mode<LF>
 2-4 Players<END>
 
 
