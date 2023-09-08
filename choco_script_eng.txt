@@ -4062,9 +4062,8 @@ Let's go then!<POR><$AD><WAI><$14><END>
 
 #W24($1E3888)
 <STY><$10><POR><$D2>
-Dude, come on!<LF>
-That's *my*<LF>
-catchphrase!<END>
+Watch it!<LF>
+This place is ours!<END>
 
 
 //POINTER #515 @ $1E388C - STRING #515 @ $1DB8C8
@@ -7677,9 +7676,9 @@ CP<END>
 //POINTER #1006 @ $1E4038 - STRING #1006 @ $1DF35F
 
 #W24($1E4038)
-Goal    <$EC>CP<LF>
-Squares    <$ED><LF>
-Duration   ~<$EE> hrs.<END>
+Goal<$EC>CP<LF>
+Squares  <$ED><LF>
+Duration ~<$EE> hrs.<END>
 
 
 //POINTER #1007 @ $1E403C - STRING #1007 @ $1DF392
@@ -8723,8 +8722,9 @@ new Allies<END>
 //POINTER #1147 @ $1E426C - STRING #1147 @ $1E06EF
 
 #W24($1E426C)
-<NC1> is Frog and<LF>
-can't use Magicite<END>
+<NC1> is a Frog and<LF>
+can't use Gems or<LF>
+Magicite<END>
 
 
 //POINTER #1148 @ $1E4270 - STRING #1148 @ $1E0713
@@ -8912,7 +8912,7 @@ Single Player<END>
 
 #W24($1E42CC)
 Versus Mode<LF>
-2-4 Players<END>
+1-4 Players<END>
 
 
 //POINTER #1172 @ $1E42D0 - STRING #1172 @ $1E0C59
