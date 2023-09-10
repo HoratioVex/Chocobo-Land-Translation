@@ -124,3 +124,22 @@ text71 (843): universal tiles?
 81c2b42: vs confirm, 4.name, tilemap
 81c8a56: records, name, tilemap
 81c65b6: name change
+
+20261D8: set overview tilemap
+202622e first tile (20262dc first dyn tile)
+81cc352: fxed tile patterns in rom, heading 
+8036c8a: convert dyn pattern
+
+set names(0x 01):x tiles follow
+p18f1a8: 1cc1ec: set name pentagon
+p18f1a4: 1cc1f8: set name Triangle
+p18f1a0: 1cc204: set name Ring
+p18f19c: 1cc20c: set name circle -> 1cc20a
+p18f198: 1cc218: set name Diamond -> 1cc212
+p18f194: 1cc220: set name Plain -> 1cc21e
+---
+Title
+map:82f912c: 7740 7840
+82f9630:00 00 00 00
+---
+

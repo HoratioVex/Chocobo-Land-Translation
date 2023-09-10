@@ -65,7 +65,8 @@ p 0x346B8:  0x1BE820 -> 0x7DC7D0 (UI: "No")
 p 0x34644 & 
 p 0x34E9C:  0x1BE24C -> 0x7DC820 (UI: "Enc" etc)
 p 0x20628:  0x1E9E90 -> 0x7DCC10 (Main Menu)
-nxt: 0x7DDFA0
+p 0x1EBB4:  0x1EF41C -> 0x7DDFA0 (Ranking Result)
+nxt: 0x7DE260
 
 Status, Set Information, Tilemaps:
 Title
@@ -147,5 +148,9 @@ UI Overlays, Tilemaps:
 0x1D2EE4 , 0x1D20A6:
 7D 01 7D 01 7D 01 7D 01 7D 01 7D 01 7D 01 7D 01 7D 01
 0x1D2F02 (Place Ally): 7D
+
+Title Screen, Tilemaps: (Remove color change of bottom right corner)
+0x2F912C: 7740 7840
+0x2F9630: 0000 0000
 
 
