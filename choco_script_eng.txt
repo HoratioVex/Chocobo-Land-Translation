@@ -596,7 +596,7 @@ Ally Gem unlocked:<LF>
 
 #W24($1E318C)
 <STY><$0E><SND><$AD><WAI><$14><POR><$D2><WAI><$14><VOF>…<WAI><$12><POR><$D0>…<WAI><$12><POR><$D2>…<WAI><$12><POR><$D0>…<LF>
-<POR><$D2><VON>Nom Nom!<END>
+<POR><$D2><VON>Ooorg<VOF>……<VON><END>
 
 
 //POINTER #68 @ $1E3190 - STRING #68 @ $1D7EF7
@@ -609,8 +609,8 @@ Ally Gem unlocked:<LF>
 
 #W24($1E3194)
 <STY><$10><POR><$D0>Blorg!<LF>
-<POR><$D2>Watch it, buddies,<LF> 
-or I'll get angry!<END>
+<POR><$D2>Over there, I'll<LF> 
+finally crush you!<END>
 
 
 //POINTER #70 @ $1E3198 - STRING #70 @ $1D7F36
@@ -901,8 +901,7 @@ it.<END>
 
 #W24($1E322C)
 <STY><$11><POR><$59>
-Well, I'm not wor-<LF>
-ried at all.<END>
+Yes, it's fine.<END>
 
 
 //POINTER #108 @ $1E3230 - STRING #108 @ $1D8410
@@ -968,22 +967,22 @@ Ally Gem unlocked:<LF>
 
 #W24($1E3250)
 <STY><$0E><SND><$AD><WAI><$14><POR><$D0>Blorg!<LF>
-<WAI><$14><POR><$D2>Damn!<LF>
-What's going on!<END>
+<WAI><$14><POR><$D2>What's that!<LF>
+You just gave up?!<END>
 
 
 //POINTER #117 @ $1E3254 - STRING #117 @ $1D852F
 
 #W24($1E3254)
 <STY><$10><POR><$A0>Boss! Come on!<LF>
-This guy is next!<END>
+This guy has it coming!<END>
 
 
 //POINTER #118 @ $1E3258 - STRING #118 @ $1D854F
 
 #W24($1E3258)
 <STY><$10><POR><$D0>Blorg!<LF>
-<WAI><$0A><WAI><$14><POR><$D2>Over there!<END>
+<WAI><$0A><WAI><$14><POR><$D2>Right back at you!<END>
 
 
 //POINTER #119 @ $1E325C - STRING #119 @ $1D856E
@@ -1241,7 +1240,8 @@ Magicite unlocked:<LF>
 
 #W24($1E32E4)
 <STY><$0F><POR><$58>
-Also, good luck!<LF>
+Let's keep doing<LF>
+our best!<LF>
 <WAI><$12><POR><$59>Okay?<END>
 
 
@@ -1478,14 +1478,15 @@ Are we going?<END>
 
 #W24($1E335C)
 <STY><$13><POR><$04>Oh<VOF>……<VON><LF>
-You mean that forest<LF>
-over there.<END>
+You mean to that<LF>
+forest over there.<END>
 
 
 //POINTER #184 @ $1E3360 - STRING #184 @ $1D8D49
 
 #W24($1E3360)
-<STY><$0E><POR><$B6>You got it!<END>
+<STY><$0E><POR><$B6>I hope you learned<LF>
+your lesson.<END>
 
 
 //POINTER #185 @ $1E3364 - STRING #185 @ $1D8D5A
@@ -1493,8 +1494,8 @@ over there.<END>
 #W24($1E3364)
 <STY><$12><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
 <WAI><$0A><POR><$AB>
-You don't need to<LF>
-trouble yourself<VOF>…<VON><END>
+Please don't come<LF>
+back<VOF>…<VON><END>
 
 
 //POINTER #186 @ $1E3368 - STRING #186 @ $1D8D82
@@ -1895,7 +1896,8 @@ Magicite unlocked:<LF>
 
 #W24($1E3430)
 <STY><$0E><POR><$B4>Burp!<WAI><$14><LF>
-<POR><$B6>You got it!<END>
+<POR><$B6>Did you learn<LF>
+your lesson?<END>
 
 
 //POINTER #237 @ $1E3434 - STRING #237 @ $1D948E
@@ -1930,7 +1932,7 @@ right now<VOF>……<VON><END>
 //POINTER #241 @ $1E3444 - STRING #241 @ $1D951E
 
 #W24($1E3444)
-<STY><$13><POR><$24>Next<VOF>………<VON><END>
+<STY><$13><POR><$24>What now<VOF>………<VON><END>
 
 
 //POINTER #242 @ $1E3448 - STRING #242 @ $1D952E
@@ -3869,8 +3871,8 @@ a word you say!<END>
 
 #W24($1E3824)
 <STY><$0E><POR><$AD>
-I'm feeling<LF>
-homesick.<END>
+This place elicits<LF>
+so many memories.<END>
 
 
 //POINTER #490 @ $1E3828 - STRING #490 @ $1DB56C
@@ -3884,8 +3886,8 @@ Right?<END>
 
 #W24($1E382C)
 <STY><$12><POR><$AD>
-Yes. Well. I want<LF>
-to accompany you.<END>
+Rather. Let's play<LF>
+a round!<END>
 
 
 //POINTER #492 @ $1E3830 - STRING #492 @ $1DB5B1
@@ -4320,9 +4322,10 @@ guys-<END>
 
 #W24($1E3914)
 <STY><$10><POR><$A0>
-Get us out of the<LF>
-frog swamp with<LF>
-boss' powers!<END>
+Boss, use your power<LF>
+to free us frogs<LF>
+from this swamp!<END>
+
 
 
 //POINTER #550 @ $1E3918 - STRING #550 @ $1DBC6C
@@ -4572,7 +4575,7 @@ noises*<END>
 
 #W24($1E39A0)
 <STY><$11><POR><$51>Blorg!<LF>
-What is it, Morbol<VOF>…<VON><END>
+What's up, Morbol<VOF>…<VON><END>
 
 
 //POINTER #585 @ $1E39A4 - STRING #585 @ $1DC020
@@ -4588,7 +4591,7 @@ Sahagin!<END>
 
 #W24($1E39A8)
 <STY><$11><POR><$50>Yes?<VOF><WAI><$1E>…<WAI><$1E>…<WAI><$1E>…<LF>
-<VON>Could it be!?<END>
+<VON>Is he<VOF>…!?<VON><END>
 
 
 //POINTER #587 @ $1E39AC - STRING #587 @ $1DC066
@@ -4600,23 +4603,24 @@ Sahagin!<END>
 //POINTER #588 @ $1E39B0 - STRING #588 @ $1DC072
 
 #W24($1E39B0)
-<STY><$11><POR><$2F>We're all here.<END>
+<STY><$11><POR><$2F>Everyone's affected.<END>
 //Everybody is healed?
 
 //POINTER #589 @ $1E39B4 - STRING #589 @ $1DC086
 
 #W24($1E39B4)
 <STY><$11><POR><$50>
-Some ancient evil<LF>
-being resurrected?<LF>
-<WAI><$14>Sounds nasty!<END>
+Some evil overlord<LF>
+is being revived!<LF>
+<WAI><$14>What a dramatic plot!<END>
 
 
 //POINTER #590 @ $1E39B8 - STRING #590 @ $1DC0BD
 
 #W24($1E39B8)
 <STY><$11><POR><$2C>That's<VOF><WAI><$14>…<WAI><$14>…<WAI><$14>…<LF>
-<VON>I don't understand.<END>
+<VON>I'm not so sure<LF>
+about that theory.<END>
 
 
 //POINTER #591 @ $1E39BC - STRING #591 @ $1DC0E2
@@ -4641,7 +4645,7 @@ You need to wake up.<VOF>…<VON><END>
 
 #W24($1E39C4)
 <STY><$10><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
-<WAI><$0A><POR><$AB>This<WAI><$0A>forest<WAI><$0A><LF>
+<WAI><$0A><POR><$AB>This <WAI><$0A>forest<WAI><$0A><LF>
 belongs to us<VOF>…<VON><END>
 
 
@@ -4649,7 +4653,7 @@ belongs to us<VOF>…<VON><END>
 
 #W24($1E39C8)
 <STY><$11><POR><$51>Blorg!<VOF>…<VON><LF>
-<WAI><$0A><POR><$50>Could it be!?<END>
+<WAI><$0A><POR><$50>Is he<VOF>…!?<VON><END>
 
 
 //POINTER #595 @ $1E39CC - STRING #595 @ $1DC195
@@ -4720,7 +4724,8 @@ with them.<END>
 #W24($1E39EC)
 <STY><$0E><POR><$C8>
 Hey, I haven't seen<LF>
-you guys here before.<END>
+you guys here<LF>
+before.<END>
 
 
 //POINTER #604 @ $1E39F0 - STRING #604 @ $1DC2C2
@@ -4797,7 +4802,7 @@ It can be healed?<END>
 #W24($1E3A14)
 <STY><$10><POR><$CB>Then please!<LF>
 Heal that doting<LF>
-Malboro!<END>
+Morbol!<END>
 
 
 //POINTER #614 @ $1E3A18 - STRING #614 @ $1DC411
@@ -4859,15 +4864,14 @@ all away.<END>
 #W24($1E3A34)
 <STY><$0E><POR><$B4>Burp!<WAI><$14><LF>
 <POR><$B6>
-You've come this<LF>
-far.<END>
-
+You followed me<LF>
+out here?<END>
 
 //POINTER #622 @ $1E3A38 - STRING #622 @ $1DC52B
 
 #W24($1E3A38)
 <STY><$10><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
-<WAI><$0A><POR><$AB>It's ours<VOF>………<VOF><END>
+<WAI><$0A><POR><$AB>It's our forest<VOF>………<VOF><END>
 
 
 //POINTER #623 @ $1E3A3C - STRING #623 @ $1DC555
@@ -4875,8 +4879,8 @@ far.<END>
 #W24($1E3A3C)
 <STY><$10><POR><$B4>Burp!<WAI><$14><LF>
 <POR><$B6>
-Morbol can make home<LF>
-in any forest.<END>
+A Morbol can make<LF>
+home in any forest.<END>
 
 
 //POINTER #624 @ $1E3A40 - STRING #624 @ $1DC58B
@@ -4884,7 +4888,7 @@ in any forest.<END>
 #W24($1E3A40)
 <STY><$10><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
 <WAI><$0A><POR><$AB>
-That's a bit crazy<VOF>…<VON> <END>
+That's a bit brash<VOF>…<VON><END>
 
 
 //POINTER #625 @ $1E3A44 - STRING #625 @ $1DC5C0
@@ -6907,7 +6911,7 @@ make them miss a turn<END>
 #W24($1E3E6C)
 <STY><$02><CGR>Morbol<LF>
 <CWH>Extends Confusion and<LF>
-Poison effects on enemies<END>
+Poison status on enemies<END>
 
 
 //POINTER #892 @ $1E3E70 - STRING #892 @ $1DE7CB
@@ -7658,7 +7662,7 @@ Green<END>
 
 #W24($1E402C)
 <NC1><LF>
-    Your turn<END>
+    Your Turn<END>
 
 
 //POINTER #1004 @ $1E4030 - STRING #1004 @ $1DF346
@@ -8038,8 +8042,8 @@ Can't use.<END>
 
 #W24($1E40FC)
 <NC1><LF>
-doesn't collect.<END>
-//work? gather?
+is immune.<END>
+
 
 //POINTER #1056 @ $1E4100 - STRING #1056 @ $1DF895
 
@@ -8081,8 +8085,8 @@ blocks the attack.<END>
 //POINTER #1061 @ $1E4114 - STRING #1061 @ $1DF925
 
 #W24($1E4114)
-<SND><$D7><NC1><LF>
-level down!<END>
+<SND><$D7><NC1>'s<LF>
+square level down!<END>
 
 
 //POINTER #1062 @ $1E4118 - STRING #1062 @ $1DF94A
@@ -8184,8 +8188,8 @@ from within its Magicite.<END>
 
 #W24($1E414C)
 <NC1> is<LF>
-a frog and fails<LF>
-to collect CP.END>
+a Frog and fails<LF>
+to collect CP.<END>
 
 
 //POINTER #1076 @ $1E4150 - STRING #1076 @ $1DFB95
@@ -8292,7 +8296,7 @@ tentacle and can't move.<END>
 //POINTER #1089 @ $1E4184 - STRING #1089 @ $1DFDDD
 
 #W24($1E4184)
-<NC1>
+<NC1><LF>
 extends Sleep…<LF>
 <NC2> stays asleep.<END>
 
@@ -8958,7 +8962,7 @@ from the game<END>
 //POINTER #1178 @ $1E42E8 - STRING #1178 @ $1E0CDD
 
 #W24($1E42E8)
-Bestiary<LF>
+Review all<LF>
 Allies you met<END>
 
 
