@@ -176,11 +176,11 @@ return to Start.<END>
 Level up your squares by<LF>
 investing more CP, in-<LF>
 creasing their value and<LF>
-the entire set. The level<LF>
-cap depends on how many<LF>
-squares you own in a set,<LF>
-up to 10 if you hold the<LF>
-complete set.<END>
+that of the entire set.<LF>
+The level cap depends on<LF>
+how many squares you own<LF>
+in a set, up to 10 if you<LF>
+hold the complete set.<END>
 
 //POINTER #21 @ $1E30D4 - STRING #21 @ $1D700A
 
@@ -328,6 +328,7 @@ normally for the player.<END>
 
 //############################################
 // Dialogue (Between Levels)
+// Lv 1 Intro
 
 //POINTER #31 @ $1E30FC - STRING #31 @ $1D7AC7 ($7CFA4B)
 
@@ -381,7 +382,7 @@ Let's see now<VOF>…<VON><END>
 #W24($1E3118)
 <STY><$0E><POR><$AC>Hmm<WAI><$0A><VOF>…<WAI><$0A>…<WAI><$0A>…<WAI><$0A><VON><END>
 
-
+// Lv 1 Win
 //POINTER #39 @ $1E311C - STRING #39 @ $1D7B71
 
 #W24($1E311C)
@@ -444,7 +445,7 @@ but<VOF>…<VON><END>
 
 #W24($1E313C)
 <STY><$11><POR><$25>
-It's alright.<END>
+It's all right.<END>
 
 
 //POINTER #48 @ $1E3140 - STRING #48 @ $1D7C59
@@ -470,14 +471,14 @@ Where are we?<END>
 Let's follow the<LF>
 river.<END>
 
-
+// Lv 1 Defeat
 //POINTER #51 @ $1E314C - STRING #51 @ $1D7CD1
 
 #W24($1E314C)
 <STY><$0E><POR><$AE>
 Don't you get it!<LF>
-Nobody will forgive<LF>
-you!<END>
+You shall not be<LF>
+forgiven!<END>
 
 
 //POINTER #52 @ $1E3150 - STRING #52 @ $1D7CF5
@@ -540,7 +541,7 @@ is struggling.<END>
 
 #W24($1E3170)
 <STY><$11><POR><$2C>Oh!? Hello, Worm.<LF>
-what's the matter?<END>
+What's the matter?<END>
 
 
 //POINTER #61 @ $1E3174 - STRING #61 @ $1D7DE2
@@ -655,7 +656,7 @@ to us!<END>
 <STY><$12><POR><$D1>
 If you keep annoying<LF>
 me<VOF>…<VON>I'll keep kick-<LF>
-ing your ass!<END>
+ing your butt!<END>
 
 
 //POINTER #76 @ $1E31B0 - STRING #76 @ $1D7FF1
@@ -726,7 +727,7 @@ appreciate that.<END>
 //POINTER #85 @ $1E31D4 - STRING #85 @ $1D80BC
 
 #W24($1E31D4)
-//<STY><$10><POR><$94>
+<STY><$10><POR><$94>
 It seems there are<LF>
 some <CYL>Crystals<CWH> which<LF>
 protect this world.<END>
@@ -1070,7 +1071,7 @@ Right on!<END>
 //POINTER #131 @ $1E328C - STRING #131 @ $1D867B
 
 #W24($1E328C)
-<STY><$10><POR><$D1>I see.<END>
+<STY><$10><POR><$D1>I guess.<END>
 
 
 //POINTER #132 @ $1E3290 - STRING #132 @ $1D8688
@@ -1128,7 +1129,7 @@ Ally Gem unlocked:<LF>
 //POINTER #139 @ $1E32AC - STRING #139 @ $1D8773
 
 #W24($1E32AC)
-<STY><$10><POR><$84><VOF>「……………<VON><LF>
+<STY><$10><POR><$84><VOF>……………<VON><LF>
 Hey<VOF>……………<VON><END>
 
 
@@ -1569,7 +1570,7 @@ to bring with me?<END>
 //POINTER #194 @ $1E3388 - STRING #194 @ $1D8EB8
 
 #W24($1E3388)
-//<STY><$0F><POR><$0C>
+<STY><$0F><POR><$0C>
 Ally Gem unlocked:<LF>
 <CGR>Drippy<CWH><LF>
 <SND><$A9><POR><$0D>Amazing!<END>
@@ -1672,7 +1673,7 @@ myself.<END>
 
 #W24($1E33BC)
 <STY><$10><POR><$B4><VOF>…<VON>
-Strangers<LF>
+Strangers.<LF>
 <POR><$B7>
 I'm so sorry for my<LF>
 behavior.<END>
@@ -1734,14 +1735,14 @@ encountering-<END>
 
 #W24($1E33D8)
 <STY><$11><POR><$24>
-The <CYL>Crystal<CWH>.<END>
+The <CYL>Crystals<CWH>.<END>
 
 
 //POINTER #215 @ $1E33DC - STRING #215 @ $1D91D0
 
 #W24($1E33DC)
-//<STY><$11><POR><$2C>
-So we've been told<VOF>…<VON><LF>
+<STY><$11><POR><$2C>
+So it appears<VOF>…<VON><LF>
 Yet I'm not certain.<END>
 
 
@@ -1912,7 +1913,7 @@ This is our forest<VOF>…<VON><END>
 
 #W24($1E3438)
 <STY><$10><POR><$B4>Burp!<WAI><$14><LF>
-<POR><$B6>You guys are next.<END>
+<POR><$B6>Come at me!<END>
 
 
 //POINTER #239 @ $1E343C - STRING #239 @ $1D94E2
@@ -1925,14 +1926,14 @@ This is our forest<VOF>…<VON><END>
 
 #W24($1E3440)
 <STY><$11><POR><$58>Yeah!<LF>
-I couldn't do it<LF>
-right now<VOF>……<VON><END>
+Yeah! I wasn't up<LF>
+to it just now<VOF>……<VON><END>
 
 
 //POINTER #241 @ $1E3444 - STRING #241 @ $1D951E
 
 #W24($1E3444)
-<STY><$13><POR><$24>What now<VOF>………<VON><END>
+<STY><$13><POR><$24>What shall we do<VOF>………<VON><END>
 
 
 //POINTER #242 @ $1E3448 - STRING #242 @ $1D952E
@@ -2187,7 +2188,7 @@ along too.<END>
 #W24($1E34C8)
 <STY><$11><POR><$0C>
 Magicite unlocked:<LF>
-<CRD>Slug<CWH>
+<CRD>Slug<CWH><LF>
 <SND><$A9><POR><$0D>Amazing!<END>
 
 
@@ -2226,8 +2227,7 @@ way out.<END>
 
 #W24($1E34DC)
 <STY><$10><POR><$DE>
-You should come,<LF>
-too.<END>
+You tell them!<END>
 
 
 //POINTER #280 @ $1E34E0 - STRING #280 @ $1D9A3B
@@ -2656,23 +2656,23 @@ Ally Gem unlocked:<LF>
 
 #W24($1E35C4)
 <STY><$0E><POR><$9A>Bah!<LF>
-That's not funny!<END>
+That was easy.<END>
 
 
 //POINTER #338 @ $1E35C8 - STRING #338 @ $1DA0CA
 
 #W24($1E35C8)
 <STY><$10><POR><$98>
-Why did I lose to<LF>
-those guys<VOF>……<VON><END>
+Those morons just<LF>
+don't get it<VOF>……<VON><END>
 
 
 //POINTER #339 @ $1E35CC - STRING #339 @ $1DA0F9
 
 #W24($1E35CC)
 <STY><$13><POR><$58>
-You have to use your<LF>
-skills to your best<LF>
+We have to use our<LF>
+skills to our best<LF>
 advantage.<END>
 
 
@@ -2778,7 +2778,7 @@ Ally Gem unlocked:<LF>
 #W24($1E3604)
 <STY><$0E><POR><$C2>
 Like, what the hell!<LF>
-What is it now!<END>
+What was that!<END>
 
 
 //POINTER #354 @ $1E3608 - STRING #354 @ $1DA311
@@ -2789,20 +2789,11 @@ Man, you're, like,<LF>
 really irritating me<LF>
 right now.<END>
 
-
-//Sweetheart! Could<LF>
-//you,like,answer the<LF>
-//door for once?<END>
-
-
-
 //POINTER #355 @ $1E360C - STRING #355 @ $1DA33B
 
 #W24($1E360C)
 <STY><$10><POR><$9E>
 You mad?<END>
-
-//Me busy.<END>
 
 
 //POINTER #356 @ $1E3610 - STRING #356 @ $1DA351
@@ -2815,22 +2806,15 @@ You mad?<END>
 
 #W24($1E3614)
 <STY><$10><POR><$C2>
-Hey, what's this?<LF>
-It looks valuable!<END> 
-
-
-//At least somebody is<LF>
-//like, talking sense.<END>
+Hey, what's that?<LF>
+I'll head<LF>
+over there!<END> 
 
 
 //POINTER #358 @ $1E3618 - STRING #358 @ $1DA390
 
 #W24($1E3618)
-<STY><$12><POR><$9E>Stop! Don't touch!<END>
-
-
-//Work, work.<END>
-
+<STY><$12><POR><$9E>Stop! No go!<END>
 
 //POINTER #359 @ $1E361C - STRING #359 @ $1DA3AE
 
@@ -2865,9 +2849,9 @@ ter of the volcano.<END>
 
 #W24($1E362C)
 <STY><$11><POR><$04>
-By the way, isn't<LF>
-the other side guar-<LF>
-ded by a Golem?<END>
+I am certain that<LF>
+Golem is guarding<LF>
+the other side.<END>
 
 //POINTER #364 @ $1E3630 - STRING #364 @ $1DA444
 
@@ -2922,7 +2906,8 @@ with us<VOF>………<VON><END>
 
 #W24($1E364C)
 <STY><$11><POR><$58>Huh?<LF>
-Are you all right?<END>
+Are you feeling<LF>
+all right?<END>
 
 
 //POINTER #372 @ $1E3650 - STRING #372 @ $1DA525
@@ -2962,7 +2947,7 @@ his bite anyway.<END>
 
 #W24($1E3660)
 <STY><$10><POR><$9E>You too.<LF>
-Left here.<END>
+Leave.<END>
 
 
 //POINTER #377 @ $1E3664 - STRING #377 @ $1DA5E3
@@ -3235,7 +3220,7 @@ We need to move on.<END>
 <STY><$11><POR><$58>
 We're at the<LF>
 sanctuary of the<LF> 
-<CYL>Master Crytal<CWH><VOF>………<VON><END>
+<CYL>Master Crystal<CWH><VOF>………<VON><END>
 
 
 //POINTER #412 @ $1E36F0 - STRING #412 @ $1DAA71
@@ -4368,7 +4353,7 @@ for good this time!<END>
 //POINTER #555 @ $1E392C - STRING #555 @ $1DBD23
 
 #W24($1E392C)
-//<STY><$10><POR><$A0>Boss!<LF>
+<STY><$10><POR><$A0>Boss!<LF>
 What are you doing!<END>
 
 
@@ -4427,9 +4412,9 @@ myself back then.<END>
 
 #W24($1E394C)
 <STY><$0E><POR><$94>
-Not just Sahagin,<LF>
-but even he<LF>
-showed up.<END>
+It's not just Saha-<LF>
+gin. These others<LF>
+showed up, too.<END>
 
 
 //POINTER #564 @ $1E3950 - STRING #564 @ $1DBE51
@@ -5263,17 +5248,21 @@ about it.<END>
 
 #W24($1E3B10)
 <STY><$0E><POR><$9A>
-Finally you came<LF>
-this way!!<END>
+You came even here<LF>
+in the end!<END>
 
 
 //POINTER #677 @ $1E3B14 - STRING #677 @ $1DCB6F
 
 #W24($1E3B14)
 <STY><$10><POR><$9A>
-I won't get abused<LF>
-by some guy I can't<LF>
-even understand!<END>
+I don't understand<LF>
+why I'm being chased<LF>
+by scoundrels!<END>
+
+//I won't get abused<LF>
+//by some guy I can't<LF>
+//even understand!<END>
 
 
 //POINTER #678 @ $1E3B18 - STRING #678 @ $1DCBA6
@@ -5288,9 +5277,8 @@ even more annoying.<END>
 
 #W24($1E3B1C)
 <STY><$11><POR><$5C>
-Hey, you know, I'm<LF>
-not really a<LF>
-bad guy.<END>
+Hey, you know, these<LF>
+guys aren't so bad.<END>
 
 
 //POINTER #680 @ $1E3B20 - STRING #680 @ $1DCC04
@@ -5304,9 +5292,9 @@ too much noise!<END>
 //POINTER #681 @ $1E3B24 - STRING #681 @ $1DCC24
 
 #W24($1E3B24)
-//<STY><$13><POR><$59>
-And now I'm getting<LF>
-yelled at again.<END>
+<STY><$13><POR><$59>
+And now he got angry<LF>
+again.<END>
 
 
 //POINTER #682 @ $1E3B28 - STRING #682 @ $1DCC41
@@ -5354,7 +5342,7 @@ refreshing.<END>
 #W24($1E3B3C)
 <STY><$10><POR><$DC>
 Hey, why did you<LF>
-come this cave?<END>
+come to this cave?<END>
 
 
 //POINTER #688 @ $1E3B40 - STRING #688 @ $1DCCF7
@@ -5519,7 +5507,7 @@ I<VOF>…<VON>I dunno!<END>
 //POINTER #709 @ $1E3B94 - STRING #709 @ $1DCF2B
 
 #W24($1E3B94)
-<STY><$10><POR><$9C>What is this<VOF>………<VON><END>
+<STY><$10><POR><$9C>What this<VOF>………<VON><END>
 
 
 //POINTER #710 @ $1E3B98 - STRING #710 @ $1DCF40
@@ -5534,8 +5522,8 @@ There you are.<END>
 #W24($1E3B9C)
 <STY><$11><POR><$50>
 Wow. A guy talking<LF>
-gibberish, a spin-<LF>
-ster and a blockhead<END>
+gibberish,a spinster<LF>
+and a blockhead.<END>
 
 
 //POINTER #712 @ $1E3BA0 - STRING #712 @ $1DCF84
@@ -5582,7 +5570,7 @@ What did the little<LF>
 #W24($1E3BB4)
 <STY><$10><POR><$C2>
 Purify!<LF>
-Drive them out!<END>
+Get rid of them!<END>
 
 
 //POINTER #718 @ $1E3BB8 - STRING #718 @ $1DD072
@@ -5680,15 +5668,15 @@ you even?<END>
 //POINTER #729 @ $1E3BE4 - STRING #729 @ $1DD253
 
 #W24($1E3BE4)
-<STY><$10><POR><$9E>You all join too.<END>
+<STY><$10><POR><$9E>Join. Together.<END>
 
 
 //POINTER #730 @ $1E3BE8 - STRING #730 @ $1DD273
 
 #W24($1E3BE8)
 <STY><$12><POR><$C2>
-This doesn't cut it<VOF>…<VON><LF>
-You try!<END>
+Bring it on then<VOF>…<VON><LF>
+Let's play for real!<END>
 
 
 //POINTER #731 @ $1E3BEC - STRING #731 @ $1DD29C
@@ -6021,7 +6009,8 @@ over there?<END>
 <STY><$11><POR><$34>Burp!<LF>
 <WAI><$10>
 It's been floating<LF>
-for a long time.<END>
+around for a long<LF>
+time.<END>
 
 
 //POINTER #774 @ $1E3C98 - STRING #774 @ $1DD7C3
@@ -6035,7 +6024,7 @@ Carbuncle!!<END>
 
 #W24($1E3C9C)
 <STY><$11><POR><$24>No<VOF>………<VON><LF>
-Too expensive.<END>
+Too high.<END>
 
 
 //POINTER #776 @ $1E3CA0 - STRING #776 @ $1DD7F4
@@ -6280,7 +6269,7 @@ What's he saying?<END>
 //POINTER #810 @ $1E3D28 - STRING #810 @ $1DDB61
 
 #W24($1E3D28)
-<STY><$10><POR><$B0><SND><$D9>Kupo?<SND><$D9>Kupo?!<WAI><$14><POR><$B3><WAI><$14><POR><$B1><WAI><$14><END>
+<STY><$10><POR><$B0><SND><$D9>Kupo? <SND><$D9>Kupo?!<WAI><$14><POR><$B3><WAI><$14><POR><$B1><WAI><$14><END>
 
 
 //POINTER #811 @ $1E3D2C - STRING #811 @ $1DDB88
@@ -6293,7 +6282,7 @@ And then<VOF>………<VON><END>
 //POINTER #812 @ $1E3D30 - STRING #812 @ $1DDBA6
 
 #W24($1E3D30)
-<STY><$12><POR><$B0>Kupo!<SND><$D9>Kupokupo!<POR><$B3><WAI><$14><SND><$D9><POR><$B0><WAI><$14><POR><$B1><WAI><$14><SND><$D9><POR><$B0><WAI><$14><END>
+<STY><$12><POR><$B0>Kupo! <SND><$D9>Kupokupo!<POR><$B3><WAI><$14><SND><$D9><POR><$B0><WAI><$14><POR><$B1><WAI><$14><SND><$D9><POR><$B0><WAI><$14><END>
 
 
 //POINTER #813 @ $1E3D34 - STRING #813 @ $1DDBD2
@@ -6317,7 +6306,7 @@ there? Right above<LF>
 //POINTER #815 @ $1E3D3C - STRING #815 @ $1DDC38
 
 #W24($1E3D3C)
-<STY><$10><POR><$B0>Ku!<SND><$D9><POR><$B1>Po!<END>
+<STY><$10><POR><$B0>Ku! <SND><$D9><POR><$B1>Po!<END>
 
 
 //POINTER #816 @ $1E3D40 - STRING #816 @ $1DDC4A
@@ -6486,12 +6475,13 @@ Let's go!<END>
 //POINTER #836 @ $1E3D90 - STRING #836 @ $1DDF71
 
 #W24($1E3D90)
-Thanks to the efforts of<LF>
-<NC1>, order has been<LF>
-restored. But <NC1><LF>
-still wants to play with<LF>
-his friends.<LF>
+Thanks to <NC1>,<LF>
+order is restored.<LF>
+But <NC1> wants<LF>
+to play more with<LF>
+all his friends.<LF>
 Let's find them!<END>
+
 
 // **********************************************
 // Extra characters
@@ -6857,7 +6847,7 @@ Twilight Cave<LF>
 #W24($1E3E50)
 <STY><$02><CGR>Chip<LF>
 <CWH>Bonus power when awake<LF>
-after level-up<END>
+after level up<END>
 
 
 //POINTER #885 @ $1E3E54 - STRING #885 @ $1DE5FE
@@ -6949,8 +6939,8 @@ from enemies<END>
 
 #W24($1E3E80)
 <STY><$02><CGR>Tonberry<LF>
-<CWH>Holds a grudge when<LF>
-attacked for bonus power<END>
+<CWH>Holds a grudge when at-<LF>
+tacked for bonus power<END>
 
 
 //POINTER #897 @ $1E3E84 - STRING #897 @ $1DE8F5
@@ -7013,7 +7003,7 @@ them miss a turn<END>
 #W24($1E3EA0)
 <STY><$02><CGR>Bomb<LF>
 <CWH>Builds up energy on<LF>
-level-up for bonus power<END>
+level up for bonus power<END>
 
 
 //POINTER #905 @ $1E3EA4 - STRING #905 @ $1DEB0A
@@ -7145,8 +7135,8 @@ for 2 turns<END>
 
 #W24($1E3EE4)
 <STY><$02><CRD>Lamia<LF>
-<CWH>Confusion: Can't roll dice<LF>
-for 2 turns<END>
+<CWH>Confusion: Can't choose<LF>
+actions for 2 turns<END>
 
 
 //POINTER #922 @ $1E3EE8 - STRING #922 @ $1DEEDA
@@ -7680,7 +7670,7 @@ CP<END>
 //POINTER #1006 @ $1E4038 - STRING #1006 @ $1DF35F
 
 #W24($1E4038)
-Goal<$EC>CP<LF>
+Goal     <$EC>CP<LF>
 Squares  <$ED><LF>
 Duration ~<$EE> hrs.<END>
 
@@ -7810,7 +7800,7 @@ better.<END>
 
 #W24($1E4080)
 <NC1> is no longer<LF>
-dizzy.<END>
+startled.<END>
 //hypnotized?
 
 //POINTER #1025 @ $1E4084 - STRING #1025 @ $1DF4B1
@@ -7881,16 +7871,15 @@ and can roll only<LF>
 
 #W24($1E40A8)
 <NC1> is<LF>
-confused and can't roll<LF>
-the die.<END>
-
+confused and<LF>
+acts erratically.<END>
+//out of control.<END>
 
 //POINTER #1035 @ $1E40AC - STRING #1035 @ $1DF619
 
 #W24($1E40AC)
 <NC1> is<LF>
-poisoned and lost CP<LF>
-<END>
+poisoned and loses CP<END>
 
 
 //POINTER #1036 @ $1E40B0 - STRING #1036 @ $1DF647
@@ -7918,8 +7907,8 @@ and can't move.<END>
 //POINTER #1039 @ $1E40BC - STRING #1039 @ $1DF69C
 
 #W24($1E40BC)
-<NC1> is aston-<LF>
-ished and can only<LF>
+<NC1> is startled<LF>
+and can only<LF>
 roll a 2.<END>
 //surprised?
 
@@ -8050,7 +8039,7 @@ is immune.<END>
 #W24($1E4100)
 <NC1><LF>
 is petrified and<LF>
-doesn't collect.<END>
+remains unaffected.<END>
 
 
 //POINTER #1057 @ $1E4104 - STRING #1057 @ $1DF8B6
@@ -8058,7 +8047,7 @@ doesn't collect.<END>
 #W24($1E4104)
 <NC1><LF>
 is petrified and<LF>
-doesn't collect.<END>
+remains unaffected.<END>
 
 
 //POINTER #1058 @ $1E4108 - STRING #1058 @ $1DF8D4
@@ -8173,14 +8162,14 @@ from within its Magicite.<END>
 #W24($1E4144)
 <NC1><LF>
 shatters its Magicite and<LF>
-blocks the level-down.<END>
+blocks the level down.<END>
 
 
 //POINTER #1074 @ $1E4148 - STRING #1074 @ $1DFB36
 
 #W24($1E4148)
 <NC1><LF>
-blocks the level-down<LF>
+blocks the level down<LF>
 from within its Magicite.<END>
 
 
@@ -8663,8 +8652,8 @@ Sell?<END>
 //POINTER #1138 @ $1E4248 - STRING #1138 @ $1E05CB
 
 #W24($1E4248)
-No Checkpoint Crys-<LF>
-tals. No lap bonus.<END>
+No Checkpoint Crystals<LF>
+No lap bonus<END>
 
 
 //POINTER #1139 @ $1E424C - STRING #1139 @ $1E0602
@@ -8685,7 +8674,7 @@ monopoly lost<END>
 
 #W24($1E4254)
 Not enough CP<LF>
-Pick Ally to redeem<END>
+Pick Ally to banish<END>
 
 
 //POINTER #1142 @ $1E4258 - STRING #1142 @ $1E0667
@@ -8776,7 +8765,7 @@ Magicite (max 4)<END>
 
 #W24($1E4288)
 No square can<LF>
-level-up<END>
+level up<END>
 
 
 //POINTER #1155 @ $1E428C - STRING #1155 @ $1E082B
@@ -8789,14 +8778,14 @@ Limit reached<END>
 
 #W24($1E4290)
 No squares<LF>
-Can't level-up<END>
+Can't level up<END>
 
 
 //POINTER #1157 @ $1E4294 - STRING #1157 @ $1E0873
 
 #W24($1E4294)
 Not enough CP<LF>
-for level-up<LF>
+for level up<LF>
 Need 10CP or more<END>
 
 
@@ -8928,8 +8917,8 @@ Versus Mode<LF>
 //POINTER #1173 @ $1E42D4 - STRING #1173 @ $1E0C5A
 
 #W24($1E42D4)
-Listen to music<LF>
-Check the info<END>
+Listen to Music<LF>
+Check the Info<END>
 
 
 //POINTER #1174 @ $1E42D8 - STRING #1174 @ $1E0C7D
@@ -8949,7 +8938,7 @@ from the Start<END>
 
 #W24($1E42E0)
 Continue Story<LF>
-from a save<END>
+from a Save<END>
 
 
 //POINTER #1177 @ $1E42E4 - STRING #1177 @ $1E0CBF
@@ -9541,7 +9530,7 @@ passing.<END>
 increases square CP fee.<LF>
 <LF>
 <CYL> Effect on friend<LF>
-<CWH>Wakes up on level-up and<LF>
+<CWH>Wakes up on level up and<LF>
 stays awake for 3 turns.<LF>
 <END>
 
@@ -9819,7 +9808,7 @@ him miss a turn<LF>
 //Bomb
 <STY><$0D><CYL> Effect on enemy<LF>
 <CWH>Builds up energy on<LF>
-level-up for bonus power<LF>
+level up for bonus power<LF>
 <LF>
 <CYL> Effect on friend<LF>
 <CWH>Protects from Frog and<LF>
@@ -10045,7 +10034,7 @@ for 2 turns<LF>
 <LF>
 <CYL> Effect on Allies<LF>
 <CWH>Haste: Square value<LF>
-increased by 50 CP<LF>
+increased by 50%<LF>
 for 2 turns<END>
 
 
@@ -10058,7 +10047,7 @@ for 2 turns<LF>
 <LF>
 <CYL> Effect on Allies<LF>
 <CWH>Slow: Square value<LF>
-reduced by 50 CP<LF>
+reduced by 50%<LF>
 for 2 turns<END>
 
 
@@ -10067,8 +10056,8 @@ for 2 turns<END>
 #W24($1E44E0)
 //Lamia
 <STY><$0D><CYL> Effect on player<LF>
-<CWH>Confusion: Can't roll the<LF>
-die for 2 turns<LF>
+<CWH>Confusion: Can't choose<LF>
+actions for 2 turns<LF>
 <LF>
 <CYL> Effect on Allies<LF>
 <CWH>Confusion: Confused about<LF>
@@ -10080,7 +10069,7 @@ CP collection for 2 turns<LF>
 //Cactuar
 #W24($1E44E4)
 <STY><$0D><CYL> Effect on player<LF>
-<CWH>Poison: Lose 10 CP each<LF>
+<CWH>Poison: Lose 10% CP each<LF>
 turn for 2 turns<LF>
 <LF>
 <CYL> Effect on Allies<LF>
