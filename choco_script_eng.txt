@@ -513,8 +513,8 @@ It's no good.<LF>
 
 #W24($1E3160)
 <STY><$04><POR><$AD>Phew!<LF>
-<NC1> can't<LF>
-do it!<END>
+I can't compete<LF>
+with <NC1>.<END>
 
 
 //POINTER #57 @ $1E3164 - STRING #57 @ $1D7D8D
@@ -678,14 +678,14 @@ round!<END>
 //POINTER #78 @ $1E31B8 - STRING #78 @ $1D801C
 
 #W24($1E31B8)
-<STY><$04><POR><$D1>Alright!<END>
+<STY><$04><POR><$D1>Good game!<END>
 
 
 //POINTER #79 @ $1E31BC - STRING #79 @ $1D802B
 
 #W24($1E31BC)
 <STY><$04><POR><$D1>Blorg!<LF>
-You're good!<END>
+It was a close one!<END>
 
 
 //POINTER #80 @ $1E31C0 - STRING #80 @ $1D8044
@@ -786,7 +786,7 @@ That's all I know.<END>
 
 #W24($1E31F0)
 <STY><$11><POR><$58>
-So well, so good.<LF>
+So far, so good.<LF>
 What do we do now?<END>
 
 
@@ -795,15 +795,14 @@ What do we do now?<END>
 
 #W24($1E31F4)
 <STY><$11><POR><$2C>
-He said he would<LF>
-help me collect<LF>
-them.<END>
+Will you help us<LF>
+to collect them?<END>
 
 
 //POINTER #94 @ $1E31F8 - STRING #94 @ $1D8261
 
 #W24($1E31F8)
-<STY><$10><POR><$94>I guess I did.<END>
+<STY><$10><POR><$94>I guess.<END>
 
 
 //POINTER #95 @ $1E31FC - STRING #95 @ $1D8278
@@ -1263,8 +1262,8 @@ our best!<LF>
 //POINTER #156 @ $1E32F0 - STRING #156 @ $1D897F
 
 #W24($1E32F0)
-<STY><$05><POR><$59>That great!<LF>
-<NC1> is -<END>
+<STY><$05><POR><$59>Great, huh?<LF>
+<NC1><VOF>…<VON><END>
 
 
 //POINTER #157 @ $1E32F4 - STRING #157 @ $1D8991
@@ -1276,8 +1275,10 @@ our best!<LF>
 //POINTER #158 @ $1E32F8 - STRING #158 @ $1D89A0
 
 #W24($1E32F8)
-<STY><$04><POR><$85>And <NC1>.<LF>
-Not quite there yet.<END>
+<STY><$04><POR><$85>
+<NC1><VOF>…<VON> I think<LF>
+there is room<LF>
+for improvement.<END>
 
 
 //POINTER #159 @ $1E32FC - STRING #159 @ $1D89B8
@@ -1296,8 +1297,8 @@ fair bout.<END>
 #W24($1E3300)
 <STY><$10><POR><$84>
 Peculiar, having to<LF>
-thank someone for re-<LF>
-storing my sanity.<END>
+thank someone for<LF>
+restoring my sanity.<END>
 
 
 //POINTER #161 @ $1E3304 - STRING #161 @ $1D8A0F
@@ -1528,8 +1529,8 @@ beat <NC1>.<END>
 #W24($1E3374)
 <STY><$04><POR><$B4>Burp!<LF>
 <WAI><$10><POR><$B5>
-<NC1> is still a<LF>
-long way off.<END>
+<NC1> still has a<LF>
+long way to go.<END>
 
 
 
@@ -1950,8 +1951,8 @@ I'm no match for<LF>
 #W24($1E344C)
 <STY><$04><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
 <WAI><$0A><POR><$A9>
-I knew I had<LF>
-no chance<VOF>………<VON><END>
+I never thought<LF>
+I had a chance<VOF>………<VON><END>
 
 
 //POINTER #244 @ $1E3450 - STRING #244 @ $1D9587
@@ -1991,8 +1992,9 @@ Ally Gem unlocked:<LF>
 
 #W24($1E3460)
 <STY><$0E><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
-<WAI><$0A><POR><$AB>I saw<VOF>………<VON><LF>
-that<VOF>………<VON><END>
+<WAI><$0A><POR><$AB>
+I'm staring at this<LF>
+opportunity and<VOF>…<VON>I<VOF>…<VON><END>
 
 
 //POINTER #249 @ $1E3464 - STRING #249 @ $1D9673
@@ -2275,7 +2277,7 @@ Too much praise…<END>
 //POINTER #286 @ $1E34F8 - STRING #286 @ $1D9AB7
 
 #W24($1E34F8)
-<STY><$04><POR><$DD>Eh-<LF>
+<STY><$04><POR><$DD>Heh-<LF>
 I'm just that awe-<LF>
 some, right?<END>
 
@@ -2283,7 +2285,7 @@ some, right?<END>
 //POINTER #287 @ $1E34FC - STRING #287 @ $1D9AD2
 
 #W24($1E34FC)
-<STY><$04><POR><$E0><VOF>………<VON>Well.<LF>
+<STY><$04><POR><$E0><VOF>………<VON>
 It is what it is.<END>
 
 
@@ -2302,7 +2304,7 @@ It is what it is.<END>
 //POINTER #290 @ $1E3508 - STRING #290 @ $1D9B11
 
 #W24($1E3508)
-<STY><$10><POR><$DD>Right?<END>
+<STY><$10><POR><$DD>Sure?<END>
 
 
 //POINTER #291 @ $1E350C - STRING #291 @ $1D9B21
@@ -2315,7 +2317,8 @@ It is what it is.<END>
 
 #W24($1E3510)
 <STY><$10><POR><$DD>Hey.<LF>
-Can I come with you?<END>
+Got some more room<LF>
+in your party?<END>
 
 
 //POINTER #293 @ $1E3514 - STRING #293 @ $1D9B56
@@ -2361,8 +2364,8 @@ As in, a new goal?<END>
 //POINTER #298 @ $1E3528 - STRING #298 @ $1D9C00
 
 #W24($1E3528)
-<STY><$11><POR><$24>Alright<VOF>………<VON><LF>
-Let's all gather up!<END>
+<STY><$11><POR><$24>All right<VOF>………<VON><LF>
+So join our quest!<END>
 
 
 //POINTER #299 @ $1E352C - STRING #299 @ $1D9C21
@@ -2707,16 +2710,16 @@ What are you doing!<END>
 //POINTER #344 @ $1E35E0 - STRING #344 @ $1DA19B
 
 #W24($1E35E0)
-<STY><$12><POR><$19>Wow!<LF>
-We're winning!<END>
+<STY><$12><POR><$19>(Wow! We won!)<END>
 
 
 //POINTER #345 @ $1E35E4 - STRING #345 @ $1DA1BB
 
 #W24($1E35E4)
 <STY><$0F><POR><$50>
-Hah! You thought you<LF>
-had me there, eh?<END>
+Ha! You just thought<LF>
+"We won!"<LF>
+Am I right?<END>
 
 
 //POINTER #346 @ $1E35E8 - STRING #346 @ $1DA1E9
@@ -2736,9 +2739,9 @@ Not so bad, eh?<END>
 
 #W24($1E35F0)
 <STY><$12><POR><$98>
-You impressed me.<LF>
-Say hello to the<LF>
-rest of the gang.<END>
+If you impress me,<LF>
+you can say hello to<LF> 
+the rest of my gang.<END>
 
 
 
@@ -2746,13 +2749,15 @@ rest of the gang.<END>
 
 #W24($1E35F4)
 <STY><$0E><POR><$99>Bah!!<LF>
-Get over here!<END>
+So strong!<END>
 
 
 //POINTER #350 @ $1E35F8 - STRING #350 @ $1DA261
 
 #W24($1E35F8)
-<STY><$10><POR><$98>New orders!<END>
+<STY><$10><POR><$98>
+A promise is<LF>
+a promise!<END>
 
 
 //POINTER #351 @ $1E35FC - STRING #351 @ $1DA273
@@ -3002,30 +3007,29 @@ You guys! Hurry up!<END>
 Why am I, like, los-<LF>
 ing?<VOF>……<VON>Damn! I must<LF>
 turn this around!<END>
-「なんだってアタシが<LF>
-// Bけちゃうのよ<VOF>………<VON><LF>
-// まったく!<END>
+
 
 
 //POINTER #384 @ $1E3680 - STRING #384 @ $1DA6B5
 
 #W24($1E3680)
 <STY><$11><POR><$18>Oi!<LF>
-Can you hear that<VOF>………<VON><END>
+I can hear you<VOF>………<VON><END>
 
 
 //POINTER #385 @ $1E3684 - STRING #385 @ $1DA6CD
 
 #W24($1E3684)
-<STY><$10><POR><$40>Damn!!<LF>
-<WAI><$1E><POR><$C1><WAI><$1E>It's gonna be fine.<END>
+<STY><$10><POR><$40>Oh!!<LF>
+<WAI><$1E><POR><$C1><WAI><$1E>
+No, you misheard!<END>
 
 
 //POINTER #386 @ $1E3688 - STRING #386 @ $1DA6F4
 
 #W24($1E3688)
 <STY><$13><POR><$18><VOF>………………<VON><LF>
-Good grief.<END>
+Seriously?<END>
 
 
 //POINTER #387 @ $1E368C - STRING #387 @ $1DA70B
@@ -3033,8 +3037,8 @@ Good grief.<END>
 #W24($1E368C)
 <STY><$04><POR><$C0>
 Ah!<VOF>………<VON>What's wrong<LF>
-with you? You're<LF>
-really boring.<END>
+with you? That was<LF>
+sooo boring.<END>
 
 
 //POINTER #388 @ $1E3690 - STRING #388 @ $1DA73A
@@ -3048,7 +3052,8 @@ Me here for you.<END>
 
 #W24($1E3694)
 <STY><$0E><POR><$C0>Phew<VOF>………<VON><LF>
-I can do it.<END>
+You're such<LF>
+a tryhard.<END>
 
 
 //POINTER #390 @ $1E3698 - STRING #390 @ $1DA778
@@ -3127,8 +3132,9 @@ I'll get to it!<END>
 
 #W24($1E36BC)
 <STY><$12><POR><$C0>
-Use my magic a lot.<LF>
-It's really strong.<END>
+Use my magic a lot,<LF>
+and someone impor-<LF>
+tant will visit us.<END>
 
 
 //POINTER #400 @ $1E36C0 - STRING #400 @ $1DA8F5
@@ -3377,7 +3383,9 @@ him to his senses.<END>
 //POINTER #429 @ $1E3734 - STRING #429 @ $1DAD99
 
 #W24($1E3734)
-<STY><$0E><POR><$C1>Okay, I'm on it!<END>
+<STY><$0E><POR><$C1>
+Wow, you're on<LF>
+a roll!<END>
 
 
 
@@ -3385,18 +3393,16 @@ him to his senses.<END>
 
 #W24($1E3738)
 <STY><$12><POR><$9D>
-Come back as much as<LF>
-you want. Me be here<LF>
-for you.<END>
+Do come back.<LF>
+We be here.<END>
 
 
 //POINTER #431 @ $1E373C - STRING #431 @ $1DADE1
 
 #W24($1E373C)
 <STY><$0E><POR><$9C>
-Come back as much as<LF>
-you want. Me be here<LF>
-for you.<END>
+Do come back.<LF>
+We be here.<END>
 
 
 //POINTER #432 @ $1E3740 - STRING #432 @ $1DAE13
@@ -3437,7 +3443,7 @@ Ally Gem unlocked:<LF>
 #W24($1E3750)
 <STY><$12><POR><$9D>
 We have same goal.<LF>
-Friend?<END>
+We team.<END>
 
 
 //POINTER #437 @ $1E3754 - STRING #437 @ $1DAF01
@@ -3456,9 +3462,8 @@ is that even?<END>
 //POINTER #439 @ $1E375C - STRING #439 @ $1DAF39
 
 #W24($1E375C)
-<STY><$11><POR><$60><VOF>…………<VON>He wants to do<LF>
-the same thing as<LF>
-everyone else.<END>
+<STY><$11><POR><$60><VOF>…………<VON>He doesn't want<LF>
+to feel left out.<END>
 
 
 //POINTER #440 @ $1E3760 - STRING #440 @ $1DAF5E
@@ -3473,7 +3478,7 @@ understand him!?<END>
 
 #W24($1E3764)
 <STY><$11><POR><$60><VOF>………<VON>Sure<VOF>………<VON><LF>
-What of itく<VOF>………<VON><END>
+What of it<VOF>………<VON><END>
 
 
 //POINTER #442 @ $1E3768 - STRING #442 @ $1DAF98
@@ -3542,8 +3547,8 @@ of their own.<END>
 #W24($1E3788)
 <STY><$04><POR><$D6>
 Let them who cannot<LF>
-match my might leave<LF>
-my presence!<END>
+match our might<LF>
+leave our presence!<END>
 
 
 
@@ -3552,17 +3557,17 @@ my presence!<END>
 #W24($1E378C)
 <STY><$04><POR><$D6>
 Our quarrel con-<LF>
-tinues. Do not take<LF>
-it personally.<END>
+tinues. It does not<LF>
+concern you.<END>
 
 
 //POINTER #452 @ $1E3790 - STRING #452 @ $1DB0DC
 
 #W24($1E3790)
 <STY><$04><POR><$D6>
-Indeed. Let them who<LF>
-can't match my might<LF>
-leave my presence!<END>
+Behold! Those who<LF>
+cannot match our<LF>
+might, begone!<END>
 
 
 
@@ -3571,8 +3576,8 @@ leave my presence!<END>
 
 #W24($1E3794)
 <STY><$0E><POR><$D4>
-Many things have<LF>
-been dragged into<LF>
+Many have been<LF>
+dragged into<LF>
 our quarrel.<END>
 
 
@@ -3580,7 +3585,8 @@ our quarrel.<END>
 
 #W24($1E3798)
 <STY><$10><POR><$D4>
-Take me with you.<END>
+Take these<LF>
+with you.<END>
 
 
 //POINTER #455 @ $1E379C - STRING #455 @ $1DB147
@@ -3606,7 +3612,7 @@ Ally Gem unlocked:<LF>
 #W24($1E37A4)
 <STY><$0E><POR><$D4>
 Avail yourselves<LF>
-of my servants.<END>
+of our servants.<END>
 
 
 
@@ -4020,16 +4026,16 @@ Magicite unlocked:<LF>
 #W24($1E3878)
 <STY><$10><POR><$AD>
 Yes, I will gladly<LF>
-accompany you.<END>
+play with you.<END>
 
 
 //POINTER #511 @ $1E387C - STRING #511 @ $1DB837
 
 #W24($1E387C)
 <STY><$10><POR><$AC>
-And this time, I<LF>
-have a friend who<LF>
-will play with me.<END>
+And this time, some<LF>
+friends will join<LF>
+us, too.<END>
 
 
 //POINTER #512 @ $1E3880 - STRING #512 @ $1DB86A
@@ -4538,8 +4544,9 @@ we're friends now.<END>
 
 #W24($1E3994)
 <STY><$0E><POR><$84>
-He said we're going<LF>
-together.<END>
+Some of our com-<LF>
+rades will join us<LF>
+presently.<END>
 
 
 //POINTER #582 @ $1E3998 - STRING #582 @ $1DBFD6
@@ -4694,8 +4701,8 @@ Let's go<LF>
 #W24($1E39E4)
 <STY><$0E><POR><$B4>Burp!<WAI><$14><LF>
 <POR><$B5>
-Let us deal<LF>
-with them.<END>
+Guess we'll be<LF>
+their opponents.<END>
 
 
 //POINTER #602 @ $1E39E8 - STRING #602 @ $1DC289
@@ -4810,7 +4817,7 @@ Magicite unlocked:<LF>
 
 #W24($1E3A20)
 <STY><$0E><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
-<WAI><$0A><POR><$A9>If it's okay with us<VOF>…<VON><END>
+<WAI><$0A><POR><$A9>If you don't mind<VOF>…<VON><END>
 
 
 //POINTER #617 @ $1E3A24 - STRING #617 @ $1DC495
@@ -4948,7 +4955,7 @@ I'm counting on you.<END>
 <STY><$0E><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
 <WAI><$0A><POR><$A9>
 If it's okay<LF>
-with us<VOF>…<VON><END>
+with you<VOF>…<VON><END>
 
 
 //POINTER #634 @ $1E3A68 - STRING #634 @ $1DC70C
@@ -4965,7 +4972,7 @@ my partner.<END>
 <STY><$0E><POR><$A8>Um.<WAI><$0A>Well<VOF>…<VON><LF>
 <WAI><$0A><POR><$A9>
 If it's okay<LF>
-with us<VOF>…<VON><END>
+with you<VOF>…<VON><END>
 
 
 //POINTER #636 @ $1E3A70 - STRING #636 @ $1DC750
@@ -5191,8 +5198,8 @@ It's ours!<END>
 //POINTER #668 @ $1E3AF0 - STRING #668 @ $1DCA61
 
 #W24($1E3AF0)
-<STY><$0E><POR><$E1><VOF>………<VON>This mysterious<LF>
-and solemn feeling<VOF>……<VON><LF>
+<STY><$0E><POR><$E1><VOF>………<VON>This gloomy, damp<LF>
+ambience<VOF>……<VON><LF>
 It's wonderful<VOF>………<VON><END>
 
 
@@ -5890,8 +5897,8 @@ Omega Hunter<LF>
 #W24($1E3C5C)
 <STY><$04><POR><$D4>
 There is no need to<LF>
-join the quarrel<LF>
-in person.<END>
+join our quarrel<LF>
+yourself.<END>
 
 
 //POINTER #760 @ $1E3C60 - STRING #760 @ $1DD619
@@ -5928,8 +5935,9 @@ you'd join us.<END>
 
 #W24($1E3C70)
 <STY><$13><POR><$59>
-It's a bit scary,<LF>
-but good luck.<END>
+Good luck!<LF>
+Don't let them<LF>
+scare you!<END>
 
 //************************************************
 // Free play
@@ -6085,7 +6093,7 @@ If you don't mind<VOF>…<VON><END>
 
 #W24($1E3CBC)
 <STY><$10><POR><$99>Oh!<LF>
-Leave it me!<END>
+Leave it to me!<END>
 
 
 //POINTER #784 @ $1E3CC0 - STRING #784 @ $1DD906
@@ -6869,7 +6877,7 @@ to other Black Mages<END>
 
 #W24($1E3E5C)
 <STY><$02><CGR>Hedgehog<LF>
-<CWH>Stings enemies to prevent<LF>
+<CWH>Stings enemy to prevent<LF>
 a 6 roll<END>
 
 
@@ -6877,16 +6885,16 @@ a 6 roll<END>
 
 #W24($1E3E60)
 <STY><$02><CGR>Sahagin<LF>
-<CWH>Extends Frog effect<LF>
-on enemies<END>
+<CWH>Extends Frog status<LF>
+on enemy<END>
 
 
 //POINTER #889 @ $1E3E64 - STRING #889 @ $1DE6FD
 
 #W24($1E3E64)
 <STY><$02><CGR>Octokraken<LF>
-<CWH>Ensnares enemies to<LF>
-make them miss a turn<END>
+<CWH>Ensnares enemy to<LF>
+make him miss a turn<END>
 
 
 //POINTER #890 @ $1E3E68 - STRING #890 @ $1DE74C
@@ -6901,7 +6909,7 @@ make them miss a turn<END>
 #W24($1E3E6C)
 <STY><$02><CGR>Morbol<LF>
 <CWH>Extends Confusion and<LF>
-Poison status on enemies<END>
+Poison status on enemy<END>
 
 
 //POINTER #892 @ $1E3E70 - STRING #892 @ $1DE7CB
@@ -6915,15 +6923,15 @@ Poison status on enemies<END>
 
 #W24($1E3E74)
 <STY><$02><CGR>Drippy<LF>
-<CWH>Hammers enemies to stun<LF>
-them for a turn<END>
+<CWH>Hammers enemy to stun<LF>
+him for a turn<END>
 
 
 //POINTER #894 @ $1E3E78 - STRING #894 @ $1DE841
 
 #W24($1E3E78)
 <STY><$02><CGR>Onion Knight<LF>
-<CWH>Screams at enemies to<LF>
+<CWH>Screams at enemy to<LF>
 remove Haste<END>
 
 
@@ -6932,7 +6940,7 @@ remove Haste<END>
 #W24($1E3E7C)
 <STY><$02><CGR>Goblin<LF>
 <CWH>Collects extra CP<LF>
-from enemies<END>
+from enemy<END>
 
 
 //POINTER #896 @ $1E3E80 - STRING #896 @ $1DE8B1
@@ -6947,16 +6955,16 @@ tacked for bonus power<END>
 
 #W24($1E3E84)
 <STY><$02><CGR>Steel Bat<LF>
-<CWH>Extends Slow effect<LF>
-on enemies<END>
+<CWH>Extends Slow status<LF>
+on enemy<END>
 
 
 //POINTER #898 @ $1E3E88 - STRING #898 @ $1DE939
 
 #W24($1E3E88)
 <STY><$02><CGR>Floateye<LF>
-<CWH>Stares at enemies to make<LF>
-them roll a 2 next turn<END>
+<CWH>Stares at enemy to make<LF>
+him roll a 2 next turn<END>
 
 
 //POINTER #899 @ $1E3E8C - STRING #899 @ $1DE980
@@ -6971,8 +6979,8 @@ move direction<END>
 
 #W24($1E3E90)
 <STY><$02><CGR>Mudman<LF>
-<CWH>Grabs enemies to make<LF>
-them roll a 1 next turn<END>
+<CWH>Grabs enemy to make<LF>
+him roll a 1 next turn<END>
 
 
 //POINTER #901 @ $1E3E94 - STRING #901 @ $1DEA04
@@ -6986,16 +6994,16 @@ them roll a 1 next turn<END>
 
 #W24($1E3E98)
 <STY><$02><CGR>Dark Titan<LF>
-<CWH>Headbutts enemies to make<LF>
-them roll a 2 next turn<END>
+<CWH>Headbutts enemy to make<LF>
+him roll a 2 next turn<END>
 
 
 //POINTER #903 @ $1E3E9C - STRING #903 @ $1DEA83
 
 #W24($1E3E9C)
 <STY><$02><CGR>Hill Gigas<LF>
-<CWH>Enchains enemies to make<LF>
-them miss a turn<END>
+<CWH>Enchains enemy to make<LF>
+him miss a turn<END>
 
 
 //POINTER #904 @ $1E3EA0 - STRING #904 @ $1DEACB
@@ -7026,22 +7034,22 @@ to other Rollers<END>
 
 #W24($1E3EAC)
 <STY><$02><CGR>Holy Dragon<LF>
-<CWH>Roars at enemies to make<LF>
-them roll a 1 next turn<END>
+<CWH>Roars at enemy to make<LF>
+him roll a 1 next turn<END>
 
 
 //POINTER #908 @ $1E3EB0 - STRING #908 @ $1DEBCB
 
 #W24($1E3EB0)
 <STY><$02><CGR>Worm<LF>
-<CWH>Protects from Sleep effect<END>
+<CWH>Protects from Sleep status<END>
 
 
 //POINTER #909 @ $1E3EB4 - STRING #909 @ $1DEBF7
 
 #W24($1E3EB4)
 <STY><$02><CGR>Gigantoad<LF>
-<CWH>Protects from Frog effect<END>
+<CWH>Protects from Frog status<END>
 
 
 //POINTER #910 @ $1E3EB8 - STRING #910 @ $1DEC2B
@@ -7049,38 +7057,38 @@ them roll a 1 next turn<END>
 #W24($1E3EB8)
 <STY><$02><CGR>Cockatrice<LF>
 <CWH>Protects from Petrify<LF>
-effect<END>
+status<END>
 
 
 //POINTER #911 @ $1E3EBC - STRING #911 @ $1DEC5C
 
 #W24($1E3EBC)
 <STY><$02><CGR>Wild Rat<LF>
-<CWH>Extends Haste effect<END>
+<CWH>Extends Haste status<END>
 
 
 //POINTER #912 @ $1E3EC0 - STRING #912 @ $1DEC98
 
 #W24($1E3EC0)
 <STY><$02><CGR>Slug<LF>
-<CWH>Extends Slow effect<LF>
-on enemies<END>
+<CWH>Extends Slow status<LF>
+on enemy<END>
 
 
 //POINTER #913 @ $1E3EC4 - STRING #913 @ $1DECD1
 
 #W24($1E3EC4)
 <STY><$02><CGR>Lamia<LF>
-<CWH>Extends Confusion effect<LF>
-on enemies<END>
+<CWH>Extends Confusion status<LF>
+on enemy<END>
 
 
 //POINTER #914 @ $1E3EC8 - STRING #914 @ $1DED0A
 
 #W24($1E3EC8)
 <STY><$02><CGR>Cactuar<LF>
-<CWH>Extends Poison effect<LF>
-on enemies<END>
+<CWH>Extends Poison status<LF>
+on enemy<END>
 
 
 //POINTER #915 @ $1E3ECC - STRING #915 @ $1DED46
@@ -7088,7 +7096,7 @@ on enemies<END>
 #W24($1E3ECC)
 <STY><$02><CGR>Atla<LF>
 <CWH>Collects extra CP<LF>
-from enemies<END>
+from enemy<END>
 
 //**********************************************
 // Magicite description short
@@ -7158,7 +7166,7 @@ a square by 1<END>
 //POINTER #924 @ $1E3EF0 - STRING #924 @ $1DEF3D
 
 #W24($1E3EF0)
-<STY><$02><CRD>King Behemoth<LF>
+<STY><$02><CRD>Kいg Behemoth<LF>
 <CWH>Lower the level of squares<LF>
 by 1 in a 3×3 area<END>
 
@@ -7552,7 +7560,7 @@ Behemoth<END>
 //POINTER #987 @ $1E3FEC - STRING #987 @ $1DF270
 
 #W24($1E3FEC)
-King Behemoth<END>
+Kいg Behemoth<END>
 
 
 //POINTER #988 @ $1E3FF0 - STRING #988 @ $1DF280
@@ -7813,7 +7821,7 @@ startled.<END>
 
 #W24($1E4088)
 <NC1> escapes and<LF>
-restores his dice.<END>
+restores the dice.<END>
 
 
 //POINTER #1027 @ $1E408C - STRING #1027 @ $1DF4ED
@@ -7827,14 +7835,14 @@ the chains.<END>
 
 #W24($1E4090)
 <NC1> regains<LF>
-his composure.<END>
+composure.<END>
 
 
 //POINTER #1029 @ $1E4094 - STRING #1029 @ $1DF520
 
 #W24($1E4094)
 <NC1> has recovered<LF>
-and restores his dice.<END>
+and restores the dice.<END>
 
 
 //POINTER #1030 @ $1E4098 - STRING #1030 @ $1DF548
@@ -8024,7 +8032,7 @@ resists<LF>
 
 #W24($1E40F8)
 Not levelled.<LF>
-Can't use.<END>
+No effect.<END>
 
 
 //POINTER #1055 @ $1E40FC - STRING #1055 @ $1DF883
@@ -8404,7 +8412,7 @@ roll a 2.<END>
 
 #W24($1E41C0)
 <NC2><LF>
-is filled with mirth.<END>
+is full of mirth.<END>
 
 
 //POINTER #1105 @ $1E41C4 - STRING #1105 @ $1E00B3
@@ -9722,7 +9730,7 @@ and Poison<LF>
 #W24($1E4480)
 //floateye
 <STY><$0D><CYL> Effect on enemy<LF>
-<CWH>Hypnotizes enemy to make<LF>
+<CWH>Startles enemy to make<LF>
 him roll a 2 next turn<LF>
 <LF>
 <CYL> Effect on friend<LF>
@@ -9742,7 +9750,6 @@ move direction<LF>
 <CYL> Effect on friend<LF>
 <CWH>Lifts player up to allow<LF>
 choice of move direction<LF>
-<LF>
 <END>
 
 
@@ -9752,10 +9759,10 @@ choice of move direction<LF>
 //mudman
 <STY><$0D><CYL> Effect on enemy<LF>
 <CWH>Grabs ankle to make enemy<LF>
-roll a 1 next turn.Scared<LF>
-of Cockatrices.<LF>
+roll a 1 next turn.<LF>
+Scared of Cockatrices.<LF>
 <CYL> Effect on friend<LF>
-<CWH>なし<LF>
+<CWH>None<LF>
 <LF>
 <END>
 
@@ -9850,8 +9857,8 @@ Protects from Confusion.<LF>
 //holy dragon
 <STY><$0D><CYL> Effect on enemy<LF>
 <CWH>Scares enemy with mighty<LF>
-roar to make him miss<LF>
-a turn<LF>
+roar to make him roll<LF>
+a 1 next turn<LF>
 <CYL> Effect on friend<LF>
 <CWH>Protects from Poison<LF>
 <LF>
@@ -9878,7 +9885,7 @@ a turn<LF>
 //gigantoad
 <STY><$0D><CYL> Effect on enemy<LF>
 <CWH>Resets duration of Frog<LF>
-for 3 more turns<LF>
+to 3 more turns<LF>
 <LF>
 <CYL> Effect on friend<LF>
 <CWH>Protects from Frog<LF>
@@ -9911,7 +9918,6 @@ for 3 more turns<LF>
 <CYL> Effect on friend<LF>
 <CWH>Resets duration of Haste<LF>
 to 3 more turns<LF>
-<LF>
 <END>
 
 
