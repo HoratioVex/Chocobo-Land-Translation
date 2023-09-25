@@ -3565,7 +3565,7 @@ concern you.<END>
 
 #W24($1E3790)
 <STY><$04><POR><$D6>
-Behold! Those who<LF>
+Beware! Those who<LF>
 cannot match our<LF>
 might, begone!<END>
 
@@ -3672,7 +3672,7 @@ Let's go back.<END>
 //POINTER #465 @ $1E37C4 - STRING #465 @ $1DB2CE
 
 #W24($1E37C4)
-<STY><$13><POR><$24>Next up<VOF>………<VON><LF>
+<STY><$13><POR><$24>Let's go again<VOF>………<VON><LF>
 We can do it!<END>
 
 
@@ -3710,7 +3710,7 @@ You lost.<END>
 //POINTER #470 @ $1E37D8 - STRING #470 @ $1DB34D
 
 #W24($1E37D8)
-<STY><$13><POR><$24>Next up<VOF>………<VON><LF>
+<STY><$13><POR><$24>Let's go again<VOF>………<VON><LF>
 We can do it!<END>
 
 
@@ -3737,7 +3737,8 @@ often as you want.<END>
 
 #W24($1E37E4)
 <STY><$13><POR><$00>
-I'm fine. See you!<END>
+It's going well.<LF>
+See you!<END>
 
 
 //POINTER #474 @ $1E37E8 - STRING #474 @ $1DB3C6
@@ -5888,7 +5889,7 @@ Ancient War Robot<LF>
 
 #W24($1E3C58)
 <STY><$12><POR><$D4>
-Omega Hunter<LF>
+Omega's Hunter<LF>
      Shinryu<WAI><$1E><END>
 
 
@@ -6589,7 +6590,7 @@ Magicite unlocked:<LF>
 #W24($1E3DC0)
 <STY><$0E><POR><$88>
 You have done well<LF>
-to summon us here.<END>
+to summon us often.<END>
 
 //POINTER #849 @ $1E3DC4 - STRING #849 @ $1DE1CC
 
@@ -6624,7 +6625,7 @@ to be awestruck!<END>
 #W24($1E3DD4)
 <STY><$13><POR><$0C>
 Magicite unlocked:<LF>
-<CRD>King's Boon<CWH><LF>
+<CRD>Royal Triad<CWH><LF>
 <SND><$A9><POR><$0D>Amazing!<END>
 
 
@@ -7174,7 +7175,7 @@ by 1 in a 3×3 area<END>
 //POINTER #925 @ $1E3EF4 - STRING #925 @ $1DEF7E
 
 #W24($1E3EF4)
-<STY><$02><CRD>King's Boon<LF>
+<STY><$02><CRD>Royal Triad<LF>
 <CWH>Lower the level of squares<LF>
 by 1 in a 5×5 area<END>
 
@@ -7566,8 +7567,11 @@ Kいg Behemoth<END>
 //POINTER #988 @ $1E3FF0 - STRING #988 @ $1DF280
 
 #W24($1E3FF0)
-King's Boon<END>
-
+Royal Triad<END>
+//Royal Trio
+//Royal Troika
+//Triumvirate
+//King's Boon<END>
 
 //POINTER #989 @ $1E3FF4 - STRING #989 @ $1DF289
 
@@ -8083,7 +8087,7 @@ blocks the attack.<END>
 
 #W24($1E4114)
 <SND><$D7><NC1>'s<LF>
-square level down!<END>
+square level down<END>
 
 
 //POINTER #1062 @ $1E4118 - STRING #1062 @ $1DF94A
@@ -8503,7 +8507,7 @@ Bonus power grows.<END>
 
 #W24($1E41F0)
 <NC1> releases energy.<LF>
-<END>
+Power reset.<END>
 
 
 //POINTER #1117 @ $1E41F4 - STRING #1117 @ $1E02E7
@@ -9513,7 +9517,7 @@ AlphabetABC<END>
 <CYL> Effect on friend<LF>
 <CWH>Nullifies Magicite at-<LF>
 tacks. Covered area in-<LF>
-creases with stack size.<END>
+creases with stack size<END>
 
 //POINTER #1265 @ $1E4444 - STRING #1265 @ $1E1757
 
@@ -9526,7 +9530,7 @@ creases with stack size.<END>
 <CYL> Effect on friend<LF>
 <CWH>Cures status effects.<LF>
 Chance to trigger on<LF>
-passing.<END>
+passing<END>
 
 
 //POINTER #1266 @ $1E4448 - STRING #1266 @ $1E17D8
@@ -9535,11 +9539,11 @@ passing.<END>
 //Chip
 <STY><$0D><CYL> Effect on enemy<LF>
 <CWH>Bonus power when awake<LF>
-increases square CP fee.<LF>
+increases square CP fee<LF>
 <LF>
 <CYL> Effect on friend<LF>
 <CWH>Wakes up on level up and<LF>
-stays awake for 3 turns.<LF>
+stays awake for 3 turns<LF>
 <END>
 
 
@@ -9550,7 +9554,7 @@ stays awake for 3 turns.<LF>
 <STY><$0D><CYL> Effect on enemy<LF>
 <CWH>Bonus power when adjacent<LF>
 to each other increases<LF>
-square CP fee.<LF>
+square CP fee<LF>
 <CYL> Effect on friend<LF>
 <CWH>Bonus power when adjacent<LF>
 to another Black Mage<LF>
@@ -9646,9 +9650,9 @@ Confusion and Poison<LF>
 #W24($1E4468)
 //Treant / mammon
 <STY><$0D><CYL> Effect on enemy<LF>
-<CWH>Turns enemy to a random<LF>
+<CWH>Disorients enemy and<LF>
+turns him to a random<LF>
 direction<LF>
-<LF>
 <CYL> Effect on friend<LF>
 <CWH>Allows choice of move<LF>
 direction<LF>
