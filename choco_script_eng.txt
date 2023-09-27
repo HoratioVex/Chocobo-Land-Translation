@@ -29,7 +29,7 @@ Show square details<END>
 //POINTER #3 @ $1E308C - STRING #3 @ $1D685B
 
 #W24($1E308C)
-Game speed<END>
+Adjust game speed<END>
 
 //POINTER #4 @ $1E3090 - STRING #4 @ $1D687E
 
@@ -44,8 +44,8 @@ Animate enemy magic<END>
 //POINTER #6 @ $1E3098 - STRING #6 @ $1D68F4
 
 #W24($1E3098)
-Notify when missing<LF>
-a turn<END>
+Wait for button press<LF>
+when missing a turn<END>
 
 //##########################################
 // Encyclopedia Intros
@@ -2120,7 +2120,7 @@ with Tonberry here.<END>
 //POINTER #265 @ $1E34A4 - STRING #265 @ $1D9852
 
 #W24($1E34A4)
-<STY><$10><POR><$E0><VOF>「………<VON>True<VOF>………<VON><END>
+<STY><$10><POR><$E0><VOF>………<VON>True<VOF>………<VON><END>
 
 
 //POINTER #266 @ $1E34A8 - STRING #266 @ $1D9868
@@ -5889,7 +5889,7 @@ Ancient War Robot<LF>
 
 #W24($1E3C58)
 <STY><$12><POR><$D4>
-Omega's Hunter<LF>
+Omega Hunter<LF>
      Shinryu<WAI><$1E><END>
 
 
@@ -5992,7 +5992,9 @@ will play with us.<END>
 //POINTER #770 @ $1E3C88 - STRING #770 @ $1DD761
 
 #W24($1E3C88)
-<STY><$0F><POR><$24>This time?<END>
+<STY><$0F><POR><$24>
+Who's here<LF>
+this time?<END>
 
 
 //POINTER #771 @ $1E3C8C - STRING #771 @ $1DD76E
@@ -7912,7 +7914,7 @@ and can't move.<END>
 //POINTER #1038 @ $1E40B8 - STRING #1038 @ $1DF67F
 
 #W24($1E40B8)
-<NC1> is staggered<LF>
+<NC1> is stunned<LF>
 and can't move.<END>
 
 
@@ -7975,7 +7977,7 @@ asleep.<END>
 
 #W24($1E40D8)
 <NC1> is<LF>
-a frog.<END>
+a Frog.<END>
 
 
 //POINTER #1047 @ $1E40DC - STRING #1047 @ $1DF79F
@@ -7990,7 +7992,7 @@ petrified.<END>
 #W24($1E40E0)
 <NC1> is<LF>
 hasted and the square's<LF>
-CP value rises by 50.<END>
+CP value rises by 50%.<END>
 
 
 //POINTER #1049 @ $1E40E4 - STRING #1049 @ $1DF7D8
@@ -7998,7 +8000,7 @@ CP value rises by 50.<END>
 #W24($1E40E4)
 <NC1> is<LF>
 slowed and the square's<LF>
-CP value falls by 50.<END>
+CP value falls by 50%.<END>
 
 
 //POINTER #1050 @ $1E40E8 - STRING #1050 @ $1DF7FE
@@ -8338,7 +8340,7 @@ move direction<END>
 
 #W24($1E4198)
 <NC1> strikes with<LF>
-mallet. <NC2>'s<LF>
+his mallet. <NC2>'s<LF>
 Confusion is cured.<END>
 
 
@@ -8346,8 +8348,8 @@ Confusion is cured.<END>
 
 #W24($1E419C)
 <NC1> strikes with<LF>
-mallet. <NC2> misses<LF>
-next turn.<END>
+his mallet. <NC2><LF>
+misses next turn.<END>
 
 
 //POINTER #1096 @ $1E41A0 - STRING #1096 @ $1DFF2D
@@ -8355,7 +8357,7 @@ next turn.<END>
 #W24($1E41A0)
 <NC1><LF>
 dispels <NC2>'s Haste<LF>
-with a supersonic scream.<END>
+with a supersonic scream<END>
 
 
 //POINTER #1097 @ $1E41A4 - STRING #1097 @ $1DFF4F
@@ -8451,10 +8453,10 @@ Mudman grabs the ankle.<LF>
 //POINTER #1109 @ $1E41D4 - STRING #1109 @ $1E016D
 
 #W24($1E41D4)
-Mudman tried to grab<LF>
+Mudman tries to grab<LF>
 the ankle, but<LF>
-Cockatrice stared at him<LF>
-and scared him away.<END>
+Cockatrice stares at him<LF>
+and scares him away.<END>
 
 
 //POINTER #1110 @ $1E41D8 - STRING #1110 @ $1E01CA
@@ -8462,7 +8464,7 @@ and scared him away.<END>
 #W24($1E41D8)
 <NC1><LF>
 reduces the fee.<END>
-//golem?
+//golem
 
 //POINTER #1111 @ $1E41DC - STRING #1111 @ $1E01E2
 
@@ -8477,7 +8479,7 @@ and can only roll a 2.<END>
 
 #W24($1E41E0)
 <NC1><LF>
-tried to attack, but<LF>
+tries to attack, but<LF>
 Golem scares him away.<END>
 
 
@@ -9517,7 +9519,7 @@ AlphabetABC<END>
 <CYL> Effect on friend<LF>
 <CWH>Nullifies Magicite at-<LF>
 tacks. Covered area in-<LF>
-creases with stack size<END>
+creases with stack size.<END>
 
 //POINTER #1265 @ $1E4444 - STRING #1265 @ $1E1757
 
@@ -9530,7 +9532,7 @@ creases with stack size<END>
 <CYL> Effect on friend<LF>
 <CWH>Cures status effects.<LF>
 Chance to trigger on<LF>
-passing<END>
+passing.<END>
 
 
 //POINTER #1266 @ $1E4448 - STRING #1266 @ $1E17D8
