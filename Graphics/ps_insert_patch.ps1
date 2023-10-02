@@ -1,4 +1,4 @@
-$rompath = ".\GraphMod.gba"
+$rompath = "..\output.gba"
 $patfiles = Get-ChildItem -Path .\* -Include *.pat
 
 $romfile = Get-Item $rompath
